@@ -1,0 +1,53 @@
+{
+  "name": "pf2e-shinobi",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Naruto-themed PF2e content module for Foundry VTT V13 (clans, jutsu, specializations, and more).",
+  "license": "MIT",
+  "author": "bbarrington0099",
+  "homepage": "https://github.com/bbarrington0099/pf2e-shinobi#readme",
+  "bugs": {
+    "url": "https://github.com/bbarrington0099/pf2e-shinobi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbarrington0099/pf2e-shinobi.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "clean": "node --experimental-strip-types scripts/clean.ts",
+    "validate": "node --experimental-strip-types scripts/validate.ts",
+    "build:code": "vite build",
+    "build:packs": "node --experimental-strip-types scripts/build-packs.ts",
+    "build": "npm run clean && npm run validate && npm run build:code && npm run build:packs",
+    "watch": "vite build --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "release:zip": "node --experimental-strip-types scripts/package-release.ts",
+    "extract:packs": "node --experimental-strip-types scripts/extract-packs.ts"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "fast-glob": "^3.3.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  }
+}

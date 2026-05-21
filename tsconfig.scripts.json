@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist/scripts",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "types": ["node", "jest"]
+  },
+  "include": ["scripts/**/*", "tests/**/*", "src/**/*", "vite.config.ts", "jest.config.cjs"],
+  "exclude": ["node_modules", "dist"]
+}

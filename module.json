@@ -1,0 +1,286 @@
+{
+  "id": "pf2e-shinobi",
+  "title": "PF2e Shinobi",
+  "description": "A Naruto-themed content module for the Pathfinder Second Edition (PF2e) system on Foundry VTT V13. Adds shinobi clans (ancestries), bloodlines (heritages), village backgrounds, specializations (classes), jutsu (spells), shinobi tools (equipment), companions, and supporting feats/effects \u2014 all delivered via compendium packs.",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "bbarrington0099",
+      "url": "https://github.com/bbarrington0099"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": ["dist/pf2e-shinobi.js"],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "ancestries",
+      "label": "Shinobi Clans",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "ancestry-features",
+      "label": "Shinobi Clan Features",
+      "path": "packs/ancestry-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "heritages",
+      "label": "Shinobi Bloodline Heritages",
+      "path": "packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "heritage-actions",
+      "label": "Shinobi Heritage Actions",
+      "path": "packs/heritage-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "backgrounds",
+      "label": "Shinobi Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "background-actions",
+      "label": "Shinobi Background Actions",
+      "path": "packs/background-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "classes",
+      "label": "Shinobi Specializations",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "class-features",
+      "label": "Shinobi Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "class-actions",
+      "label": "Shinobi Class Actions",
+      "path": "packs/class-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "feats",
+      "label": "Shinobi Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "spells",
+      "label": "Jutsu",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "spell-actions",
+      "label": "Jutsu Actions",
+      "path": "packs/spell-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "spell-effects",
+      "label": "Jutsu Effects",
+      "path": "packs/spell-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "equipment",
+      "label": "Shinobi Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "equipment-actions",
+      "label": "Shinobi Equipment Actions",
+      "path": "packs/equipment-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "equipment-effects",
+      "label": "Shinobi Equipment Effects",
+      "path": "packs/equipment-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "deities",
+      "label": "Shinobi Paths & Legends",
+      "path": "packs/deities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "familiar-abilities",
+      "label": "Shinobi Familiar Abilities",
+      "path": "packs/familiar-abilities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "ac-ancestries",
+      "label": "Shinobi Companion Ancestries",
+      "path": "packs/ac-ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "ac-feats",
+      "label": "Shinobi Companion Feats",
+      "path": "packs/ac-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "ac-adv-maneuvers",
+      "label": "Shinobi Companion Maneuvers",
+      "path": "packs/ac-adv-maneuvers",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "ac-support",
+      "label": "Shinobi Companion Support",
+      "path": "packs/ac-support",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "effects",
+      "label": "Shinobi Misc Effects",
+      "path": "packs/effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PF2e Shinobi",
+      "sorting": "m",
+      "color": "#5b1a1a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Clans & Heritages",
+          "sorting": "m",
+          "packs": ["ancestries", "ancestry-features", "heritages", "heritage-actions"]
+        },
+        {
+          "name": "Backgrounds",
+          "sorting": "m",
+          "packs": ["backgrounds", "background-actions"]
+        },
+        {
+          "name": "Specializations",
+          "sorting": "m",
+          "packs": ["classes", "class-features", "class-actions"]
+        },
+        {
+          "name": "Jutsu",
+          "sorting": "m",
+          "packs": ["spells", "spell-actions", "spell-effects"]
+        },
+        {
+          "name": "Equipment",
+          "sorting": "m",
+          "packs": ["equipment", "equipment-actions", "equipment-effects"]
+        },
+        {
+          "name": "Feats & Paths",
+          "sorting": "m",
+          "packs": ["feats", "deities"]
+        },
+        {
+          "name": "Companions",
+          "sorting": "m",
+          "packs": [
+            "familiar-abilities",
+            "ac-ancestries",
+            "ac-feats",
+            "ac-adv-maneuvers",
+            "ac-support"
+          ]
+        },
+        {
+          "name": "Effects",
+          "sorting": "m",
+          "packs": ["effects"]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/bbarrington0099/pf2e-shinobi",
+  "manifest": "https://github.com/bbarrington0099/pf2e-shinobi/releases/latest/download/module.json",
+  "download": "https://github.com/bbarrington0099/pf2e-shinobi/releases/download/v0.0.1/pf2e-shinobi.zip",
+  "readme": "https://github.com/bbarrington0099/pf2e-shinobi#readme",
+  "bugs": "https://github.com/bbarrington0099/pf2e-shinobi/issues",
+  "license": "LICENSE",
+  "flags": {}
+}

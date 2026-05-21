@@ -1,0 +1,11 @@
+{
+  "pf2e-shinobi": {
+    "moduleTitle": "PF2e Shinobi",
+    "settings": {
+      "debugLogging": {
+        "name": "Debug Logging",
+        "hint": "Print verbose PF2e Shinobi diagnostics to the browser console."
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    name: Build and publish module
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate compendium source
+        run: npm run validate
+
+      - name: Verify tag matches module.json version
+        run: |
+          TAG_VERSION="${GITHUB_REF_NAME#v}"
+          MODULE_VERSION="$(node -p "require('./module.json').version")"
+          echo "Tag version:    $TAG_VERSION"
+          echo "Module version: $MODULE_VERSION"
+          if [ "$TAG_VERSION" != "$MODULE_VERSION" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match module.json version $MODULE_VERSION"
+            exit 1
+          fi
+
+      - name: Build
+        run: |
+          npm run clean
+          npm run build:code
+          npm run build:packs
+
+      - name: Package release zip
+        run: npm run release:zip
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: |
+            release/pf2e-shinobi.zip
+            module.json
