@@ -1,0 +1,34 @@
+{
+  "_id": "HeriSideBranchHy",
+  "folder": "FldrHyugaClan001",
+  "img": "icons/magic/symbols/runes-carved-tan.webp",
+  "name": "Side-Branch Hyūga",
+  "system": {
+    "ancestry": {
+      "name": "Hyūga Clan",
+      "slug": "hyuga-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceHyugaClan001"
+    },
+    "description": {
+      "value": "<p>You were marked at birth with the caged-bird seal and raised to serve the Main Branch from the shadows. You learned to move unseen long before you learned the gentle fist.</p>\n<p>You become trained in Stealth. At 5th level, you become an expert in Stealth.</p>\n<p><em>TODO: lore around the caged-bird seal should be reflected in a clan feat tied to fūinjutsu in a later milestone.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": "ternary(gte(@actor.level,5),2,1)"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["hyuga"]
+    }
+  },
+  "type": "heritage"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "HeriVersatileRct",
+  "folder": "FldrCivilianShnb",
+  "img": "icons/environment/people/group.webp",
+  "name": "Versatile Recruit",
+  "system": {
+    "ancestry": {
+      "name": "Civilian Shinobi",
+      "slug": "civilian-shinobi",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceCivilianShnb"
+    },
+    "description": {
+      "value": "<p>You picked up tricks no clan-born shinobi would have thought to learn. Select a general feat of your choice for which you meet the prerequisites; as with your ancestry feat, you can select this general feat at any point during character creation.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": ["item:level:1", "item:trait:general"],
+          "itemType": "feat"
+        },
+        "flag": "versatileHeritage",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.GeneralTraining.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.versatileHeritage}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["civilian-shinobi"]
+    }
+  },
+  "type": "heritage"
+}

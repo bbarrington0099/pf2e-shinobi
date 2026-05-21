@@ -1,0 +1,34 @@
+{
+  "_id": "HeriDemonSuccsr0",
+  "folder": "FldrHozukiClan00",
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "name": "Demon's Successor",
+  "system": {
+    "ancestry": {
+      "name": "Hōzuki Clan",
+      "slug": "hozuki-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceHozukiClan00"
+    },
+    "description": {
+      "value": "<p>You walked the bloody footprints of Kirigakure's Demons of the Mist before you wore the headband. Your grin unsettles opponents, and you know exactly how to make it land harder.</p>\n<p>You become trained in Intimidation. At 5th level, you become an expert in Intimidation.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": "ternary(gte(@actor.level,5),2,1)"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["hozuki"]
+    }
+  },
+  "type": "heritage"
+}

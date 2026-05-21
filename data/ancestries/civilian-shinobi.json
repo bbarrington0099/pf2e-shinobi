@@ -1,0 +1,52 @@
+{
+  "_id": "AnceCivilianShnb",
+  "img": "icons/environment/people/group.webp",
+  "name": "Civilian Shinobi",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["str", "dex", "con", "int", "wis", "cha"] },
+      "1": { "value": ["str", "dex", "con", "int", "wis", "cha"] },
+      "2": { "value": [] }
+    },
+    "description": {
+      "value": "<p>Not every shinobi inherits a kekkei genkai or a famous family name. Civilian-born shinobi rise through the Academy on grit and adaptability alone, and they can outwork any pampered scion. They show up where the story doesn't expect them &mdash; and so do their friendships, feats, and fates.</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": [] }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {
+      "trnCv": {
+        "img": "icons/environment/settlement/wall-tower.webp",
+        "level": 0,
+        "name": "Academy Trained",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtAcademyTrnd0"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "common",
+      "value": ["civilian-shinobi", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

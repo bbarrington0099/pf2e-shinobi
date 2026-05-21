@@ -1,0 +1,32 @@
+{
+  "_id": "HeriSharinganAwk",
+  "folder": "FldrUchihaClan00",
+  "img": "icons/magic/fire/flame-burning-eye-red.webp",
+  "name": "Sharingan Awakened",
+  "system": {
+    "ancestry": {
+      "name": "Uchiha Clan",
+      "slug": "uchiha-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceUchihaClan00"
+    },
+    "description": {
+      "value": "<p>The crimson eyes of your bloodline have opened. The Sharingan lets you read the flow of a foe's movement and the shape of their chakra, copying jutsu and predicting strikes with eerie accuracy.</p>\n<p>You gain the <em>Sharingan Awakened</em> ancestry feature, granting initial dōjutsu benefits. Additional Sharingan tomoe are unlocked by later clan feats. <em>TODO: codify tomoe progression in a separate feat chain.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtSharinganAwk"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["uchiha", "dojutsu", "genjutsu"]
+    }
+  },
+  "type": "heritage"
+}

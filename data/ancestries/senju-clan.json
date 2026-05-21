@@ -1,0 +1,52 @@
+{
+  "_id": "AnceSenjuClan001",
+  "img": "icons/magic/nature/tree-elm-green-grey.webp",
+  "name": "Senju Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["con"] },
+      "1": { "value": ["wis"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>The Senju Clan claims descent from Asura and the Sage of the Six Paths' tradition of compassion. Renowned for unmatched vitality, broad jutsu mastery, and the rare gift of Wood Release (Mokuton), the Senju guided Konoha's founding and embody the will to weather any storm.</p>\n<p><strong>Hit Points</strong> 10</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["cha"] }
+    },
+    "hands": 2,
+    "hp": 10,
+    "items": {
+      "trnSj": {
+        "img": "icons/magic/nature/leaf-glow-green.webp",
+        "level": 0,
+        "name": "Senju Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtSenjuTrng000"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["senju", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

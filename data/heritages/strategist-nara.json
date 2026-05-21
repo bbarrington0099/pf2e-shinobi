@@ -1,0 +1,65 @@
+{
+  "_id": "HeriStrategistNa",
+  "folder": "FldrNaraClan0001",
+  "img": "icons/sundries/scrolls/scroll-bound-tan-brown.webp",
+  "name": "Strategist Nara",
+  "system": {
+    "ancestry": {
+      "name": "Nara Clan",
+      "slug": "nara-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceNaraClan0001"
+    },
+    "description": {
+      "value": "<p>You count fights in moves, like shogi. Once you have the pattern, you have the win.</p>\n<p>You become trained in two of the following: Crafting, Medicine, Nature, Occultism, Society. You may use those skills for Recall Knowledge checks against enemy combatants and tactics.</p>\n<p><em>TODO: implement the Recall Knowledge bonus as a Note or RollOption once class-feature rules ship in Milestone 3.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "choices": [
+          { "value": "crafting" },
+          { "value": "medicine" },
+          { "value": "nature" },
+          { "value": "occultism" },
+          { "value": "society" }
+        ],
+        "flag": "strategistFirst",
+        "key": "ChoiceSet",
+        "prompt": "Choose a first skill in which to become trained."
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.system.rulesSelections.strategistFirst}.rank",
+        "value": 1
+      },
+      {
+        "choices": [
+          { "value": "crafting" },
+          { "value": "medicine" },
+          { "value": "nature" },
+          { "value": "occultism" },
+          { "value": "society" }
+        ],
+        "flag": "strategistSecond",
+        "key": "ChoiceSet",
+        "predicate": [{ "not": "{item|flags.system.rulesSelections.strategistFirst}" }],
+        "prompt": "Choose a second, different skill in which to become trained."
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.system.rulesSelections.strategistSecond}.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["nara"]
+    }
+  },
+  "type": "heritage"
+}

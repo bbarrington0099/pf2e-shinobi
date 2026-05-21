@@ -1,0 +1,32 @@
+{
+  "_id": "HeriMindWalkerYa",
+  "folder": "FldrYamanakaCl00",
+  "img": "icons/magic/control/silhouette-aura-green.webp",
+  "name": "Mind-Walker Yamanaka",
+  "system": {
+    "ancestry": {
+      "name": "Yamanaka Clan",
+      "slug": "yamanaka-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceYamanakaCl00"
+    },
+    "description": {
+      "value": "<p>You can briefly nudge a thought into another's mind &mdash; a stranger's name, a flash of warning, a feeling of unease. Full Shintenshin lies beyond your training, but the door is open.</p>\n<p>You gain the <em>Mind Intruder</em> ancestry feature.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtMindIntrudr0"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["yamanaka", "mental"]
+    }
+  },
+  "type": "heritage"
+}

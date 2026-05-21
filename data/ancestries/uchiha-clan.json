@@ -1,0 +1,52 @@
+{
+  "_id": "AnceUchihaClan00",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Uchiha Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["dex"] },
+      "1": { "value": ["cha"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>Descendants of Indra and famed for their fierce loyalty and crimson eyes, the Uchiha are a clan of fire-touched shinobi born to burn brightly. They favor decisive Genjutsu and lightning-quick swordwork, and their blood carries the latent promise of the Sharingan &mdash; a kekkei genkai that can awaken under intense emotion.</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["wis"] }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {
+      "trnUc": {
+        "img": "icons/magic/fire/flame-burning-eye-red.webp",
+        "level": 0,
+        "name": "Uchiha Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtUchihaTrng00"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "common",
+      "value": ["uchiha", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

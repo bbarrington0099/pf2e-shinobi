@@ -1,0 +1,38 @@
+{
+  "_id": "HeriMokutonLatnt",
+  "folder": "FldrSenjuClan001",
+  "img": "icons/magic/nature/root-vine-entangled-grey.webp",
+  "name": "Mokuton Latent",
+  "system": {
+    "ancestry": {
+      "name": "Senju Clan",
+      "slug": "senju-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceSenjuClan001"
+    },
+    "description": {
+      "value": "<p>The Wood Release of Hashirama Senju stirs in your blood. Even untrained, plants lean toward your chakra and saplings sprout where you sleep.</p>\n<p>You gain the <em>Mokuton Affinity</em> ancestry feature and become trained in Nature.</p>\n<p><em>TODO: gate the full Mokuton ability behind a high-level feat chain &mdash; it is canonically the rarest of kekkei genkai.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtMokutonAffin"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.nature.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "rare",
+      "value": ["senju", "kekkei-genkai", "wood"]
+    }
+  },
+  "type": "heritage"
+}

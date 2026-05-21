@@ -6,6 +6,27 @@
         "name": "Debug Logging",
         "hint": "Print verbose PF2e Shinobi diagnostics to the browser console."
       }
+    },
+    "traits": {
+      "uchiha": "Uchiha",
+      "hyuga": "Hyūga",
+      "senju": "Senju",
+      "uzumaki": "Uzumaki",
+      "aburame": "Aburame",
+      "inuzuka": "Inuzuka",
+      "nara": "Nara",
+      "akimichi": "Akimichi",
+      "yamanaka": "Yamanaka",
+      "hozuki": "Hōzuki",
+      "civilian-shinobi": "Civilian Shinobi",
+      "ninja": "Ninja",
+      "dojutsu": "Dōjutsu",
+      "genjutsu": "Genjutsu",
+      "fuinjutsu": "Fūinjutsu",
+      "kekkei-genkai": "Kekkei Genkai",
+      "shadow": "Shadow",
+      "wood": "Wood",
+      "water": "Water"
     }
   }
 }

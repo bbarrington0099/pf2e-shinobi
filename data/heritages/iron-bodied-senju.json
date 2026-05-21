@@ -1,0 +1,34 @@
+{
+  "_id": "HeriIronBodiedSj",
+  "folder": "FldrSenjuClan001",
+  "img": "icons/equipment/chest/breastplate-banded-steel.webp",
+  "name": "Iron-Bodied Senju",
+  "system": {
+    "ancestry": {
+      "name": "Senju Clan",
+      "slug": "senju-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceSenjuClan001"
+    },
+    "description": {
+      "value": "<p>Generations of warfare have left your branch of the Senju line tougher than steel and slower to bleed. Wounds close before lesser shinobi would have hit the ground.</p>\n<p>You gain 2 additional Hit Points at every level (including 1st).</p>\n<p><em>TODO: confirm this stacks cleanly with Toughness and class HP once classes ship.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.attributes.hp.max",
+        "value": "@actor.level*2"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["senju"]
+    }
+  },
+  "type": "heritage"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "AnFtSenjuTrng000",
+  "folder": "FldASenjuClan001",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "name": "Senju Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>The Senju village raised generalists who could fight through any element. You become trained in Medicine and gain a +1 status bonus to saving throws against effects that would knock you prone or push you while you stand on natural earth or wood.</p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.medicine.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["senju"]
+    }
+  },
+  "type": "feat"
+}

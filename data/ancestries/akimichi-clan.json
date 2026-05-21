@@ -1,0 +1,52 @@
+{
+  "_id": "AnceAkimichiCl00",
+  "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+  "name": "Akimichi Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["str"] },
+      "1": { "value": ["con"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>The Akimichi convert calories into chakra and chakra into raw, body-expanding power. Famed for boundless appetites, generous hearts, and the Yō Yō Senpou techniques that let them grow to crushing proportions, the Akimichi anchor the Ino-Shika-Chō front line.</p>\n<p><strong>Hit Points</strong> 10</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["dex"] }
+    },
+    "hands": 2,
+    "hp": 10,
+    "items": {
+      "trnAk": {
+        "img": "icons/consumables/food/meat-drumstick-cooked-brown.webp",
+        "level": 0,
+        "name": "Akimichi Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtAkimichiTrn0"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "common",
+      "value": ["akimichi", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

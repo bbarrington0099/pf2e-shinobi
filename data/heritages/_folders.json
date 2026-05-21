@@ -1,0 +1,123 @@
+[
+  {
+    "_id": "FldrUchihaClan00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Uchiha",
+    "sort": 0,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrHyugaClan001",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Hyūga",
+    "sort": 100000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrSenjuClan001",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Senju",
+    "sort": 200000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrUzumakiCln00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Uzumaki",
+    "sort": 300000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrAburameCln00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Aburame",
+    "sort": 400000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrInuzukaCln00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Inuzuka",
+    "sort": 500000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrNaraClan0001",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Nara",
+    "sort": 600000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrAkimichiCl00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Akimichi",
+    "sort": 700000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrYamanakaCl00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Yamanaka",
+    "sort": 800000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrHozukiClan00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Hōzuki",
+    "sort": 900000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldrCivilianShnb",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Civilian Shinobi",
+    "sort": 1000000,
+    "sorting": "a",
+    "type": "Item"
+  }
+]

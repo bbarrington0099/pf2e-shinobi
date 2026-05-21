@@ -1,0 +1,40 @@
+{
+  "_id": "AnFtHyugaTrng000",
+  "folder": "FldAHyugaClan001",
+  "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+  "name": "Hyūga Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>From the cradle, you study Jūkenpō &mdash; the Gentle Fist &mdash; a palm-driven taijutsu that targets the chakra circulatory system directly. You become trained in unarmed strikes and in Athletics.</p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.unarmed.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["hyuga"]
+    }
+  },
+  "type": "feat"
+}

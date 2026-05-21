@@ -1,0 +1,27 @@
+{
+  "_id": "AnFtShadowMimcry",
+  "folder": "FldANaraClan0001",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "name": "Shadow Mimicry",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per round</p>\n<p>You extend your shadow toward a foe within 15 feet that you can see. The target must succeed at a Will save against your class DC or be <em>immobilized</em> until the start of your next turn as your shadow tethers to theirs. On a successful save, the target is instead off-guard to you until the end of your next turn.</p>\n<p><em>TODO: rewrite the save target once the Class DC rule for specializations lands in Milestone 3; consider tying to Int-based spell DC.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["nara", "shadow", "manipulate"]
+    }
+  },
+  "type": "feat"
+}

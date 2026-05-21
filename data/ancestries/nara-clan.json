@@ -1,0 +1,52 @@
+{
+  "_id": "AnceNaraClan0001",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "name": "Nara Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["int"] },
+      "1": { "value": ["wis"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>The Nara are deer-keepers, medicine-mixers, and the most insufferable strategists in Konoha. Their signature kekkei genkai bends a shinobi's own shadow into a tool of restraint and manipulation. Easygoing on the outside, the Nara are pattern-readers who solve fights three exchanges before they happen.</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["str"] }
+    },
+    "hands": 2,
+    "hp": 6,
+    "items": {
+      "trnNa": {
+        "img": "icons/magic/control/silhouette-grow-shadow-blue.webp",
+        "level": 0,
+        "name": "Nara Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtNaraTrng0000"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "common",
+      "value": ["nara", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

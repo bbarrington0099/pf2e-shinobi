@@ -1,0 +1,52 @@
+{
+  "_id": "AnceInuzukaCln00",
+  "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+  "name": "Inuzuka Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["str"] },
+      "1": { "value": ["dex"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>Born hunters who raise ninken from birth, the Inuzuka share a bond with their canine partners that borders on telepathy. Their style is feral and fast: claw, fang, and a partner's bite arrive together. Inuzuka faces bear red triangle markings as a sign of pack pride.</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 30 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["int"] }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {
+      "trnIn": {
+        "img": "icons/creatures/abilities/dog-shadow-paw-grey.webp",
+        "level": 0,
+        "name": "Inuzuka Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtInuzukaTrn00"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 30,
+    "traits": {
+      "rarity": "common",
+      "value": ["inuzuka", "humanoid", "ninja"]
+    },
+    "vision": "lowLight"
+  },
+  "type": "ancestry"
+}

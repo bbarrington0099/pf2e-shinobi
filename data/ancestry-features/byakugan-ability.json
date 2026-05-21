@@ -1,0 +1,33 @@
+{
+  "_id": "AnFtByakuganAble",
+  "folder": "FldAHyugaClan001",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
+  "name": "Byakugan Ability",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>Your Byakugan reveals chakra pathways and erases blind spots from your field of vision. You are not flat-footed against unseen attackers within 30 feet of you, and you ignore concealment from non-magical fog, smoke, and similar obscuring effects.</p>\n<p><em>TODO: model the precise-chakra-vision ability as a Sense rule once class actions land.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "byakugan-active"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["hyuga", "dojutsu"]
+    }
+  },
+  "type": "feat"
+}

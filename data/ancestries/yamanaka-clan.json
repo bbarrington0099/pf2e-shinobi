@@ -1,0 +1,52 @@
+{
+  "_id": "AnceYamanakaCl00",
+  "img": "icons/magic/control/silhouette-aura-green.webp",
+  "name": "Yamanaka Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["cha"] },
+      "1": { "value": ["wis"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>Flower-sellers by day and mind-walkers by mission, the Yamanaka practice Shintenshin and related techniques that allow them to read, project into, and briefly inhabit another's mind. Their training prizes empathy and intuition; their pranks rarely leave a bruise the victim notices.</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["con"] }
+    },
+    "hands": 2,
+    "hp": 6,
+    "items": {
+      "trnYa": {
+        "img": "icons/magic/control/buff-flight-wings-blue.webp",
+        "level": 0,
+        "name": "Yamanaka Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtYamanakaTrn0"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "common",
+      "value": ["yamanaka", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

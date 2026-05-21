@@ -1,0 +1,34 @@
+{
+  "_id": "AnFtYamanakaTrn0",
+  "folder": "FldAYamanakaCl00",
+  "img": "icons/magic/nature/plant-flower-purple.webp",
+  "name": "Yamanaka Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>You learned to read body language while bagging chrysanthemums for early-morning customers. You become trained in Society, and you gain a +1 status bonus to Perception checks made to Sense Motive against a single creature you've spoken with for at least 1 minute.</p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["yamanaka"]
+    }
+  },
+  "type": "feat"
+}

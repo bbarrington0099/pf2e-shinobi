@@ -1,0 +1,32 @@
+{
+  "_id": "HeriCalorieBurnr",
+  "folder": "FldrAkimichiCl00",
+  "img": "icons/consumables/food/meat-drumstick-cooked-brown.webp",
+  "name": "Calorie Burner",
+  "system": {
+    "ancestry": {
+      "name": "Akimichi Clan",
+      "slug": "akimichi-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceAkimichiCl00"
+    },
+    "description": {
+      "value": "<p>Your stomach is a chakra reservoir disguised as a stomach. With a single huge meal you can fuel jutsu that would leave another shinobi gasping.</p>\n<p>You gain the <em>Calorie Fuel</em> ancestry feature.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtCalorieFuel0"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["akimichi"]
+    }
+  },
+  "type": "heritage"
+}

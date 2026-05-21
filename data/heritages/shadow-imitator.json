@@ -1,0 +1,32 @@
+{
+  "_id": "HeriShadowImitat",
+  "folder": "FldrNaraClan0001",
+  "img": "icons/magic/control/silhouette-grow-shadow-blue.webp",
+  "name": "Shadow Imitator",
+  "system": {
+    "ancestry": {
+      "name": "Nara Clan",
+      "slug": "nara-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceNaraClan0001"
+    },
+    "description": {
+      "value": "<p>Your shadow has always slipped its leash. You can feel it stretch and ripple even in midday sun.</p>\n<p>You gain the <em>Shadow Mimicry</em> ancestry feature.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtShadowMimcry"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["nara", "shadow"]
+    }
+  },
+  "type": "heritage"
+}

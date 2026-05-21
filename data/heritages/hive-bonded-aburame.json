@@ -1,0 +1,32 @@
+{
+  "_id": "HeriHiveBondedAb",
+  "folder": "FldrAburameCln00",
+  "img": "icons/creatures/insects/beetle-horned-orange.webp",
+  "name": "Hive-Bonded Aburame",
+  "system": {
+    "ancestry": {
+      "name": "Aburame Clan",
+      "slug": "aburame-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceAburameCln00"
+    },
+    "description": {
+      "value": "<p>Your kikaichū colony has bonded deeply with your chakra and answers your unspoken commands. The hive can be sent forth as a swarm to harry foes and drain their reserves.</p>\n<p>You gain the <em>Beetle Swarms</em> ancestry feature.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtBeetleSwarms"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["aburame"]
+    }
+  },
+  "type": "heritage"
+}

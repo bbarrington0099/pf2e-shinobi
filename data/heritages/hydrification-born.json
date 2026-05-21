@@ -1,0 +1,32 @@
+{
+  "_id": "HeriHydrifctnBrn",
+  "folder": "FldrHozukiClan00",
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "name": "Hydrification Born",
+  "system": {
+    "ancestry": {
+      "name": "Hōzuki Clan",
+      "slug": "hozuki-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceHozukiClan00"
+    },
+    "description": {
+      "value": "<p>You learned to turn solid before you learned to walk, and at need you still flow rather than stand. Your body answers to water before it answers to gravity.</p>\n<p>You gain the <em>Water-Body Knock</em> ancestry feature.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtWaterBodyKnk"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["hozuki", "water", "kekkei-genkai"]
+    }
+  },
+  "type": "heritage"
+}

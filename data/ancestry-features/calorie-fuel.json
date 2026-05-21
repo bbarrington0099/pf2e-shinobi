@@ -1,0 +1,27 @@
+{
+  "_id": "AnFtCalorieFuel0",
+  "folder": "FldAAkimichiCl00",
+  "img": "icons/consumables/food/pie-fruit-cherry.webp",
+  "name": "Calorie Fuel",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 1 },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per encounter</p>\n<p>You take a single Action to wolf down a portable ration as fuel. For 1 minute (10 rounds in encounter mode), your melee Strikes deal +1 status damage; if you have any expansion technique active (such as Bubun Baika), increase the bonus to +2.</p>\n<p><em>TODO: hook the +2 conditional bonus to a roll-option that gets set by the expansion technique once class actions ship.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["akimichi", "manipulate"]
+    }
+  },
+  "type": "feat"
+}

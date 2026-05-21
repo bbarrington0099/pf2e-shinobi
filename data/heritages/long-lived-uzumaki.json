@@ -1,0 +1,39 @@
+{
+  "_id": "HeriLongLivedUzu",
+  "folder": "FldrUzumakiCln00",
+  "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+  "name": "Long-Lived Uzumaki",
+  "system": {
+    "ancestry": {
+      "name": "Uzumaki Clan",
+      "slug": "uzumaki-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceUzumakiCln00"
+    },
+    "description": {
+      "value": "<p>Uzumaki rarely die of old age and rarely catch what ails common folk. Your vitality runs in spirals, replenishing itself even when reason says you should be done.</p>\n<p>You gain a +2 circumstance bonus to saving throws against diseases, poisons, and aging effects.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": ["item:trait:disease", "item:trait:poison", "item:trait:aging"]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["uzumaki"]
+    }
+  },
+  "type": "heritage"
+}

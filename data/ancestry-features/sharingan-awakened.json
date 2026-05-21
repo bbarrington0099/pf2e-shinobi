@@ -1,0 +1,35 @@
+{
+  "_id": "AnFtSharinganAwk",
+  "folder": "FldAUchihaClan00",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Sharingan Awakened",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>One tomoe spins in each eye. Your Sharingan grants you crystalline focus and the first glimpses of your enemy's intent.</p>\n<p>You gain a +1 status bonus to initiative rolls when you can see at least one foe, and you gain a +1 status bonus to Perception checks to Sense Motive against creatures whose chakra is flowing visibly &mdash; that is, against any creature actively casting a jutsu or maintaining a sustained jutsu.</p>\n<p><em>TODO: design a Tomoe Progression feat chain (1-tomoe at level 1, 2-tomoe at 5, 3-tomoe at 9, Mangekyo at 13) once class feats ship.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": ["enemies-visible"],
+        "selector": "initiative",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["uchiha", "dojutsu", "genjutsu"]
+    }
+  },
+  "type": "feat"
+}

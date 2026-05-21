@@ -1,0 +1,34 @@
+{
+  "_id": "AnFtInuzukaTrn00",
+  "folder": "FldAInuzukaCln00",
+  "img": "icons/creatures/abilities/dog-shadow-paw-grey.webp",
+  "name": "Inuzuka Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>Long before the Academy, you wrestled siblings and ninken in the dirt. You become trained in Survival, and your unarmed Strikes deal 1d6 piercing damage (instead of 1d4 bludgeoning) and gain the <em>finesse</em> and <em>agile</em> traits, representing your clan's claw-and-fang fighting style.</p>\n<p><em>TODO: model the customized unarmed strike via a Strike rule element once class-actions ship.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["inuzuka"]
+    }
+  },
+  "type": "feat"
+}

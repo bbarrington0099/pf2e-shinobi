@@ -1,0 +1,34 @@
+{
+  "_id": "AnFtUchihaTrng00",
+  "folder": "FldAUchihaClan00",
+  "img": "icons/magic/fire/flame-burning-eye-red.webp",
+  "name": "Uchiha Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>You were raised in the Naka Shrine's traditions of fire-style ninjutsu and quick swordwork. Your clan trains you in the early forms of Katon: Goukakyuu no Jutsu before you can read.</p>\n<p>You become trained in Intimidation, and you treat the first jutsu with the <em>fire</em> trait you cast each day as if its DC were 1 lower (minimum 1) when targeting a creature unaware of you.</p>\n<p><em>TODO: convert the DC reduction into a proper RollOption-driven note once spell-actions ship.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["uchiha"]
+    }
+  },
+  "type": "feat"
+}

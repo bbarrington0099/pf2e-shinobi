@@ -1,0 +1,27 @@
+{
+  "_id": "HeriButterflyAki",
+  "folder": "FldrAkimichiCl00",
+  "img": "icons/creatures/insects/butterfly-wings-blue.webp",
+  "name": "Butterfly Akimichi",
+  "system": {
+    "ancestry": {
+      "name": "Akimichi Clan",
+      "slug": "akimichi-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceAkimichiCl00"
+    },
+    "description": {
+      "value": "<p>You can briefly burn raw chakra into wings of pure motion. The Butterfly form is a touchstone of your line's history of selfless sacrifice for the village.</p>\n<p>Once per day as a free action, you increase your Speed by 10 feet for 1 round.</p>\n<p><em>TODO: replace with a richer Butterfly mode once class actions ship; today this is a simple speed boost.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["akimichi"]
+    }
+  },
+  "type": "heritage"
+}

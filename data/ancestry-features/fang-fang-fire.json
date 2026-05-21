@@ -1,0 +1,27 @@
+{
+  "_id": "AnFtFangFangFire",
+  "folder": "FldAInuzukaCln00",
+  "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+  "name": "Fang-Fang Fire",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p>You and your bonded ninken (or, until your animal companion ships, a phantom canine of equivalent size) spin into the Gatsūga: a twin drill of teeth and chakra. You both Stride up to your Speed in a straight line and may make a single melee Strike against each creature you pass through; the second Strike of this action gains the multiple-attack penalty.</p>\n<p><em>TODO: rewrite as a proper two-action Strike chain once Animal Companion rules land in Milestone 6.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["inuzuka", "move"]
+    }
+  },
+  "type": "feat"
+}

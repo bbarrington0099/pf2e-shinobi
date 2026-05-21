@@ -1,0 +1,27 @@
+{
+  "_id": "AnFtMindIntrudr0",
+  "folder": "FldAYamanakaCl00",
+  "img": "icons/magic/control/silhouette-aura-green.webp",
+  "name": "Mind Intruder",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p>You target a creature within 30 feet that you can see. The target must succeed at a Will save against your class DC or be <em>stupefied 1</em> for 1 round as you brush its mind. On a critical failure, the creature is <em>stupefied 1</em> for 1 minute and you also learn one piece of surface information of your choice (the creature's name, current emotional state, or whether it can read Common).</p>\n<p><em>TODO: replace class DC with a future Chakra DC once the Class layer ships.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["yamanaka", "mental"]
+    }
+  },
+  "type": "feat"
+}

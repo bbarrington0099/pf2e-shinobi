@@ -1,0 +1,32 @@
+{
+  "_id": "HeriByakuganBorn",
+  "folder": "FldrHyugaClan001",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
+  "name": "Byakugan Born",
+  "system": {
+    "ancestry": {
+      "name": "Hyūga Clan",
+      "slug": "hyuga-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceHyugaClan001"
+    },
+    "description": {
+      "value": "<p>Your Byakugan is active from your first breath. Pale, pupilless eyes drink in chakra flows and the world's faint silhouettes far past the limits of mortal sight.</p>\n<p>You gain the <em>Byakugan Ability</em> ancestry feature.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtByakuganAble"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["hyuga", "dojutsu"]
+    }
+  },
+  "type": "heritage"
+}

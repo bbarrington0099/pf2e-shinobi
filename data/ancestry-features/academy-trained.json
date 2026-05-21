@@ -1,0 +1,34 @@
+{
+  "_id": "AnFtAcademyTrnd0",
+  "folder": "FldACivilianShnb",
+  "img": "icons/environment/settlement/wall-tower.webp",
+  "name": "Academy Trained",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>You worked your way through the Village's open Academy curriculum: theory, history, kunai drills, and the rest. You become trained in Society and in one Lore skill of your choice tied to a Hidden Village (such as Konoha Lore, Suna Lore, or Kiri Lore).</p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["civilian-shinobi"]
+    }
+  },
+  "type": "feat"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "AnFtAkimichiTrn0",
+  "folder": "FldAAkimichiCl00",
+  "img": "icons/consumables/food/meat-drumstick-cooked-brown.webp",
+  "name": "Akimichi Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>You were taught to eat as a third martial discipline. You become trained in Athletics, and you treat ration-only meals during downtime as if you had eaten a full hot meal &mdash; you never lose Hit Points to short-term hunger so long as you have any food on your person.</p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["akimichi"]
+    }
+  },
+  "type": "feat"
+}

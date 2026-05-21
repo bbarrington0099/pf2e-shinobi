@@ -36,7 +36,7 @@ export const PACKS: readonly PackConfig[] = [
     name: "ancestry-features",
     label: "Shinobi Clan Features",
     documentType: "Item",
-    documentTypes: ["feat", "action"],
+    documentTypes: ["feat"],
     sourceDir: "data/ancestry-features",
     outputDir: "packs/ancestry-features",
   },

@@ -1,0 +1,52 @@
+{
+  "_id": "AnceHyugaClan001",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
+  "name": "Hyūga Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["dex"] },
+      "1": { "value": ["wis"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>Among the oldest of the Konoha clans, the Hyūga carry the Byakugan &mdash; a kekkei genkai that grants near 360-degree vision and the ability to perceive chakra pathways. Hyūga warriors discipline their bodies into precise, palm-driven taijutsu and inherit a measured calm that strangers often mistake for arrogance.</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["cha"] }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {
+      "trnHy": {
+        "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+        "level": 0,
+        "name": "Hyūga Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtHyugaTrng000"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "common",
+      "value": ["hyuga", "humanoid", "ninja"]
+    },
+    "vision": "lowLight"
+  },
+  "type": "ancestry"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "HeriSealmasterUz",
+  "folder": "FldrUzumakiCln00",
+  "img": "icons/magic/symbols/runes-marked-blue.webp",
+  "name": "Sealmaster Uzumaki",
+  "system": {
+    "ancestry": {
+      "name": "Uzumaki Clan",
+      "slug": "uzumaki-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceUzumakiCln00"
+    },
+    "description": {
+      "value": "<p>Your hands move in spiral patterns even at rest. Born among Whirlpool seal masters, you have the chakra reserves and instincts to bind, contain, and channel.</p>\n<p>You gain the <em>Chakra Surplus</em> ancestry feature and become trained in Arcana.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtChakraSurpls"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.arcana.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["uzumaki", "fuinjutsu"]
+    }
+  },
+  "type": "heritage"
+}

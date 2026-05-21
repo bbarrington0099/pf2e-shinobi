@@ -1,0 +1,39 @@
+{
+  "_id": "AnFtHozukiTrng00",
+  "folder": "FldAHozukiClan00",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "name": "Hōzuki Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>You can hold your breath for ten times as long as you should. You become trained in Acrobatics, and you have a swim Speed equal to half your land Speed (rounded down to the nearest 5 feet).</p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.acrobatics.rank",
+        "value": 1
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": "floor(@actor.system.attributes.speed.total/10)*5"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["hozuki", "water"]
+    }
+  },
+  "type": "feat"
+}

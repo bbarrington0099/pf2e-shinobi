@@ -1,0 +1,52 @@
+{
+  "_id": "AnceUzumakiCln00",
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "name": "Uzumaki Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["con"] },
+      "1": { "value": ["cha"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>Distant cousins to the Senju and once the heart of the Whirlpool Hidden Village, the Uzumaki are famous for vast chakra reserves, long lives, and the meticulous art of fūinjutsu &mdash; sealing techniques powerful enough to bind tailed beasts. Their bright spirits and bright hair are equally hard to extinguish.</p>\n<p><strong>Hit Points</strong> 10</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["str"] }
+    },
+    "hands": 2,
+    "hp": 10,
+    "items": {
+      "trnUz": {
+        "img": "icons/magic/symbols/runes-marked-blue.webp",
+        "level": 0,
+        "name": "Uzumaki Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtUzumakiTrn00"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["uzumaki", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

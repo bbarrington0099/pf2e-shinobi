@@ -1,0 +1,32 @@
+{
+  "_id": "HeriNinkenPartnr",
+  "folder": "FldrInuzukaCln00",
+  "img": "icons/creatures/abilities/dog-shadow-paw-grey.webp",
+  "name": "Ninken-Partnered",
+  "system": {
+    "ancestry": {
+      "name": "Inuzuka Clan",
+      "slug": "inuzuka-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceInuzukaCln00"
+    },
+    "description": {
+      "value": "<p>From the moment you could walk, a ninken pup walked beside you. The two of you share a wordless rhythm that translates into devastating coordination on the battlefield.</p>\n<p>You gain the <em>Fang-Fang Fire</em> ancestry feature.</p>\n<p><em>TODO: pair this heritage with a future Animal Companion feat in the companion packs (Milestone 6).</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtFangFangFire"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["inuzuka"]
+    }
+  },
+  "type": "heritage"
+}

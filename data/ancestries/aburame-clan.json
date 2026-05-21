@@ -1,0 +1,52 @@
+{
+  "_id": "AnceAburameCln00",
+  "img": "icons/creatures/insects/insect-spider-stink-orange.webp",
+  "name": "Aburame Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["int"] },
+      "1": { "value": ["con"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>The Aburame enter into lifelong symbiosis with kikaichū &mdash; insect hives that nest within their bodies and feed on chakra. The clan's outward stoicism conceals a methodical, scientific mind: Aburame shinobi catalogue weaknesses with the same care a cataloger gives to a beetle.</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["cha"] }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {
+      "trnAb": {
+        "img": "icons/creatures/insects/beetle-horned-orange.webp",
+        "level": 0,
+        "name": "Aburame Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtAburameTrn00"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "common",
+      "value": ["aburame", "humanoid", "ninja"]
+    },
+    "vision": "lowLight"
+  },
+  "type": "ancestry"
+}

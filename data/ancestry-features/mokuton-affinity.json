@@ -1,0 +1,27 @@
+{
+  "_id": "AnFtMokutonAffin",
+  "folder": "FldASenjuClan001",
+  "img": "icons/magic/nature/root-vine-entangled-grey.webp",
+  "name": "Mokuton Affinity",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>Your blood echoes Hashirama's Wood Release. Plants visibly lean toward you, and you can sense living vegetation within 30 feet by touch on the ground.</p>\n<p>You ignore difficult terrain caused by underbrush, vines, or thick foliage. Once per day, you can cause a square of natural ground within 5 feet of you to sprout a sapling that lasts 1 minute and counts as a thin pillar for cover.</p>\n<p><em>TODO: model the sapling cover with a Template rule once equipment/effects ship.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "rare",
+      "value": ["senju", "kekkei-genkai", "wood"]
+    }
+  },
+  "type": "feat"
+}

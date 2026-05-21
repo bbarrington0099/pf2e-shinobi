@@ -1,0 +1,34 @@
+{
+  "_id": "HeriFloralYamank",
+  "folder": "FldrYamanakaCl00",
+  "img": "icons/magic/nature/plant-flower-purple.webp",
+  "name": "Floral Yamanaka",
+  "system": {
+    "ancestry": {
+      "name": "Yamanaka Clan",
+      "slug": "yamanaka-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceYamanakaCl00"
+    },
+    "description": {
+      "value": "<p>You grew up tending the family flower shop and reading customers as they walked through the door. People tell you things they did not mean to tell anyone.</p>\n<p>You become trained in Diplomacy. At 5th level, you become an expert in Diplomacy.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": "ternary(gte(@actor.level,5),2,1)"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["yamanaka"]
+    }
+  },
+  "type": "heritage"
+}

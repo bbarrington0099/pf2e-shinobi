@@ -1,0 +1,40 @@
+{
+  "_id": "HeriUchihaFireAf",
+  "folder": "FldrUchihaClan00",
+  "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+  "name": "Fire-Affinity Uchiha",
+  "system": {
+    "ancestry": {
+      "name": "Uchiha Clan",
+      "slug": "uchiha-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceUchihaClan00"
+    },
+    "description": {
+      "value": "<p>Fire katon flows in your veins. Your jutsu burn hotter than your cousins' and your body shrugs off the heat of your own techniques.</p>\n<p>You gain fire resistance equal to half your level (minimum 1) and add a +1 status bonus to damage rolls on jutsu with the <em>fire</em> trait. <em>TODO: confirm bonus scaling at higher levels &mdash; consider switching to circumstance bonus once classes ship.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": ["item:trait:fire"],
+        "selector": "damage",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["uchiha", "fire"]
+    }
+  },
+  "type": "heritage"
+}

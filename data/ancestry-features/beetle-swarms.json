@@ -1,0 +1,27 @@
+{
+  "_id": "AnFtBeetleSwarms",
+  "folder": "FldAAburameCln00",
+  "img": "icons/creatures/insects/locust-buzzing-yellow.webp",
+  "name": "Beetle Swarms",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 1 },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p>You loose a thin stream of your kikaichū into an adjacent square. Until the start of your next turn, that square is difficult terrain for creatures that don't share your bond, and any creature ending its turn in that square takes 1d4 piercing damage from the swarm. The hive returns to you at the end of your next turn.</p>\n<p><em>TODO: convert to a proper Strike or area effect once spell-effects / spell-actions ship.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["aburame", "manipulate"]
+    }
+  },
+  "type": "feat"
+}

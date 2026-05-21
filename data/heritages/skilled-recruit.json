@@ -1,0 +1,40 @@
+{
+  "_id": "HeriSkilledRcrut",
+  "folder": "FldrCivilianShnb",
+  "img": "icons/tools/navigation/map-chart-tan.webp",
+  "name": "Skilled Recruit",
+  "system": {
+    "ancestry": {
+      "name": "Civilian Shinobi",
+      "slug": "civilian-shinobi",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceCivilianShnb"
+    },
+    "description": {
+      "value": "<p>You outworked everyone in your Academy class &mdash; sleeping in classrooms, doubling drills, and asking for one more lap when the others left. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "choices": { "config": "skills" },
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.system.rulesSelections.skill}.rank",
+        "value": "ternary(gte(@actor.level,5),2,1)"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["civilian-shinobi"]
+    }
+  },
+  "type": "heritage"
+}

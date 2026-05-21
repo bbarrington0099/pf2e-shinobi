@@ -1,0 +1,27 @@
+{
+  "_id": "AnFtWaterBodyKnk",
+  "folder": "FldAHozukiClan00",
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "name": "Water-Body Knock",
+  "system": {
+    "actionType": { "value": "reaction" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p><strong>Trigger</strong> A creature hits you with a melee Strike that would deal physical damage.</p>\n<p><strong>Frequency</strong> once per day</p>\n<p>You flicker into hydrified form for an instant. Reduce the triggering Strike's damage by 1d6 + half your level (minimum 1). If this would reduce the damage to 0, you take no damage but become flat-footed against the triggering creature until the end of its next turn while you re-solidify.</p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["hozuki", "water", "kekkei-genkai"]
+    }
+  },
+  "type": "feat"
+}

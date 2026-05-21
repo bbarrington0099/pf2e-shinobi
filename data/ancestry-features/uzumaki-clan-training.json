@@ -1,0 +1,34 @@
+{
+  "_id": "AnFtUzumakiTrn00",
+  "folder": "FldAUzumakiCln00",
+  "img": "icons/magic/symbols/runes-marked-blue.webp",
+  "name": "Uzumaki Clan Training",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>From childhood you trace fūinjutsu sigils with chalk, ink, and finger. You become trained in Crafting, and the time required to inscribe a single-use seal during downtime is halved.</p>\n<p><em>TODO: when fūinjutsu items ship, wire the downtime reduction to those item activities.</em></p>"
+    },
+    "level": { "value": 0 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["uzumaki"]
+    }
+  },
+  "type": "feat"
+}

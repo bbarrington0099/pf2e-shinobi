@@ -1,0 +1,52 @@
+{
+  "_id": "AnceHozukiClan00",
+  "img": "icons/magic/water/water-iceberg.webp",
+  "name": "Hōzuki Clan",
+  "system": {
+    "additionalLanguages": {
+      "count": 1,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": { "value": ["dex"] },
+      "1": { "value": ["con"] },
+      "2": { "value": ["str", "dex", "con", "int", "wis", "cha"] }
+    },
+    "description": {
+      "value": "<p>Children of the Mist Village's roiling tides, the Hōzuki master Hydrification: a kekkei genkai that turns their bodies into water at need. Blades pass harmlessly through a flowing Hōzuki and a thirsty one drinks rivers dry. Their lineage prizes a sword-armed grin and a refusal to stand still.</p>\n<p><strong>Hit Points</strong> 8</p>\n<p><strong>Size</strong> Medium</p>\n<p><strong>Speed</strong> 25 feet</p>\n<p><strong>Languages</strong> Common</p>"
+    },
+    "flaws": {
+      "0": { "value": ["wis"] }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {
+      "trnHo": {
+        "img": "icons/magic/water/wave-water-blue.webp",
+        "level": 0,
+        "name": "Hōzuki Clan Training",
+        "uuid": "Compendium.pf2e-shinobi.ancestry-features.Item.AnFtHozukiTrng00"
+      }
+    },
+    "languages": {
+      "custom": "",
+      "value": ["common"]
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["hozuki", "humanoid", "ninja"]
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "HeriBeetleHatchA",
+  "folder": "FldrAburameCln00",
+  "img": "icons/creatures/insects/beetle-tan.webp",
+  "name": "Beetle Hatchling",
+  "system": {
+    "ancestry": {
+      "name": "Aburame Clan",
+      "slug": "aburame-clan",
+      "uuid": "Compendium.pf2e-shinobi.ancestries.Item.AnceAburameCln00"
+    },
+    "description": {
+      "value": "<p>Your kikaichū colony is young and curious, and you spent more time in the wild listening to it than studying at the Academy. You read tracks, weather, and small-creature behavior as easily as most read books.</p>\n<p>You become trained in Survival. At 5th level you become an expert in Survival.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": "ternary(gte(@actor.level,5),2,1)"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["aburame"]
+    }
+  },
+  "type": "heritage"
+}
