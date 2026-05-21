@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtWeaponMSpc00",
+  "folder": "FldCWeaponMastr0",
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "name": "Weapon Master Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You select one martial weapon group (e.g. swords, bows, knives) as your <em>signature group</em>. You gain +1 status to damage rolls with weapons from that group and access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcWpnDraw00000]{Iaijutsu Draw} class action.</p>\n<p><em>TODO: turn the signature-group pick into a ChoiceSet RuleElement once weapon groups are nailed down.</em></p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcWpnDraw00000"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["weapon-master"]
+    }
+  },
+  "type": "feat"
+}

@@ -15,12 +15,17 @@ All `_id` values are exactly 16 alphanumeric characters and use a stable
 | `Ance` | Ancestry                        |
 | `Heri` | Heritage                        |
 | `AnFt` | Ancestry feature (`type: feat`) |
+| `Clss` | Class                           |
+| `ClFt` | Class feature (`type: feat`)    |
+| `ClAc` | Class action (`type: action`)   |
+| `Spll` | Spell                           |
 | `Fldr` | Folder in `heritages/`          |
 | `FldA` | Folder in `ancestry-features/`  |
+| `FldC` | Folder in `class-features/`     |
+| `FldX` | Folder in `class-actions/`      |
 
-Future milestones will add `Back` (background), `Clss` (class), `ClFt`
-(class feature), `Feat` (general feat), `Spll` (spell), `Equp`
-(equipment), `Effc` (effect), `Deit` (deity), and similar prefixes.
+Future milestones will add `Back` (background), `Feat` (general feat),
+`Equp` (equipment), `Effc` (effect), `Deit` (deity), and similar prefixes.
 
 ## Milestone 2: Clans, Heritages, Ancestry Features
 
@@ -132,3 +137,101 @@ above grant their paired signature feature via `GrantItem`.
 | Yamanaka         | `FldAYamanakaCl00` |
 | Hōzuki           | `FldAHozukiClan00` |
 | Civilian Shinobi | `FldACivilianShnb` |
+
+## Milestone 3: Specializations, Chakra Core, Class Actions
+
+### Chakra model (canonical reference)
+
+- **Spell slots** = chakra capacity at any one moment. Set by each
+  Specialization's `system.spellcasting` rank and spell-slot progression.
+- **Focus Points** = renewable pool fuel for Charge Chakra (10-minute
+  Refocus).
+- **Charge Chakra** (focus spell, `SpllChargChakra0`) = variable cast
+  `◇` to `◇◇◇` for 1 Focus Point; restores N expended spell slots where
+  N is the action cost.
+- **Chakra Reserves** (`ClFtChakraReser0`) = daily-use counter for Charge
+  Chakra. Starts at 1; clan heritages, ancestry feats, and class
+  features bump it.
+- **`chakra` magic tradition** = registered at `init` by
+  `src/register-traits.ts` so trait pickers everywhere render the label.
+
+### Classes (`packs/classes`)
+
+| Specialization      | `_id`              | Key        | HP  | Spellcasting | Saves (F/R/W) |
+| ------------------- | ------------------ | ---------- | --- | ------------ | ------------- |
+| Ninjutsu Specialist | `ClssNinjutsuSpc0` | INT        | 6   | 1 (full)     | 1/2/2         |
+| Genjutsu Specialist | `ClssGenjutsuSpc0` | CHA        | 6   | 1 (full)     | 1/1/2         |
+| Taijutsu Specialist | `ClssTaijutsuSpc0` | STR        | 10  | 0 (martial)  | 2/2/1         |
+| Medical-nin         | `ClssMedicalNin00` | WIS        | 8   | 1 (full)     | 2/1/2         |
+| Sensor              | `ClssSensorClass0` | WIS        | 8   | 1 (half)     | 1/2/2         |
+| Anbu Operative      | `ClssAnbuOprtve00` | DEX        | 8   | 1 (half)     | 2/2/1         |
+| Weapon Master       | `ClssWeaponMastr0` | STR or DEX | 10  | 0 (martial)  | 2/2/1         |
+| Summoner            | `ClssSummonerCl00` | CHA        | 8   | 1 (full)     | 1/1/2         |
+
+Each class auto-grants (via `system.items`) the shared chakra-core
+features (Chakra Casting if caster, Chakra Reserves, Charge Chakra),
+its own Specialization feature, and its Path picker.
+
+### Class features (`packs/class-features`)
+
+**Shared (3):**
+
+| Name            | `_id`              |
+| --------------- | ------------------ |
+| Chakra Casting  | `ClFtChakraCastr0` |
+| Chakra Reserves | `ClFtChakraReser0` |
+| Charge Chakra   | `ClFtChargeChakr0` |
+
+**Per-class baseline + picker (16):**
+
+| Class               | Specialization feature `_id` | Path picker `_id`  |
+| ------------------- | ---------------------------- | ------------------ |
+| Ninjutsu Specialist | `ClFtNinjutsuSpc0`           | `ClFtNinjutsuPth0` |
+| Genjutsu Specialist | `ClFtGenjutsuSpc0`           | `ClFtGenjutsuPth0` |
+| Taijutsu Specialist | `ClFtTaijutsuSpc0`           | `ClFtTaijutsuPth0` |
+| Medical-nin         | `ClFtMedicalSpc00`           | `ClFtMedicalPth00` |
+| Sensor              | `ClFtSensorSpc000`           | `ClFtSensorPth000` |
+| Anbu Operative      | `ClFtAnbuSpc00000`           | `ClFtAnbuPth00000` |
+| Weapon Master       | `ClFtWeaponMSpc00`           | `ClFtWeaponMPth00` |
+| Summoner            | `ClFtSummonerSpc0`           | `ClFtSummonerPth0` |
+
+**Subclass options (24):**
+
+| Class          | Options                                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------------------- |
+| Ninjutsu       | Fire (`ClFtPathFire0000`), Wind (`ClFtPathWind0000`), Lightning (`ClFtPathLghtnng0`)                      |
+| Genjutsu       | Sensory (`ClFtSchoolSensry`), Telepathic (`ClFtSchoolTeleph`), Spatial (`ClFtSchoolSpatil`)               |
+| Taijutsu       | Gentle Fist (`ClFtStyleGntlFst`), Strong Fist (`ClFtStyleStrgFst`), Drunken Fist (`ClFtStyleDrunken`)     |
+| Medical-nin    | Field Medic (`ClFtDiscFieldMed`), Surgeon (`ClFtDiscSurgeon0`), Battle Medic (`ClFtDiscBtlMedic`)         |
+| Sensor         | Chakra Sensing (`ClFtMthdChakraSn`), Tracker (`ClFtMthdTracker0`), Barrier Detection (`ClFtMthdBarrier0`) |
+| Anbu Operative | Assassination (`ClFtDivAssassin0`), Interrogation (`ClFtDivIntrgtor0`), Hunter-nin (`ClFtDivHuntrnin0`)   |
+| Weapon Master  | Kenjutsu (`ClFtDscKenjutsu0`), Bukijutsu (`ClFtDscBukijutsu`), Bowyer (`ClFtDscBowyer000`)                |
+| Summoner       | Toad (`ClFtCntctToad000`), Snake (`ClFtCntctSnake00`), Slug (`ClFtCntctSlug000`)                          |
+
+### Class actions (`packs/class-actions`)
+
+**Shared (2):**
+
+| Name                    | `_id`              |
+| ----------------------- | ------------------ |
+| Body Flicker (Shunshin) | `ClAcBodyFlicker0` |
+| Substitution (Kawarimi) | `ClAcSubstition00` |
+
+**Per-class signature (8):**
+
+| Action                 | `_id`              | Class               | Granted by         |
+| ---------------------- | ------------------ | ------------------- | ------------------ |
+| Five Elemental Seal    | `ClAcFiveElement0` | Ninjutsu Specialist | `ClFtNinjutsuSpc0` |
+| Genjutsu Release       | `ClAcGenjutsuRels` | Genjutsu Specialist | `ClFtGenjutsuSpc0` |
+| Gentle Pressure Strike | `ClAcGentleStrk00` | Taijutsu Specialist | `ClFtTaijutsuSpc0` |
+| Healing Palm           | `ClAcHealingPalm0` | Medical-nin         | `ClFtMedicalSpc00` |
+| Sense Chakra           | `ClAcSenseChakra0` | Sensor              | `ClFtSensorSpc000` |
+| Silent Strike          | `ClAcSilntStrike0` | Anbu Operative      | `ClFtAnbuSpc00000` |
+| Iaijutsu Draw          | `ClAcWpnDraw00000` | Weapon Master       | `ClFtWeaponMSpc00` |
+| Quick Kuchiyose        | `ClAcSummonAlly00` | Summoner            | `ClFtSummonerSpc0` |
+
+### Spells (`packs/spells`)
+
+| Name          | `_id`              | Type        | Tradition |
+| ------------- | ------------------ | ----------- | --------- |
+| Charge Chakra | `SpllChargChakra0` | focus spell | chakra    |

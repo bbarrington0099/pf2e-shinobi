@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcSenseChakra0",
+  "folder": "FldXSensorClss00",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
+  "name": "Sense Chakra",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 1 },
+    "category": "class",
+    "description": {
+      "value": "<p>You concentrate on a single creature within range of your Chakra Sense. Attempt a Perception check against the creature's Will DC. On success, you learn one of the following pieces of information of your choice: the creature's current Hit Points (as a fraction), one trait that applies to the creature (clan, type, alignment), or whether they have an active genjutsu or sustained jutsu running.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["sensor", "chakra", "concentrate"]
+    }
+  },
+  "type": "action"
+}

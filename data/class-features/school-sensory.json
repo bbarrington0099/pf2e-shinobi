@@ -1,0 +1,34 @@
+{
+  "_id": "ClFtSchoolSensry",
+  "folder": "FldCGenjutsuSpc0",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
+  "name": "Sensory School",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You weave illusions targeting sight, sound, and smell. You become trained in Deception and gain a +1 status bonus to the DC of any jutsu with the <em>visual</em> or <em>auditory</em> trait you cast.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.deception.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["genjutsu-specialist", "chakra", "genjutsu"]
+    }
+  },
+  "type": "feat"
+}

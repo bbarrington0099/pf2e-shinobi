@@ -187,6 +187,24 @@ async function loadPack(
       continue;
     }
 
+    if (
+      (doc.type === "feat" || doc.type === "action") &&
+      Array.isArray(pack.featCategories || [])
+    ) {
+      const allowed = doc.type === "feat" ? pack.featCategories : pack.actionCategories;
+      if (allowed && allowed.length > 0) {
+        const sys = (doc.system ?? {}) as { category?: string | null };
+        const category = sys.category ?? null;
+        if (!(allowed as readonly (string | null)[]).includes(category)) {
+          issues.push({
+            file: rel,
+            message: `system.category "${String(category)}" is not allowed in pack "${pack.name}" (expected one of: ${allowed.map((c) => String(c)).join(", ")}).`,
+          });
+          continue;
+        }
+      }
+    }
+
     contents.documents.push({ file: rel, doc });
   }
 
@@ -312,23 +330,25 @@ function checkCrossPack(
     }
   }
 
-  // Ancestries -> ancestry-features via system.items map.
-  const ancestries = allContents.get("ancestries")?.documents ?? [];
-  for (const { file, doc } of ancestries) {
-    const sys = (doc.system ?? {}) as { items?: Record<string, AncestryItemEntry> };
-    const items = sys.items ?? {};
-    for (const [slot, entry] of Object.entries(items)) {
-      const uuid = entry?.uuid;
-      if (!uuid) continue;
-      const err = checkInternalUuid(uuid, moduleId, idsByPack);
-      if (err) {
-        issues.push({ file, message: `system.items["${slot}"].uuid ${err}.` });
+  // Ancestries and classes -> features via system.items map.
+  for (const packName of ["ancestries", "classes"]) {
+    const docs = allContents.get(packName)?.documents ?? [];
+    for (const { file, doc } of docs) {
+      const sys = (doc.system ?? {}) as { items?: Record<string, AncestryItemEntry> };
+      const items = sys.items ?? {};
+      for (const [slot, entry] of Object.entries(items)) {
+        const uuid = entry?.uuid;
+        if (!uuid) continue;
+        const err = checkInternalUuid(uuid, moduleId, idsByPack);
+        if (err) {
+          issues.push({ file, message: `system.items["${slot}"].uuid ${err}.` });
+        }
       }
     }
   }
 
-  // Heritages and ancestry-features -> GrantItem rule UUIDs.
-  for (const packName of ["heritages", "ancestry-features"]) {
+  // Heritages, ancestry-features, class-features, class-actions -> GrantItem rule UUIDs.
+  for (const packName of ["heritages", "ancestry-features", "class-features", "class-actions"]) {
     const docs = allContents.get(packName)?.documents ?? [];
     for (const { file, doc } of docs) {
       const sys = (doc.system ?? {}) as { rules?: RuleElement[] };

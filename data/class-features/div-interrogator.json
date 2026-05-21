@@ -1,0 +1,34 @@
+{
+  "_id": "ClFtDivIntrgtor0",
+  "folder": "FldCAnbuOprtve00",
+  "img": "icons/sundries/scrolls/scroll-bound-red.webp",
+  "name": "Interrogation Division",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You read fear and exploit it. You become expert in Intimidation and gain the @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] action as a free trained skill use (in addition to your normal access).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["anbu-operative"]
+    }
+  },
+  "type": "feat"
+}

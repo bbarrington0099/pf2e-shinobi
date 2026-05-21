@@ -1,0 +1,27 @@
+{
+  "_id": "ClFtDiscFieldMed",
+  "folder": "FldCMedicalNin00",
+  "img": "icons/magic/life/cross-beam-strong-yellow.webp",
+  "name": "Field Medic Discipline",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You triage at speed. Your Treat Wounds action takes 5 minutes instead of 10, and you gain a +1 status bonus to the healing it provides.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["medical-nin", "healing"]
+    }
+  },
+  "type": "feat"
+}

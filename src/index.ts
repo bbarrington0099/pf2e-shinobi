@@ -1,5 +1,6 @@
 import { MODULE_ID, MODULE_TITLE } from "./constants.js";
 import { logger } from "./logger.js";
+import { registerCustomTraits } from "./register-traits.js";
 import { registerSettings } from "./settings.js";
 
 /**
@@ -16,6 +17,7 @@ export interface PF2eShinobiApi {
 Hooks.once("init", () => {
   logger.info(`Initializing ${MODULE_TITLE}`);
   registerSettings();
+  registerCustomTraits();
 });
 
 Hooks.once("ready", () => {

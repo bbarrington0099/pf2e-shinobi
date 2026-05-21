@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtNinjutsuSpc0",
+  "folder": "FldCNinjutsuSpc0",
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "name": "Ninjutsu Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You are a generalist of chakra-driven techniques. You become trained in two additional skills of your choice and gain access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcFiveElement0]{Five Elemental Seal} class action, which lets you cycle between your trained nature affinities mid-encounter.</p>\n<p><em>TODO: when the spells pack ships elemental jutsu (M4), this feature will gate access to all five elements at-will via a Heightened mechanic.</em></p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcFiveElement0"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["ninjutsu-specialist", "chakra"]
+    }
+  },
+  "type": "feat"
+}

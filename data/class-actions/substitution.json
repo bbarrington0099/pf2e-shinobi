@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcSubstition00",
+  "folder": "FldXSharedShard0",
+  "img": "icons/sundries/misc/wood-log-tied-brown.webp",
+  "name": "Substitution (Kawarimi)",
+  "system": {
+    "actionType": { "value": "reaction" },
+    "actions": { "value": null },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Trigger</strong> A creature targets you with a Strike, but the result has not been revealed.</p>\n<p><strong>Frequency</strong> once per encounter</p>\n<p>You expend a Focus Point or a 1st-rank or higher spell slot to swap places with a log, rock, or other unattended Medium object within your reach. The triggering Strike resolves against the substitute (treat it as having your AC and 1 HP). You move up to half your Speed to an unoccupied square within line of effect of the triggering creature.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["chakra", "move"]
+    }
+  },
+  "type": "action"
+}

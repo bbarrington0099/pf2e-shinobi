@@ -1,0 +1,40 @@
+{
+  "_id": "ClFtPathLghtnng0",
+  "folder": "FldCNinjutsuSpc0",
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "name": "Lightning Path",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Raiton: lightning-natured chakra. You gain electricity resistance equal to half your level (minimum 1). When you Strike a creature that has not yet acted in this encounter, you deal +1 status precision damage with electricity-trait Strikes or jutsu.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "electricity",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": ["item:trait:electricity"],
+        "selector": "damage",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["ninjutsu-specialist", "chakra", "electricity"]
+    }
+  },
+  "type": "feat"
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcSummonAlly00",
+  "folder": "FldXSummonerCl00",
+  "img": "icons/sundries/scrolls/scroll-bound-tan-brown.webp",
+  "name": "Quick Kuchiyose",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "class",
+    "description": {
+      "value": "<p>You expend a 1st-rank or higher spell slot to summon a tiny or small contracted ally into an unoccupied square within 30 feet. The ally lasts for 1 minute, has statistics equal to a level-1 minion of your contract type (toad, snake, or slug), and acts on your initiative count, taking 2 actions per turn. You can dismiss it as a free action.</p>\n<p>The exact ally is determined by your @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtSummonerPth0]{Summoning Contract}.</p>\n<p><em>TODO: link to specific minion NPC stat blocks once the bestiary pack ships (Milestone 6).</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["summoner", "chakra", "kuchiyose", "summoning", "manipulate"]
+    }
+  },
+  "type": "action"
+}

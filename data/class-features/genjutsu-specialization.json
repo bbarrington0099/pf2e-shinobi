@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtGenjutsuSpc0",
+  "folder": "FldCGenjutsuSpc0",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
+  "name": "Genjutsu Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You learn to wrap chakra around a foe's senses. You gain a +1 status bonus to your spell DC for any jutsu with the <em>mental</em>, <em>emotion</em>, or <em>illusion</em> trait, and you gain access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcGenjutsuRels]{Genjutsu Release} class action.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcGenjutsuRels"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["genjutsu-specialist", "chakra", "genjutsu"]
+    }
+  },
+  "type": "feat"
+}

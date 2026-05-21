@@ -1,0 +1,38 @@
+{
+  "_id": "ClFtMedicalSpc00",
+  "folder": "FldCMedicalNin00",
+  "img": "icons/magic/life/cross-area-circle-green-white.webp",
+  "name": "Medical Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You become expert in Medicine (treat as if you had taken the Medic dedication) and gain access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcHealingPalm0]{Healing Palm} class action. You can Treat Wounds on a willing creature once every 10 minutes (instead of once per hour).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.medicine.rank",
+        "value": 2
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcHealingPalm0"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["medical-nin", "chakra", "healing"]
+    }
+  },
+  "type": "feat"
+}

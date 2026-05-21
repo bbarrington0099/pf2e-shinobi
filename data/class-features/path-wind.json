@@ -1,0 +1,34 @@
+{
+  "_id": "ClFtPathWind0000",
+  "folder": "FldCNinjutsuSpc0",
+  "img": "icons/magic/air/wind-vortex-blue.webp",
+  "name": "Wind Path",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Fūton: wind-natured chakra. You gain a +5-foot status bonus to land Speed and your weapon Strikes deal +1 status damage when you have moved at least 10 feet on the same turn (cutting-edge wind enhancement).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "type": "status",
+        "value": 5
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["ninjutsu-specialist", "chakra", "air"]
+    }
+  },
+  "type": "feat"
+}

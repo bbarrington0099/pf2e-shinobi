@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "FldXSharedShard0",
+    "color": "#3b5078",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Shared (Universal Jutsu)",
+    "sort": 0,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXNinjutsuSpc0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Ninjutsu Specialist",
+    "sort": 100000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXGenjutsuSpc0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Genjutsu Specialist",
+    "sort": 200000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXTaijutsuSpc0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Taijutsu Specialist",
+    "sort": 300000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXMedicalNin00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Medical-nin",
+    "sort": 400000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXSensorClss00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Sensor",
+    "sort": 500000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXAnbuOpertve0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Anbu Operative",
+    "sort": 600000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXWeaponMstr00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Weapon Master",
+    "sort": 700000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldXSummonerCl00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Summoner",
+    "sort": 800000,
+    "sorting": "a",
+    "type": "Item"
+  }
+]

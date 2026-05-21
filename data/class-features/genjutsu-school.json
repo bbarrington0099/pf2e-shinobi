@@ -1,0 +1,51 @@
+{
+  "_id": "ClFtGenjutsuPth0",
+  "folder": "FldCGenjutsuSpc0",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Genjutsu School",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your school: <strong>Sensory</strong> (illusions targeting sight, sound, smell), <strong>Telepathic</strong> (mental intrusion, false memories), or <strong>Spatial</strong> (warped distance and direction).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "genjutsuSchool",
+        "prompt": "Choose your genjutsu school.",
+        "choices": [
+          {
+            "label": "Sensory",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtSchoolSensry"
+          },
+          {
+            "label": "Telepathic",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtSchoolTeleph"
+          },
+          {
+            "label": "Spatial",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtSchoolSpatil"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.genjutsuSchool}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["genjutsu-specialist", "chakra", "genjutsu"]
+    }
+  },
+  "type": "feat"
+}

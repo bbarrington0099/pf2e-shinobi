@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcFiveElement0",
+  "folder": "FldXNinjutsuSpc0",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "name": "Five Elemental Seal",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "class",
+    "description": {
+      "value": "<p>You weave a five-seal sequence to shift your chakra nature. Until the end of your next turn, you treat one jutsu you cast as if it had any one of the five element traits (Fire, Wind, Lightning, Water, Earth) of your choice. If your @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtNinjutsuPth0]{Elemental Path} grants a bonus that applies to that trait, you still gain that bonus.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["ninjutsu-specialist", "chakra", "manipulate"]
+    }
+  },
+  "type": "action"
+}

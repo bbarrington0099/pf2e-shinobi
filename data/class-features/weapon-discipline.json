@@ -1,0 +1,51 @@
+{
+  "_id": "ClFtWeaponMPth00",
+  "folder": "FldCWeaponMastr0",
+  "img": "icons/weapons/swords/katana-spiral.webp",
+  "name": "Weapon Discipline",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your discipline: <strong>Kenjutsu</strong> (the sword), <strong>Bukijutsu</strong> (mixed armaments and throwing weapons), or <strong>Bowyer</strong> (precision archery).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "weaponDiscipline",
+        "prompt": "Choose your weapon discipline.",
+        "choices": [
+          {
+            "label": "Kenjutsu",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDscKenjutsu0"
+          },
+          {
+            "label": "Bukijutsu",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDscBukijutsu"
+          },
+          {
+            "label": "Bowyer",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDscBowyer000"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.weaponDiscipline}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["weapon-master"]
+    }
+  },
+  "type": "feat"
+}

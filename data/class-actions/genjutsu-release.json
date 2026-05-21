@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcGenjutsuRels",
+  "folder": "FldXGenjutsuSpc0",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Genjutsu Release",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 1 },
+    "category": "class",
+    "description": {
+      "value": "<p>You disrupt the chakra flow that fuels an illusion targeting you or a willing creature within 10 feet. Attempt a counteract check against the illusion's DC; on success you end the illusion's effect on the target.</p>\n<p><em>TODO: once spells ship in M4, define the formal counteract check formula here.</em></p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["genjutsu-specialist", "chakra", "concentrate", "genjutsu"]
+    }
+  },
+  "type": "action"
+}

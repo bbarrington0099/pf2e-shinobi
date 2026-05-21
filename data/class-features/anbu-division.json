@@ -1,0 +1,51 @@
+{
+  "_id": "ClFtAnbuPth00000",
+  "folder": "FldCAnbuOprtve00",
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "name": "Anbu Division",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your Anbu division: <strong>Assassination</strong>, <strong>Interrogation</strong>, or <strong>Hunter-nin</strong>.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "anbuDivision",
+        "prompt": "Choose your Anbu division.",
+        "choices": [
+          {
+            "label": "Assassination",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDivAssassin0"
+          },
+          {
+            "label": "Interrogation",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDivIntrgtor0"
+          },
+          {
+            "label": "Hunter-nin",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDivHuntrnin0"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.anbuDivision}"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["anbu-operative"]
+    }
+  },
+  "type": "feat"
+}

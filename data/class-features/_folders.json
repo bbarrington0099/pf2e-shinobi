@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "FldCSharedShard0",
+    "color": "#3b5078",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Shared (Chakra Core)",
+    "sort": 0,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCNinjutsuSpc0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Ninjutsu Specialist",
+    "sort": 100000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCGenjutsuSpc0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Genjutsu Specialist",
+    "sort": 200000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCTaijutsuSpc0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Taijutsu Specialist",
+    "sort": 300000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCMedicalNin00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Medical-nin",
+    "sort": 400000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCSensorClass0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Sensor",
+    "sort": 500000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCAnbuOprtve00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Anbu Operative",
+    "sort": 600000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCWeaponMastr0",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Weapon Master",
+    "sort": 700000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldCSummonerCl00",
+    "color": null,
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Summoner",
+    "sort": 800000,
+    "sorting": "a",
+    "type": "Item"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcGentleStrk00",
+  "folder": "FldXTaijutsuSpc0",
+  "img": "icons/skills/melee/strike-fist-blue.webp",
+  "name": "Gentle Pressure Strike",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "class",
+    "description": {
+      "value": "<p>You strike a precise nerve cluster. Make an unarmed Strike. On a hit, the target attempts a Fortitude save against your class DC. On failure, the target becomes <em>off-guard</em> until the end of your next turn. On critical failure, they are also <em>slowed 1</em> until the end of your next turn.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["taijutsu-specialist", "attack"]
+    }
+  },
+  "type": "action"
+}

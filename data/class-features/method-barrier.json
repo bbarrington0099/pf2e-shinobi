@@ -1,0 +1,41 @@
+{
+  "_id": "ClFtMthdBarrier0",
+  "folder": "FldCSensorClass0",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "name": "Barrier Detection Method",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You sense fūinjutsu barriers and active genjutsu within 60 feet, and gain a +2 status bonus to Will saves against effects with the <em>illusion</em> trait. You become trained in Arcana.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.arcana.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": ["item:trait:illusion"],
+        "selector": "will",
+        "type": "status",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["sensor", "chakra"]
+    }
+  },
+  "type": "feat"
+}

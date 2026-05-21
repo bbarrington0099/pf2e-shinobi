@@ -8,7 +8,7 @@
     "actions": { "value": null },
     "category": "ancestryfeature",
     "description": {
-      "value": "<p>Your chakra reserves run deeper than most can imagine. Once per day, when you would expend a Focus Point to cast a focus spell or to sustain a jutsu of 1st-rank or higher, you may choose not to spend that resource; you must complete a full 10-minute rest before benefiting from this feature again.</p>\n<p><em>TODO: confirm this rephrases cleanly once jutsu cost model lands in Milestone 4. Focus Points may be replaced by a Chakra resource tracker.</em></p>"
+      "value": "<p>Your chakra well runs deeper than most can imagine. Your @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves} increase by 1 (you can cast @UUID[Compendium.pf2e-shinobi.spells.Item.SpllChargChakra0]{Charge Chakra} one additional time per long rest).</p>"
     },
     "level": { "value": 0 },
     "prerequisites": { "value": [] },

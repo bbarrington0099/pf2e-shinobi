@@ -1,0 +1,34 @@
+{
+  "_id": "ClFtCntctSnake00",
+  "folder": "FldCSummonerCl00",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "name": "Snake Contract",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You are bound to the snakes of Ryūchi Cave. You become trained in Stealth (or expert if already trained), and your Quick Kuchiyose summons a Small viper that can make a poisonous Strike (1d4 piercing + 1d4 persistent poison; DC 15 basic Fort) once before vanishing.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": "ternary(gte(@actor.skills.stealth.rank,1),2,1)"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["summoner", "chakra", "kuchiyose"]
+    }
+  },
+  "type": "feat"
+}

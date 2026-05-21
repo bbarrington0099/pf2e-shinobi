@@ -1,0 +1,51 @@
+{
+  "_id": "ClFtTaijutsuPth0",
+  "folder": "FldCTaijutsuSpc0",
+  "img": "icons/skills/melee/strike-hammer-glowing-yellow.webp",
+  "name": "Taijutsu Style",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your style: <strong>Gentle Fist</strong> (Hyūga-inspired palm strikes that target chakra pathways), <strong>Strong Fist</strong> (Lee/Guy-inspired overwhelming offense), or <strong>Drunken Fist</strong> (unpredictable feints).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "taijutsuStyle",
+        "prompt": "Choose your taijutsu style.",
+        "choices": [
+          {
+            "label": "Gentle Fist",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtStyleGntlFst"
+          },
+          {
+            "label": "Strong Fist",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtStyleStrgFst"
+          },
+          {
+            "label": "Drunken Fist",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtStyleDrunken"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.taijutsuStyle}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["taijutsu-specialist"]
+    }
+  },
+  "type": "feat"
+}

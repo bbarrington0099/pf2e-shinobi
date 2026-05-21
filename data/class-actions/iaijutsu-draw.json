@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcWpnDraw00000",
+  "folder": "FldXWeaponMstr00",
+  "img": "icons/weapons/swords/katana-spiral.webp",
+  "name": "Iaijutsu Draw",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 1 },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> a weapon from your signature group is sheathed or in your free hand.</p>\n<p>You Draw the weapon and make a Strike with it in a single, fluid motion. The Strike gains a +1 status bonus to its damage roll. If the target was off-guard to you, the bonus increases to +2.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["weapon-master", "attack", "flourish"]
+    }
+  },
+  "type": "action"
+}

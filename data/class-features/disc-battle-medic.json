@@ -1,0 +1,27 @@
+{
+  "_id": "ClFtDiscBtlMedic",
+  "folder": "FldCMedicalNin00",
+  "img": "icons/skills/melee/strike-fist-blue.webp",
+  "name": "Battle Medic Discipline",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Tsunade-school: your unarmed Strikes channel chakra for precision damage equal to your Wisdom modifier (minimum 1). You may also use Treat Wounds in encounter mode as a 3-action activity, restoring 1d8 + your level Hit Points (failure restores nothing).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["medical-nin", "chakra", "healing"]
+    }
+  },
+  "type": "feat"
+}

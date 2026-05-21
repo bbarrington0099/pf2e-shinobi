@@ -1,0 +1,51 @@
+{
+  "_id": "ClFtMedicalPth00",
+  "folder": "FldCMedicalNin00",
+  "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+  "name": "Medical Discipline",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your discipline: <strong>Field Medic</strong> (battlefield triage), <strong>Surgeon</strong> (long-form precision), or <strong>Battle Medic</strong> (Tsunade-school sustain + offensive medicine).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "medicalDiscipline",
+        "prompt": "Choose your medical discipline.",
+        "choices": [
+          {
+            "label": "Field Medic",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDiscFieldMed"
+          },
+          {
+            "label": "Surgeon",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDiscSurgeon0"
+          },
+          {
+            "label": "Battle Medic",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtDiscBtlMedic"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.medicalDiscipline}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["medical-nin", "chakra", "healing"]
+    }
+  },
+  "type": "feat"
+}

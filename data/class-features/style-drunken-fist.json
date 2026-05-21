@@ -1,0 +1,34 @@
+{
+  "_id": "ClFtStyleDrunken",
+  "folder": "FldCTaijutsuSpc0",
+  "img": "icons/consumables/drinks/alcohol-glass-tan.webp",
+  "name": "Drunken Fist Style",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You sway, stumble, and rebound with chaotic grace. You become trained in Acrobatics, and once per encounter when you would be hit by a melee Strike, you can declare a 'wobble': roll a flat DC 11 check. On success, the attacker treats their roll as if it were 5 lower for that Strike only.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.acrobatics.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["taijutsu-specialist"]
+    }
+  },
+  "type": "feat"
+}

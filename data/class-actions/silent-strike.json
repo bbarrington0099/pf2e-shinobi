@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcSilntStrike0",
+  "folder": "FldXAnbuOpertve0",
+  "img": "icons/weapons/daggers/dagger-curved-black.webp",
+  "name": "Silent Strike",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> you are hidden or undetected by the target.</p>\n<p>Make a Strike against a creature unaware of you. On a hit you also Hide as a free action; if the Strike was a critical hit, the target cannot speak above a whisper until the start of your next turn (their throat seizes briefly from chakra-induced shock).</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["anbu-operative", "attack", "flourish"]
+    }
+  },
+  "type": "action"
+}

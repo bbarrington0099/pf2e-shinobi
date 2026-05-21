@@ -1,0 +1,44 @@
+{
+  "_id": "ClFtSensorSpc000",
+  "folder": "FldCSensorClass0",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
+  "name": "Sensor Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You sense chakra precisely within 30 feet (you can distinguish friend, foe, and clone) and imprecisely within 60 feet. You gain access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcSenseChakra0]{Sense Chakra} class action and become expert in Perception.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "acuity": "precise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "chakra"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 60,
+        "selector": "chakra"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcSenseChakra0"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["sensor", "chakra"]
+    }
+  },
+  "type": "feat"
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "ClFtSensorPth000",
+  "folder": "FldCSensorClass0",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Sensor Method",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your method: <strong>Chakra Sensing</strong> (raw bandwidth), <strong>Tracker</strong> (trace-following), or <strong>Barrier Detection</strong> (anti-infiltration).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "sensorMethod",
+        "prompt": "Choose your sensor method.",
+        "choices": [
+          {
+            "label": "Chakra Sensing",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtMthdChakraSn"
+          },
+          {
+            "label": "Tracker",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtMthdTracker0"
+          },
+          {
+            "label": "Barrier Detection",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtMthdBarrier0"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.sensorMethod}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["sensor", "chakra"]
+    }
+  },
+  "type": "feat"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "ClFtSchoolSpatil",
+  "folder": "FldCGenjutsuSpc0",
+  "img": "icons/magic/movement/portal-vortex-blue.webp",
+  "name": "Spatial School",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You bend distance and direction in the minds of your foes. You become trained in Survival, and once per encounter when you successfully cast a genjutsu against a target, they treat the squares between you and them as difficult terrain for 1 round.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["genjutsu-specialist", "chakra", "genjutsu"]
+    }
+  },
+  "type": "feat"
+}

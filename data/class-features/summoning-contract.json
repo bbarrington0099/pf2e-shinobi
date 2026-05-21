@@ -1,0 +1,51 @@
+{
+  "_id": "ClFtSummonerPth0",
+  "folder": "FldCSummonerCl00",
+  "img": "icons/sundries/scrolls/scroll-bound-tan-brown.webp",
+  "name": "Summoning Contract",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your contract: <strong>Toad</strong> (Mount Myōboku, strong + versatile chakra), <strong>Snake</strong> (Ryūchi Cave, fast + venomous), or <strong>Slug</strong> (Shikkotsu Forest, support + healing).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "summoningContract",
+        "prompt": "Choose your contract.",
+        "choices": [
+          {
+            "label": "Toad",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtCntctToad000"
+          },
+          {
+            "label": "Snake",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtCntctSnake00"
+          },
+          {
+            "label": "Slug",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtCntctSlug000"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.summoningContract}"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["summoner", "chakra", "kuchiyose"]
+    }
+  },
+  "type": "feat"
+}

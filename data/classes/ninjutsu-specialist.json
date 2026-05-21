@@ -1,0 +1,80 @@
+{
+  "_id": "ClssNinjutsuSpc0",
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "name": "Ninjutsu Specialist",
+  "system": {
+    "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
+    "attacks": {
+      "advanced": 0,
+      "martial": 0,
+      "other": { "name": "", "rank": 0 },
+      "simple": 1,
+      "unarmed": 1
+    },
+    "classFeatLevels": { "value": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] },
+    "defenses": {
+      "heavy": 0,
+      "light": 1,
+      "medium": 0,
+      "unarmored": 1
+    },
+    "description": {
+      "value": "<p>You are a deep generalist of jutsu &mdash; the discipline most outsiders simply call <em>ninjutsu</em>. You weave hand seals, channel chakra through your nature affinity, and turn theory into impossible feats. Where a Genjutsu Specialist deceives the mind and a Medical-nin mends the body, you reshape the world directly: clones, summoned barriers, elemental shells, sealed exchanges.</p>\n<p><strong>Hit Points</strong> 6 + Constitution</p>\n<p><strong>Key Attribute</strong> Intelligence</p>\n<p><strong>Initial Proficiencies</strong> trained in simple weapons and unarmed attacks; trained in light armor and unarmored defense; trained Perception and Will, expert Reflex; trained in Arcana plus 4 additional skills</p>\n<p><strong>Spellcasting</strong> full chakra caster (4 slots per rank at peak); spell DCs and attack rolls use Intelligence; tradition is chakra.</p>\n<p>At 1st level you gain @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraCastr0]{Chakra Casting}, @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves}, @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChargeChakr0]{Charge Chakra}, @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtNinjutsuSpc0]{Ninjutsu Specialization}, and @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtNinjutsuPth0]{Elemental Path}.</p>"
+    },
+    "generalFeatLevels": { "value": [3, 7, 11, 15, 19] },
+    "hp": 6,
+    "items": {
+      "cstNj": {
+        "img": "icons/magic/symbols/runes-orb-blue.webp",
+        "level": 1,
+        "name": "Chakra Casting",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtChakraCastr0"
+      },
+      "resNj": {
+        "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+        "level": 1,
+        "name": "Chakra Reserves",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0"
+      },
+      "chgNj": {
+        "img": "icons/magic/symbols/runes-marked-blue.webp",
+        "level": 1,
+        "name": "Charge Chakra",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtChargeChakr0"
+      },
+      "spcNj": {
+        "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+        "level": 1,
+        "name": "Ninjutsu Specialization",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtNinjutsuSpc0"
+      },
+      "pthNj": {
+        "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+        "level": 1,
+        "name": "Elemental Path",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtNinjutsuPth0"
+      }
+    },
+    "keyAbility": { "value": ["int"] },
+    "perception": 1,
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "savingThrows": { "fortitude": 1, "reflex": 2, "will": 2 },
+    "skillFeatLevels": { "value": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] },
+    "skillIncreaseLevels": { "value": [3, 5, 7, 9, 11, 13, 15, 17, 19] },
+    "spellcasting": 1,
+    "trainedSkills": {
+      "additional": 4,
+      "value": ["arcana"]
+    },
+    "traits": {
+      "rarity": "common",
+      "value": ["ninjutsu-specialist", "chakra"]
+    }
+  },
+  "type": "class"
+}

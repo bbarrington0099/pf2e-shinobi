@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcHealingPalm0",
+  "folder": "FldXMedicalNin00",
+  "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+  "name": "Healing Palm",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "category": "class",
+    "description": {
+      "value": "<p>You channel chakra into a touch on a willing adjacent creature, restoring 1d8 + your Wisdom modifier Hit Points. If you spend a 1st-rank or higher spell slot, increase the healing by 1d8 per rank spent (up to your maximum spell rank).</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["medical-nin", "chakra", "healing", "manipulate", "vitality"]
+    }
+  },
+  "type": "action"
+}

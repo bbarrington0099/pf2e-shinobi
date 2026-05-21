@@ -1,0 +1,27 @@
+{
+  "_id": "ClFtDiscSurgeon0",
+  "folder": "FldCMedicalNin00",
+  "img": "icons/sundries/scrolls/scroll-bound-tan-brown.webp",
+  "name": "Surgeon Discipline",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You restore the body methodically. When you spend more than 10 minutes Treating Wounds, you may add your level to the healing rolled (instead of your Medicine modifier).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["medical-nin", "healing"]
+    }
+  },
+  "type": "feat"
+}

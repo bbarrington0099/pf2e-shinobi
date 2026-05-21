@@ -1,0 +1,33 @@
+{
+  "_id": "SpllChargChakra0",
+  "img": "icons/magic/symbols/runes-marked-blue.webp",
+  "name": "Charge Chakra",
+  "system": {
+    "area": null,
+    "cost": { "value": "1 Focus Point" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You center yourself, gather chakra, and refill an exhausted well. Choose how many actions to spend (1, 2, or 3); you regain that many expended spell slots, distributed across any ranks of jutsu you can normally cast. You cannot regain a slot of a higher rank than your maximum spell rank.</p>\n<p><strong>Frequency</strong> equal to your remaining @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves} for the day. Heritages, feats, and equipment that increase your Chakra Reserves let you Charge Chakra more times per long rest.</p>\n<p><strong>Heightened (+1)</strong> The maximum number of slots you can regain in one cast increases by 1 (cap 6 at +3).</p>"
+    },
+    "duration": { "sustained": false, "value": "" },
+    "level": { "value": 1 },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1 to 3" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "focus", "manipulate"]
+    }
+  },
+  "type": "spell"
+}

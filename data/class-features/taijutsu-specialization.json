@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtTaijutsuSpc0",
+  "folder": "FldCTaijutsuSpc0",
+  "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+  "name": "Taijutsu Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your unarmed Strikes increase from 1d4 bludgeoning to 1d6 bludgeoning and gain the <em>backswing</em> trait at 5th level. You gain access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcGentleStrk00]{Gentle Pressure Strike} class action.</p>\n<p><em>TODO: model the unarmed-die upgrade through a Strike rule element once item-level Strike data is exposed.</em></p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcGentleStrk00"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["taijutsu-specialist"]
+    }
+  },
+  "type": "feat"
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "ClFtDscKenjutsu0",
+  "folder": "FldCWeaponMastr0",
+  "img": "icons/weapons/swords/katana-spiral.webp",
+  "name": "Kenjutsu Discipline",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You wield blades with single-minded focus. Your Strikes with weapons in the <em>sword</em> group gain a +1 status bonus to damage and you become trained in Crafting (or expert if already trained).</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": ["item:group:sword"],
+        "selector": "damage",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": "ternary(gte(@actor.skills.crafting.rank,1),2,1)"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["weapon-master"]
+    }
+  },
+  "type": "feat"
+}

@@ -17,6 +17,18 @@ export interface PackConfig {
   documentType: "Item" | "Actor" | "JournalEntry" | "RollTable" | "Macro";
   /** PF2e Item `system.type` values acceptable in this pack. */
   documentTypes: readonly string[];
+  /**
+   * Optional allow list of `system.category` values for `feat`/`action` docs
+   * in this pack. When set, the validator additionally enforces that every
+   * doc's `system.category` is present here.
+   */
+  featCategories?: readonly string[];
+  actionCategories?: readonly (string | null)[];
+  /**
+   * Optional allow list of `system.category.value` for `spell` docs. Used
+   * to keep focus spells separate from slot spells, etc.
+   */
+  spellCategories?: readonly string[];
   /** Source directory under `data/` (one JSON file per document). */
   sourceDir: string;
   /** Destination directory under `packs/` (LevelDB output). */
@@ -37,6 +49,7 @@ export const PACKS: readonly PackConfig[] = [
     label: "Shinobi Clan Features",
     documentType: "Item",
     documentTypes: ["feat"],
+    featCategories: ["ancestryfeature"],
     sourceDir: "data/ancestry-features",
     outputDir: "packs/ancestry-features",
   },
@@ -85,6 +98,7 @@ export const PACKS: readonly PackConfig[] = [
     label: "Shinobi Class Features",
     documentType: "Item",
     documentTypes: ["feat"],
+    featCategories: ["classfeature"],
     sourceDir: "data/class-features",
     outputDir: "packs/class-features",
   },
@@ -101,6 +115,7 @@ export const PACKS: readonly PackConfig[] = [
     label: "Shinobi Feats",
     documentType: "Item",
     documentTypes: ["feat"],
+    featCategories: ["class", "general", "skill", "bonus"],
     sourceDir: "data/feats",
     outputDir: "packs/feats",
   },

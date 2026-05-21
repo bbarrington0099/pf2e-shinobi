@@ -1,0 +1,74 @@
+{
+  "_id": "ClssWeaponMastr0",
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "name": "Weapon Master",
+  "system": {
+    "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
+    "attacks": {
+      "advanced": 0,
+      "martial": 2,
+      "other": { "name": "", "rank": 0 },
+      "simple": 1,
+      "unarmed": 1
+    },
+    "classFeatLevels": { "value": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] },
+    "defenses": {
+      "heavy": 1,
+      "light": 1,
+      "medium": 2,
+      "unarmored": 1
+    },
+    "description": {
+      "value": "<p>Whether you favor the long katana of a swordmaster, a brace of shuriken, or the strings of a puppeteer, you treat weapons as extensions of your nerve, not just your hand. Most Weapon Masters wield chakra primarily through their tools &mdash; a chakra-laced blade is your jutsu.</p>\n<p><strong>Hit Points</strong> 10 + Constitution</p>\n<p><strong>Key Attribute</strong> Strength or Dexterity</p>\n<p><strong>Initial Proficiencies</strong> trained in simple and unarmed, expert in martial; trained in light/heavy armor, expert in medium; expert Fortitude and Reflex, trained Will; trained in Crafting plus 3 additional skills</p>\n<p><strong>Spellcasting</strong> none, but you gain Charge Chakra so weapon-channeled techniques (from later milestones) can be paid for in slots.</p>\n<p>At 1st level you gain @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves}, @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChargeChakr0]{Charge Chakra}, @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtWeaponMSpc00]{Weapon Master Specialization}, and @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtWeaponMPth00]{Weapon Discipline}.</p>"
+    },
+    "generalFeatLevels": { "value": [3, 7, 11, 15, 19] },
+    "hp": 10,
+    "items": {
+      "resWm": {
+        "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+        "level": 1,
+        "name": "Chakra Reserves",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0"
+      },
+      "chgWm": {
+        "img": "icons/magic/symbols/runes-marked-blue.webp",
+        "level": 1,
+        "name": "Charge Chakra",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtChargeChakr0"
+      },
+      "spcWm": {
+        "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+        "level": 1,
+        "name": "Weapon Master Specialization",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtWeaponMSpc00"
+      },
+      "pthWm": {
+        "img": "icons/weapons/swords/katana-spiral.webp",
+        "level": 1,
+        "name": "Weapon Discipline",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtWeaponMPth00"
+      }
+    },
+    "keyAbility": { "value": ["str", "dex"] },
+    "perception": 1,
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "savingThrows": { "fortitude": 2, "reflex": 2, "will": 1 },
+    "skillFeatLevels": { "value": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] },
+    "skillIncreaseLevels": { "value": [3, 5, 7, 9, 11, 13, 15, 17, 19] },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "additional": 3,
+      "value": ["crafting"]
+    },
+    "traits": {
+      "rarity": "common",
+      "value": ["weapon-master"]
+    }
+  },
+  "type": "class"
+}

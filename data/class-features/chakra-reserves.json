@@ -1,0 +1,33 @@
+{
+  "_id": "ClFtChakraReser0",
+  "folder": "FldCSharedShard0",
+  "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+  "name": "Chakra Reserves",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You can replenish your chakra a limited number of times each day &mdash; your endurance, not your peak power. You start with 1 daily use of the @UUID[Compendium.pf2e-shinobi.spells.Item.SpllChargChakra0]{Charge Chakra} focus spell. Various clan heritages, feats, and effects increase this number, representing a deeper or fresher chakra well.</p>\n<p>Track your remaining uses with the <em>Chakra Reserves</em> resource. You can spend a Charge Chakra use once per Refocus (10-minute rest) provided you still have daily uses remaining.</p>\n<p><em>TODO: when the module ships a Chakra Reserves resource tracker on the actor sheet, this feature will register it via a rule element. For now the counter is GM-tracked.</em></p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "chakra-reserves:granted"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["chakra"]
+    }
+  },
+  "type": "feat"
+}

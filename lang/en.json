@@ -8,6 +8,16 @@
       }
     },
     "traits": {
+      "chakra": "Chakra",
+      "ninjutsu": "Ninjutsu",
+      "genjutsu": "Genjutsu",
+      "taijutsu": "Taijutsu",
+      "dojutsu": "Dōjutsu",
+      "fuinjutsu": "Fūinjutsu",
+      "kekkei-genkai": "Kekkei Genkai",
+      "kuchiyose": "Kuchiyose",
+      "shinobi-tool": "Shinobi Tool",
+
       "uchiha": "Uchiha",
       "hyuga": "Hyūga",
       "senju": "Senju",
@@ -20,13 +30,18 @@
       "hozuki": "Hōzuki",
       "civilian-shinobi": "Civilian Shinobi",
       "ninja": "Ninja",
-      "dojutsu": "Dōjutsu",
-      "genjutsu": "Genjutsu",
-      "fuinjutsu": "Fūinjutsu",
-      "kekkei-genkai": "Kekkei Genkai",
       "shadow": "Shadow",
       "wood": "Wood",
-      "water": "Water"
+      "water": "Water",
+
+      "ninjutsu-specialist": "Ninjutsu Specialist",
+      "genjutsu-specialist": "Genjutsu Specialist",
+      "taijutsu-specialist": "Taijutsu Specialist",
+      "medical-nin": "Medical-nin",
+      "sensor": "Sensor",
+      "anbu-operative": "Anbu Operative",
+      "weapon-master": "Weapon Master",
+      "summoner": "Summoner"
     }
   }
 }

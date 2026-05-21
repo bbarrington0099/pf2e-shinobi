@@ -1,0 +1,40 @@
+{
+  "_id": "ClFtPathFire0000",
+  "folder": "FldCNinjutsuSpc0",
+  "img": "icons/magic/fire/flame-burning-eye-red.webp",
+  "name": "Fire Path",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Katon: fire-natured chakra. You add the <em>fire</em> trait to one cantrip-equivalent jutsu of your choice and gain fire resistance equal to half your level (minimum 1). When you cast a jutsu with the <em>fire</em> trait, you gain a +1 status bonus to its damage.</p>\n<p><em>TODO: tie the cantrip add-on to an actual fire cantrip once spells ship in Milestone 4.</em></p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": ["item:trait:fire"],
+        "selector": "damage",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["ninjutsu-specialist", "chakra", "fire"]
+    }
+  },
+  "type": "feat"
+}

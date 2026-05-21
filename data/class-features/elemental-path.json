@@ -1,0 +1,54 @@
+{
+  "_id": "ClFtNinjutsuPth0",
+  "folder": "FldCNinjutsuSpc0",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "name": "Elemental Path",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Choose your primary chakra nature: <strong>Fire</strong>, <strong>Wind</strong>, or <strong>Lightning</strong>. You gain the associated path feature, which unlocks elemental jutsu and grants a small mechanical bonus tied to that element. You may pick up additional element paths via later class feats.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "elementalPath",
+        "prompt": "Choose your primary chakra nature.",
+        "choices": [
+          {
+            "img": "icons/magic/fire/flame-burning-eye-red.webp",
+            "label": "Fire",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtPathFire0000"
+          },
+          {
+            "img": "icons/magic/air/wind-vortex-blue.webp",
+            "label": "Wind",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtPathWind0000"
+          },
+          {
+            "img": "icons/magic/lightning/bolt-strike-blue.webp",
+            "label": "Lightning",
+            "value": "Compendium.pf2e-shinobi.class-features.Item.ClFtPathLghtnng0"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.elementalPath}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["ninjutsu-specialist", "chakra"]
+    }
+  },
+  "type": "feat"
+}

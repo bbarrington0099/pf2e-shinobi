@@ -1,0 +1,34 @@
+{
+  "_id": "ClFtSchoolTeleph",
+  "folder": "FldCGenjutsuSpc0",
+  "img": "icons/magic/control/silhouette-aura-green.webp",
+  "name": "Telepathic School",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You reach into the mind itself. You become trained in Diplomacy and may communicate telepathically (one-way, your thoughts only) with any creature you can see within 30 feet who shares a language with you.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["genjutsu-specialist", "chakra", "mental"]
+    }
+  },
+  "type": "feat"
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtChargeChakr0",
+  "folder": "FldCSharedShard0",
+  "img": "icons/magic/symbols/runes-marked-blue.webp",
+  "name": "Charge Chakra",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You learn the @UUID[Compendium.pf2e-shinobi.spells.Item.SpllChargChakra0]{Charge Chakra} focus spell. With a focus point and 1 to 3 actions, you regain a number of expended spell slots equal to the actions you spend, distributed across any ranks you can normally cast.</p>\n<p>Like all focus spells, you can refresh your Focus Points by spending 10 minutes Refocusing. Your daily use cap on Charge Chakra is set by @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves}.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.spells.Item.SpllChargChakra0"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["chakra"]
+    }
+  },
+  "type": "feat"
+}

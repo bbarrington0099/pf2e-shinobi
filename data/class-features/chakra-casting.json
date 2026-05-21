@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtChakraCastr0",
+  "folder": "FldCSharedShard0",
+  "img": "icons/magic/symbols/runes-orb-blue.webp",
+  "name": "Chakra Casting",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You channel chakra to perform jutsu through the @UUID[Compendium.pf2e.actionspf2e.Item.Cast a Spell] activity. Your jutsu use the new <em>chakra</em> magic tradition; your spell attack rolls and spell DCs use your key attribute (set by your specialization).</p>\n<p><strong>Spell slots represent your chakra capacity.</strong> The number of slots and the highest rank you can cast is set by your specialization's spell-slot progression.</p>\n<p><strong>Cantrip-equivalent (Basic) jutsu</strong> are non-slot-consuming jutsu you can perform at will. Each is automatically heightened to half your level (rounded up), like any other PF2e cantrip.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.Cast a Spell"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": ["chakra"]
+    }
+  },
+  "type": "feat"
+}

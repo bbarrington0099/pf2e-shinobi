@@ -1,0 +1,25 @@
+{
+  "_id": "ClAcBodyFlicker0",
+  "folder": "FldXSharedShard0",
+  "img": "icons/magic/movement/abstract-ribbons-purple.webp",
+  "name": "Body Flicker (Shunshin)",
+  "system": {
+    "actionType": { "value": "action" },
+    "actions": { "value": 1 },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per round</p>\n<p>You expend a Focus Point or a 1st-rank or higher spell slot to vanish in a swirl of leaves, smoke, or mist, and reappear up to your Speed away in any direction you can see. This movement does not trigger reactions. You arrive with the <em>concealed</em> condition until the start of your next turn.</p>"
+    },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": ["chakra", "move"]
+    }
+  },
+  "type": "action"
+}

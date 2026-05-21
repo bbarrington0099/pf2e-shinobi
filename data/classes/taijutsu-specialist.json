@@ -1,0 +1,74 @@
+{
+  "_id": "ClssTaijutsuSpc0",
+  "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+  "name": "Taijutsu Specialist",
+  "system": {
+    "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
+    "attacks": {
+      "advanced": 0,
+      "martial": 1,
+      "other": { "name": "", "rank": 0 },
+      "simple": 1,
+      "unarmed": 2
+    },
+    "classFeatLevels": { "value": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] },
+    "defenses": {
+      "heavy": 0,
+      "light": 1,
+      "medium": 1,
+      "unarmored": 2
+    },
+    "description": {
+      "value": "<p>You scoff at sealing techniques. Your body <em>is</em> the technique. Through brutal early-morning conditioning, taijutsu-only training arcs, and the discipline of a master without chakra, you turn your fists, palms, knees, and elbows into the fastest jutsu of all.</p>\n<p><strong>Hit Points</strong> 10 + Constitution</p>\n<p><strong>Key Attribute</strong> Strength</p>\n<p><strong>Initial Proficiencies</strong> trained in simple and martial weapons; expert in unarmed attacks; trained in light/medium armor, expert in unarmored defense; expert Fortitude and Reflex, trained Will; trained in Athletics plus 4 additional skills</p>\n<p><strong>Spellcasting</strong> none. Taijutsu Specialists do not learn jutsu spell slots; you still gain Charge Chakra at 1st level but your chakra reservoir is small &mdash; you may take feats to access a small pool of jutsu (see future archetype).</p>\n<p><em>TODO: when the chakra-less subclass picker is finalized, allow Taijutsu Specialists to skip Charge Chakra entirely in exchange for an additional class feat at 1st level.</em></p>\n<p>At 1st level you gain @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves}, @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChargeChakr0]{Charge Chakra}, @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtTaijutsuSpc0]{Taijutsu Specialization}, and @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtTaijutsuPth0]{Taijutsu Style}.</p>"
+    },
+    "generalFeatLevels": { "value": [3, 7, 11, 15, 19] },
+    "hp": 10,
+    "items": {
+      "resTj": {
+        "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+        "level": 1,
+        "name": "Chakra Reserves",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0"
+      },
+      "chgTj": {
+        "img": "icons/magic/symbols/runes-marked-blue.webp",
+        "level": 1,
+        "name": "Charge Chakra",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtChargeChakr0"
+      },
+      "spcTj": {
+        "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+        "level": 1,
+        "name": "Taijutsu Specialization",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtTaijutsuSpc0"
+      },
+      "pthTj": {
+        "img": "icons/skills/melee/strike-hammer-glowing-yellow.webp",
+        "level": 1,
+        "name": "Taijutsu Style",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtTaijutsuPth0"
+      }
+    },
+    "keyAbility": { "value": ["str"] },
+    "perception": 1,
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [],
+    "savingThrows": { "fortitude": 2, "reflex": 2, "will": 1 },
+    "skillFeatLevels": { "value": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] },
+    "skillIncreaseLevels": { "value": [3, 5, 7, 9, 11, 13, 15, 17, 19] },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "additional": 4,
+      "value": ["athletics"]
+    },
+    "traits": {
+      "rarity": "common",
+      "value": ["taijutsu-specialist"]
+    }
+  },
+  "type": "class"
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtSummonerSpc0",
+  "folder": "FldCSummonerCl00",
+  "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+  "name": "Summoner Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You add the <em>summoning</em> trait to one cantrip-equivalent jutsu of your choice. You gain access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcSummonAlly00]{Quick Kuchiyose} class action, letting you summon a smaller contracted ally on the fly.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcSummonAlly00"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["summoner", "chakra", "kuchiyose"]
+    }
+  },
+  "type": "feat"
+}

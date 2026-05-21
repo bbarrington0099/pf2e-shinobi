@@ -1,0 +1,38 @@
+{
+  "_id": "ClFtAnbuSpc00000",
+  "folder": "FldCAnbuOprtve00",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "name": "Anbu Specialization",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You wear the Anbu mask &mdash; literally and figuratively. While masked you gain a +1 status bonus to Deception checks to conceal your identity. You become trained in Thievery and gain access to the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcSilntStrike0]{Silent Strike} class action.</p>"
+    },
+    "level": { "value": 1 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.thievery.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.class-actions.Item.ClAcSilntStrike0"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["anbu-operative"]
+    }
+  },
+  "type": "feat"
+}

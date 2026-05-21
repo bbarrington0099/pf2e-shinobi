@@ -8,7 +8,7 @@
     "actions": { "value": 1 },
     "category": "ancestryfeature",
     "description": {
-      "value": "<p><strong>Frequency</strong> once per encounter</p>\n<p>You take a single Action to wolf down a portable ration as fuel. For 1 minute (10 rounds in encounter mode), your melee Strikes deal +1 status damage; if you have any expansion technique active (such as Bubun Baika), increase the bonus to +2.</p>\n<p><em>TODO: hook the +2 conditional bonus to a roll-option that gets set by the expansion technique once class actions ship.</em></p>"
+      "value": "<p><strong>Frequency</strong> once per encounter</p>\n<p>You take a single Action to wolf down a portable ration as fuel. For 1 minute (10 rounds in encounter mode), your melee Strikes deal +1 status damage; if you have any expansion technique active (such as Bubun Baika), increase the bonus to +2.</p>\n<p>Additionally, your @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves} increase by 1 &mdash; Akimichi metabolize calories into raw chakra.</p>"
     },
     "level": { "value": 0 },
     "prerequisites": { "value": [] },
