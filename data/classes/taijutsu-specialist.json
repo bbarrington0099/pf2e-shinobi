@@ -2,6 +2,12 @@
   "_id": "ClssTaijutsuSpc0",
   "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
   "name": "Taijutsu Specialist",
+  "flags": {
+    "pf2e-shinobi": {
+      "spellcastingProgression": "none",
+      "chakraKeyAbility": "str"
+    }
+  },
   "system": {
     "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
     "attacks": {

@@ -73,11 +73,13 @@ describe("Milestone 3 classes & chakra core", () => {
     ["spells", new Set(spells.keys())],
   ]);
 
-  test("ships 8 specializations, ~43 class features, 10 class actions, and Charge Chakra", () => {
+  test("ships 8 specializations, 45 class features, 10 class actions, and 3 Charge Chakra ranks", () => {
     expect(classes.size).toBe(8);
-    expect(classFeatures.size).toBe(43);
+    expect(classFeatures.size).toBe(45);
     expect(classActions.size).toBe(10);
     expect(spells.has("SpllChargChakra0")).toBe(true);
+    expect(spells.has("SpllChrgChak2nd0")).toBe(true);
+    expect(spells.has("SpllChrgChak3rd0")).toBe(true);
   });
 
   test("every class has Charge Chakra in its starting items (either directly or via Chakra Casting)", () => {

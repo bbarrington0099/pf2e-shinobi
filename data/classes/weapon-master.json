@@ -2,6 +2,12 @@
   "_id": "ClssWeaponMastr0",
   "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
   "name": "Weapon Master",
+  "flags": {
+    "pf2e-shinobi": {
+      "spellcastingProgression": "none",
+      "chakraKeyAbility": "str"
+    }
+  },
   "system": {
     "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
     "attacks": {

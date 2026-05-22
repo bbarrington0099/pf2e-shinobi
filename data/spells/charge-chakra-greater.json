@@ -1,0 +1,33 @@
+{
+  "_id": "SpllChrgChak2nd0",
+  "img": "icons/magic/symbols/runes-marked-orange.webp",
+  "name": "Charge Chakra (Greater)",
+  "system": {
+    "area": null,
+    "cost": { "value": "1 Focus Point" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>A deeper draw on the chakra well. Choose how many actions to spend (1, 2, or 3); you regain twice that many expended spell slots (2, 4, or 6), distributed across any ranks of jutsu you can normally cast. You cannot regain a slot of higher rank than your maximum spell rank.</p>\n<p><strong>Frequency</strong> consumes one daily use of @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves} (shared with all Charge Chakra variants).</p>\n<p><em>Requires</em> the @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtExprtChakra0]{Expert Chakra Caster} class feature.</p>"
+    },
+    "duration": { "sustained": false, "value": "" },
+    "level": { "value": 2 },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1 to 3" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "focus", "manipulate"]
+    }
+  },
+  "type": "spell"
+}

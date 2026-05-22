@@ -2,6 +2,12 @@
   "_id": "ClssSensorClass0",
   "img": "icons/magic/perception/eye-ringed-glow-angry-cyan.webp",
   "name": "Sensor",
+  "flags": {
+    "pf2e-shinobi": {
+      "spellcastingProgression": "half",
+      "chakraKeyAbility": "wis"
+    }
+  },
   "system": {
     "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
     "attacks": {
@@ -53,6 +59,18 @@
         "level": 1,
         "name": "Sensor Method",
         "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtSensorPth000"
+      },
+      "expSn": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 7,
+        "name": "Expert Chakra Caster",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtExprtChakra0"
+      },
+      "mstSn": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 15,
+        "name": "Master Chakra Caster",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtMastrChakra0"
       }
     },
     "keyAbility": { "value": ["wis"] },

@@ -1,0 +1,33 @@
+{
+  "_id": "SpllChrgChak3rd0",
+  "img": "icons/magic/symbols/runes-marked-red.webp",
+  "name": "Charge Chakra (Master)",
+  "system": {
+    "area": null,
+    "cost": { "value": "1 Focus Point" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The fullest exchange you can manage in a single breath. Choose how many actions to spend (1, 2, or 3); you regain three times that many expended spell slots (3, 6, or 9), distributed across any ranks of jutsu you can normally cast. You cannot regain a slot of higher rank than your maximum spell rank.</p>\n<p><strong>Frequency</strong> consumes one daily use of @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtChakraReser0]{Chakra Reserves} (shared with all Charge Chakra variants).</p>\n<p><em>Requires</em> the @UUID[Compendium.pf2e-shinobi.class-features.Item.ClFtMastrChakra0]{Master Chakra Caster} class feature.</p>"
+    },
+    "duration": { "sustained": false, "value": "" },
+    "level": { "value": 3 },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1 to 3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "focus", "manipulate"]
+    }
+  },
+  "type": "spell"
+}

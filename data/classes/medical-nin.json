@@ -2,6 +2,12 @@
   "_id": "ClssMedicalNin00",
   "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
   "name": "Medical-nin",
+  "flags": {
+    "pf2e-shinobi": {
+      "spellcastingProgression": "full",
+      "chakraKeyAbility": "wis"
+    }
+  },
   "system": {
     "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
     "attacks": {
@@ -53,6 +59,18 @@
         "level": 1,
         "name": "Medical Discipline",
         "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtMedicalPth00"
+      },
+      "expMd": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 7,
+        "name": "Expert Chakra Caster",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtExprtChakra0"
+      },
+      "mstMd": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 15,
+        "name": "Master Chakra Caster",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtMastrChakra0"
       }
     },
     "keyAbility": { "value": ["wis"] },

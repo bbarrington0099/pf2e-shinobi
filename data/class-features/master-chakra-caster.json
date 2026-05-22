@@ -1,0 +1,32 @@
+{
+  "_id": "ClFtMastrChakra0",
+  "folder": "FldCSharedShard0",
+  "img": "icons/skills/trades/academics-book-study-purple.webp",
+  "name": "Master Chakra Caster",
+  "system": {
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You have mastered chakra circulation at the deepest level. Your proficiency rank for spell DCs and spell attack rolls with the chakra tradition becomes master (proficiency 3).</p>\n<p>You learn @UUID[Compendium.pf2e-shinobi.spells.Item.SpllChrgChak3rd0]{Charge Chakra (Master)}, the rank-3 variant of Charge Chakra: 1 Focus Point and 1-3 actions restore 3, 6, or 9 expended slots (instead of 1, 2, or 3). The full 9-slot output represents a peak chakra exchange &mdash; the kind seen in the legendary battles of Sage-level shinobi.</p>"
+    },
+    "level": { "value": 15 },
+    "prerequisites": { "value": [] },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-shinobi.spells.Item.SpllChrgChak3rd0"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": ["chakra"]
+    }
+  },
+  "type": "feat"
+}

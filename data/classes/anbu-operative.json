@@ -2,6 +2,12 @@
   "_id": "ClssAnbuOprtve00",
   "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
   "name": "Anbu Operative",
+  "flags": {
+    "pf2e-shinobi": {
+      "spellcastingProgression": "half",
+      "chakraKeyAbility": "dex"
+    }
+  },
   "system": {
     "ancestryFeatLevels": { "value": [1, 5, 9, 13, 17] },
     "attacks": {
@@ -19,7 +25,7 @@
       "unarmored": 1
     },
     "description": {
-      "value": "<p>You serve the village's deepest shadows. As Anbu, your face is a porcelain mask and your contract is silence. You combine a deadly mix of stealth, interrogation, and combat jutsu, and you walk away from missions no other shinobi will speak of.</p>\n<p><strong>Hit Points</strong> 8 + Constitution</p>\n<p><strong>Key Attribute</strong> Dexterity</p>\n<p><strong>Initial Proficiencies</strong> trained in simple and martial weapons, trained in unarmed; trained in light/medium armor and unarmored defense; expert Perception; expert Fortitude and Reflex, trained Will; trained in Stealth plus 5 additional skills</p>\n<p><strong>Spellcasting</strong> half chakra caster; spell DCs and attack rolls use Dexterity (for elemental jutsu) or Charisma (for genjutsu) &mdash; pick at character creation. Tradition is chakra.</p>\n<p><em>TODO: per-character key-ability picker for Anbu needs a runtime choice; for Milestone 3 the system treats Dexterity as the default.</em></p>"
+      "value": "<p>You serve the village's deepest shadows. As Anbu, your face is a porcelain mask and your contract is silence. You combine a deadly mix of stealth, interrogation, and combat jutsu, and you walk away from missions no other shinobi will speak of.</p>\n<p><strong>Hit Points</strong> 8 + Constitution</p>\n<p><strong>Key Attribute</strong> Dexterity or Charisma (choose at character creation)</p>\n<p><strong>Initial Proficiencies</strong> trained in simple and martial weapons, trained in unarmed; trained in light/medium armor and unarmored defense; expert Perception; expert Fortitude and Reflex, trained Will; trained in Stealth plus 5 additional skills</p>\n<p><strong>Spellcasting</strong> half chakra caster; spell DCs and attack rolls use your chosen key attribute. Tradition is chakra. PF2e's character builder will prompt you to pick between Dexterity (better for elemental jutsu and Strikes) and Charisma (better for genjutsu and social manipulation).</p>"
     },
     "generalFeatLevels": { "value": [3, 7, 11, 15, 19] },
     "hp": 8,
@@ -53,9 +59,21 @@
         "level": 1,
         "name": "Anbu Division",
         "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtAnbuPth00000"
+      },
+      "expAn2": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 7,
+        "name": "Expert Chakra Caster",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtExprtChakra0"
+      },
+      "mstAn2": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 15,
+        "name": "Master Chakra Caster",
+        "uuid": "Compendium.pf2e-shinobi.class-features.Item.ClFtMastrChakra0"
       }
     },
-    "keyAbility": { "value": ["dex"] },
+    "keyAbility": { "value": ["dex", "cha"] },
     "perception": 2,
     "publication": {
       "license": "MIT",

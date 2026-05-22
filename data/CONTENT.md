@@ -174,13 +174,15 @@ its own Specialization feature, and its Path picker.
 
 ### Class features (`packs/class-features`)
 
-**Shared (3):**
+**Shared (5):**
 
-| Name            | `_id`              |
-| --------------- | ------------------ |
-| Chakra Casting  | `ClFtChakraCastr0` |
-| Chakra Reserves | `ClFtChakraReser0` |
-| Charge Chakra   | `ClFtChargeChakr0` |
+| Name                 | `_id`              | Granted at level                 |
+| -------------------- | ------------------ | -------------------------------- |
+| Chakra Casting       | `ClFtChakraCastr0` | 1 (casters only)                 |
+| Chakra Reserves      | `ClFtChakraReser0` | 1 (all classes)                  |
+| Charge Chakra        | `ClFtChargeChakr0` | 1 (all classes; grants rank 1)   |
+| Expert Chakra Caster | `ClFtExprtChakra0` | 7 (casters only; grants rank 2)  |
+| Master Chakra Caster | `ClFtMastrChakra0` | 15 (casters only; grants rank 3) |
 
 **Per-class baseline + picker (16):**
 
@@ -232,6 +234,41 @@ its own Specialization feature, and its Path picker.
 
 ### Spells (`packs/spells`)
 
-| Name          | `_id`              | Type        | Tradition |
-| ------------- | ------------------ | ----------- | --------- |
-| Charge Chakra | `SpllChargChakra0` | focus spell | chakra    |
+| Name                    | `_id`              | Rank | Output ceiling | Tradition |
+| ----------------------- | ------------------ | ---- | -------------- | --------- |
+| Charge Chakra           | `SpllChargChakra0` | 1    | up to 3 slots  | chakra    |
+| Charge Chakra (Greater) | `SpllChrgChak2nd0` | 2    | up to 6 slots  | chakra    |
+| Charge Chakra (Master)  | `SpllChrgChak3rd0` | 3    | up to 9 slots  | chakra    |
+
+All three variants share the Focus Point pool **and** the Chakra
+Reserves daily counter. Output per cast is `rank × actions_spent`, so
+the rank-3 / 3-action peak hits the 9-slot ceiling envisioned for
+Sage-tier shinobi.
+
+## Milestone 3.5: Spell-rank progression & class flags
+
+### Class flags (read by `src/auto-spellcasting.ts`)
+
+Each class JSON declares two `flags.pf2e-shinobi` keys that the runtime
+helper reads when it provisions Chakra Spellcasting Entries on a new
+character:
+
+| Class               | `spellcastingProgression` | `chakraKeyAbility` |
+| ------------------- | ------------------------- | ------------------ |
+| Ninjutsu Specialist | `full`                    | `int`              |
+| Genjutsu Specialist | `full`                    | `cha`              |
+| Taijutsu Specialist | `none`                    | `str`              |
+| Medical-nin         | `full`                    | `wis`              |
+| Sensor              | `half`                    | `wis`              |
+| Anbu Operative      | `half`                    | `dex`              |
+| Weapon Master       | `none`                    | `str`              |
+| Summoner            | `full`                    | `cha`              |
+
+`progression: "full"` and `"half"` get both a focus and a slot entry
+on character creation; `"none"` gets only the focus entry (for Charge
+Chakra). All slot maxes start at 0 — the player or PF2e Leveler still
+decides slot counts; the helper just makes sure the entry exists with
+the right tradition and key ability so jutsu auto-route there.
+
+Anbu's `keyAbility.value` is `["dex", "cha"]`, which causes the PF2e
+character builder to prompt the player to choose at creation time.

@@ -1,3 +1,4 @@
+import { registerAutoSpellcasting } from "./auto-spellcasting.js";
 import { MODULE_ID, MODULE_TITLE } from "./constants.js";
 import { logger } from "./logger.js";
 import { registerCustomTraits } from "./register-traits.js";
@@ -41,6 +42,8 @@ Hooks.once("ready", () => {
       `Active system is "${game.system?.id ?? "unknown"}"; ${MODULE_TITLE} expects the "pf2e" system.`,
     );
   }
+
+  registerAutoSpellcasting();
 
   logger.info(`${MODULE_TITLE} ready (v${api.version}).`);
 });
