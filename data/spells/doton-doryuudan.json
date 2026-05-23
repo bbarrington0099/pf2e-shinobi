@@ -1,0 +1,30 @@
+{
+  "_id": "SpllDoDoryuudan0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/creatures/reptiles/dragon-serpentine-grey.webp",
+  "name": "Doton: Doryuudan",
+  "system": {
+    "area": { "type": "line", "value": 60 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Earth Dragon Bullet.</strong> A dragon's head of compressed earth surges from the ground and barrels along a 60-foot line, 5 feet wide. Creatures take 7d8 bludgeoning damage with a basic Reflex save; failure imposes <em>off-guard</em> against your next melee Strike.</p>\n<p>The dragon leaves a 5-foot-wide trench of difficult terrain along its path for 10 minutes. A common Suiton-Doton combo follows this jutsu with @UUID[Compendium.pf2e-shinobi.spells.Item.SpllSwSuiryuudan]{Suiryuudan} to coat the dragon in mud, dealing an additional 2d6 cold damage.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous (terrain 10 minutes)" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "exposed earth within 30 feet",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "earth", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

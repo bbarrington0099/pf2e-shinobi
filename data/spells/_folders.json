@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "FldSAcademyCntrp",
+    "color": "#2d6a4f",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Academy Cantrips",
+    "sort": 0,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldSNinjutsuJtsu",
+    "color": "#1d3557",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Ninjutsu",
+    "sort": 100000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldSGenjutsuJtsu",
+    "color": "#5b1a87",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Genjutsu",
+    "sort": 200000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldSMedicalJtsu0",
+    "color": "#2a9d8f",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Medical Jutsu",
+    "sort": 300000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldSSummoningJts",
+    "color": "#6f4e37",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Summoning Jutsu",
+    "sort": 400000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldSFuinjutsuJts",
+    "color": "#bb3e03",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Fūinjutsu",
+    "sort": 500000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldSSpecialKkgnk",
+    "color": "#9b2226",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Special / Kekkei Genkai",
+    "sort": 600000,
+    "sorting": "a",
+    "type": "Item"
+  },
+  {
+    "_id": "FldSFocusChakra0",
+    "color": "#3b5078",
+    "description": "",
+    "flags": {},
+    "folder": null,
+    "name": "Focus / Chakra Management",
+    "sort": 700000,
+    "sorting": "a",
+    "type": "Item"
+  }
+]

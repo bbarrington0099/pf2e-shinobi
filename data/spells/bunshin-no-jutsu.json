@@ -1,0 +1,34 @@
+{
+  "_id": "SpllAcBunshinJts",
+  "folder": "FldSAcademyCntrp",
+  "img": "icons/magic/control/silhouette-grow-shadow-blue.webp",
+  "name": "Bunshin no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The Academy's basic Clone Technique. You produce a single illusory duplicate of yourself in your space or an adjacent square. The clone has 1 HP, your AC, and matches your appearance exactly; it cannot attack or interact with objects. The first attack or area effect that targets the clone destroys it harmlessly.</p>\n<p>While the clone exists, the first Strike against you each round must succeed at a flat DC 11 check or be redirected to the clone (which is then destroyed). The clone lasts up to 1 minute or until destroyed.</p>\n<p><strong>Heightened (3rd)</strong> You create two clones instead of one; the redirect flat-DC drops to DC 6.</p>\n<p><strong>Heightened (5th)</strong> You create three clones; the redirect flat-DC drops to DC 4.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 1 },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "range": { "value": "0 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "cantrip", "concentrate", "illusion", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

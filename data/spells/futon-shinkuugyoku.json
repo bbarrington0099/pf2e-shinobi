@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFuShinkuugyk",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/air/orb-wind-blue.webp",
+  "name": "Fūton: Shinkuugyoku",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Vacuum Sphere.</strong> You fire a number of compressed-air bullets equal to your spellcasting modifier (minimum 1). Each is treated as a single ranged spell attack against a creature within 60 feet, dealing 3d6 slashing damage on a hit. If multiple bullets hit the same target, each after the first deals 1 less damage per die (minimum 1).</p>\n<p>Vacuum Sphere bypasses the first 5 feet of cover thanks to the bullets' precise trajectory.</p>\n<p><strong>Heightened (+2)</strong> Damage per bullet increases by 1d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "one or more creatures" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "air", "attack", "concentrate", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

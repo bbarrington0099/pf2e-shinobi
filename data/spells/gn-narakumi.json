@@ -1,0 +1,30 @@
+{
+  "_id": "SpllGnNarakumiJt",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Magen: Narakumi no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p><strong>Demonic Illusion: Hell Viewing Technique.</strong> The target is made to see their worst fear &mdash; usually a vivid, personal image (dead loved one, dishonor, drowning).</p>\n<p>The target attempts a Will save.</p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is <em>frightened 1</em>.</p>\n<p><strong>Failure</strong> The target is <em>frightened 2</em> and takes 4d6 mental damage as their nervous system reacts to the impossible image.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is also <em>fleeing</em> for 1 round.</p>\n<p><strong>Heightened (+2)</strong> Mental damage increases by 2d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "varies" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "you can meet the target's gaze",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "emotion", "fear", "genjutsu", "manipulate", "mental"]
+    }
+  },
+  "type": "spell"
+}

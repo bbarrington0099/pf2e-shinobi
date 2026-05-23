@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjShintenshn",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/control/silhouette-aura-green.webp",
+  "name": "Shintenshin no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p><strong>Mind Body Switch Technique.</strong> The Yamanaka clan's signature. You fire a phantom thread of chakra at a creature within 60 feet, sending your consciousness into theirs.</p>\n<p>Your body collapses unconscious (and helpless) where it stood; you puppet the target instead. The target attempts a Will save.</p>\n<p><strong>Critical Success</strong> The target is unaffected and you snap back to your body, becoming <em>stunned 1</em>.</p>\n<p><strong>Success</strong> You enter the target's body but the connection is so strained that you spend the duration unable to do anything but Move and Speak.</p>\n<p><strong>Failure</strong> You inhabit the target completely for up to 1 minute (you must Sustain each round). You can use the target's actions, including Strikes and any non-spell skill checks; you cannot cast their jutsu or use their class-DC abilities. The target retains their senses but is fully aware of being puppeted.</p>\n<p><strong>Critical Failure</strong> As failure, plus when the duration ends the target is <em>stunned 1</em> from the disorientation.</p>\n<p>If your unconscious body takes damage, you snap back immediately, ending the jutsu.</p>"
+    },
+    "duration": { "sustained": true, "value": "up to 1 minute" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet (line of effect)" },
+    "requirements": "your body is in a defensible position",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "mental", "ninjutsu", "yamanaka"]
+    }
+  },
+  "type": "spell"
+}

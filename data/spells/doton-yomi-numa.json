@@ -1,0 +1,30 @@
+{
+  "_id": "SpllDoYomiNuma00",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/environment/wilderness/water-river.webp",
+  "name": "Doton: Yomi Numa",
+  "system": {
+    "area": { "type": "burst", "value": 30 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Swamp of the Underworld.</strong> The ground in a 30-foot burst within range converts into a sucking morass that lasts for 10 minutes.</p>\n<p>Creatures in the area when the swamp forms must attempt a Reflex save. On a failure they are <em>immobilized</em> as they sink to their waist; on a critical failure they sink fully and begin drowning at the end of their next turn unless they Escape (DC = your spell DC).</p>\n<p>The area becomes greater difficult terrain for everyone (1 square of movement costs 4 feet). Creatures Larger than Medium take 1 less penalty per size category.</p>\n<p>The jutsu requires a 30-foot patch of natural earth; it cannot form over stone, ice, or open water.</p>"
+    },
+    "duration": { "sustained": false, "value": "10 minutes" },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "120 feet" },
+    "requirements": "natural earth in the targeted area",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "earth", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

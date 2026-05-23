@@ -1,0 +1,39 @@
+{
+  "_id": "SpllKsSlug000000",
+  "folder": "FldSSummoningJts",
+  "img": "icons/creatures/slimes/slime-amorphous-pink.webp",
+  "name": "Kuchiyose: Slug",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You summon a small slug from Shikkotsu Forest. The summon arrives in an unoccupied 5-foot square within 30 feet and acts as a Small minion under your control for 1 minute.</p>\n<p>The slug has 2 actions per turn, AC 16, 30 HP, and a corrosive Strike at +8 dealing 1d6 acid damage. Once per round, the slug can split into two Tiny slugs (each with half the parent's HP, no Strike) that can occupy separate squares for utility (reach allies for the slug's healing aura: any ally adjacent to a slug gains fast healing 2 for 1 round).</p>\n<p><strong>Heightened (+2)</strong> Each rank improves the slug's HP and aura healing.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "you have signed the Slug summoning contract",
+    "rules": [],
+    "target": { "value": "1 unoccupied square" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "conjuration",
+        "healing",
+        "kuchiyose",
+        "manipulate",
+        "ninjutsu",
+        "summoning"
+      ]
+    }
+  },
+  "type": "spell"
+}

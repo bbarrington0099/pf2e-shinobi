@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSwMizurappa0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "name": "Suiton: Mizurappa",
+  "system": {
+    "area": { "type": "cone", "value": 15 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Wild Water Wave.</strong> You exhale a torrent of water in a 15-foot cone. Creatures take 2d6 bludgeoning damage with a basic Reflex save and creatures on fire (taking persistent fire damage) automatically extinguish if they fail.</p>\n<p>You can draw moisture from the air for this jutsu, but in arid environments the damage is halved.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "ninjutsu", "water"]
+    }
+  },
+  "type": "spell"
+}

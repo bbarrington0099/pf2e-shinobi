@@ -1,0 +1,19 @@
+{
+  "_id": "EffcCellActivatd",
+  "folder": "FldEMedicalEffct",
+  "img": "icons/magic/life/heart-glowing-yellow.webp",
+  "name": "Effect: Cell Activation",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllMdCellActivt]{Cell Activation Technique}.</p>\n<p>Your healing factor is briefly supercharged. You have fast healing 5 (10 at 7th rank or higher). You recover from <em>drained</em>, <em>enfeebled</em>, and <em>clumsy</em> at twice the normal rate.</p>\n<p>When this effect ends, you become <em>fatigued</em> for 1 hour (10 minutes if the activation was Heightened to 7th).</p>"
+    },
+    "duration": { "expiry": "turn-start", "sustained": false, "unit": "minutes", "value": 1 },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "healing", "medical-nin", "vitality"] }
+  },
+  "type": "effect"
+}

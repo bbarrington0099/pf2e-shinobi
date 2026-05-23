@@ -1,0 +1,34 @@
+{
+  "_id": "SpllAcTreeWalk00",
+  "folder": "FldSAcademyCntrp",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "name": "Tree-Walking Practice",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You focus a thin layer of chakra into the soles of your feet (and palms), allowing you to cling to walls and ceilings as if walking on level ground. While this cantrip is active you have a climb Speed equal to your land Speed, and you may Stride along vertical or inverted surfaces without an Athletics check.</p>\n<p>Disruption (loud impact, sudden injury, or being grabbed) forces a flat DC 10 Will save; on a failure your concentration breaks and you fall.</p>\n<p>You must Sustain this cantrip each round to keep it active; it expires automatically after 10 minutes.</p>\n<p><strong>Heightened (3rd)</strong> The disruption save is no longer required; you also gain the same effect on water surfaces (Water-Walking Practice).</p>"
+    },
+    "duration": { "sustained": true, "value": "up to 10 minutes" },
+    "level": { "value": 1 },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "cantrip", "concentrate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

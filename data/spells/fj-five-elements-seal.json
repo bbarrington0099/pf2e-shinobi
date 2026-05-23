@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFjFiveElmnts",
+  "folder": "FldSFuinjutsuJts",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "name": "Five Elements Seal",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "fortitude" } },
+    "description": {
+      "value": "<p>You slam an open palm into a target's stomach, branding a five-element seal that disrupts their chakra circulation.</p>\n<p>The target attempts a Fortitude save.</p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is <em>enfeebled 1</em> for 1 minute and cannot cast jutsu of rank 1 or higher for 1 round.</p>\n<p><strong>Failure</strong> The target is <em>enfeebled 2</em>, <em>stupefied 2</em>, and cannot cast jutsu of rank 1 or higher for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, but the duration is 24 hours (or until the seal is removed with a successful counteract check of rank 5 or higher using @UUID[Compendium.pf2e-shinobi.spells.Item.SpllFjContrcSeal]{Contract Seal} or an equivalent).</p>\n<p>This is Orochimaru's signature seal used on Naruto to disrupt his jinchūriki control.</p>"
+    },
+    "duration": { "sustained": false, "value": "varies" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "one hand free",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "fuinjutsu", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

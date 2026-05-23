@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFjBunsetsuBn",
+  "folder": "FldSFuinjutsuJts",
+  "img": "icons/magic/symbols/runes-carved-tan.webp",
+  "name": "Bunsetsu Bunshin",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You inscribe a Stored Clone Seal on a scroll, then trigger it with chakra. A semi-substantial clone appears in a square within 30 feet, identical to you, with 25% of your maximum HP. Unlike a Kage Bunshin, this clone cannot cast jutsu, but it has full physical proficiencies and can serve as a decoy or a body double for combat.</p>\n<p>The clone lasts 10 minutes or until destroyed. When destroyed, the seal scroll is consumed. The seal itself takes a 10-minute downtime activity (and 1 sp in ink) to prepare.</p>"
+    },
+    "duration": { "sustained": false, "value": "10 minutes" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "a prepared Stored Clone Seal scroll (1 sp in ink, 10 minutes)",
+    "rules": [],
+    "target": { "value": "1 unoccupied square" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "conjuration", "fuinjutsu", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

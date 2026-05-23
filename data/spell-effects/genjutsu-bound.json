@@ -1,0 +1,19 @@
+{
+  "_id": "EffcGenjutsuBnd0",
+  "folder": "FldEGenjutsuEffc",
+  "img": "icons/magic/nature/root-vine-entangled-purple.webp",
+  "name": "Effect: Genjutsu Bound",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllGnJubakuStsu]{Magen: Jubaku Satsu}.</p>\n<p>You believe you are tied to a nearby surface by branches/wires/chains of chakra. You have the <em>immobilized</em> condition (or <em>paralyzed</em> on a critical failure of the originating save). The illusion ends if you take real damage from a source other than the binding caster's reinforcement actions.</p>\n<p>An ally may attempt to free you by Treating you (Medicine DC 15 + spell rank) or by casting @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcGenjutsuRels]{Genjutsu Release}.</p>"
+    },
+    "duration": { "expiry": "turn-end", "sustained": false, "unit": "rounds", "value": 1 },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "genjutsu", "illusion", "mental"] }
+  },
+  "type": "effect"
+}

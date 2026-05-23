@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjOodamaRsng",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/water/orb-water-glowing.webp",
+  "name": "Oodama Rasengan",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Big Ball Spiraling Sphere.</strong> A Rasengan grown to an unwieldy boulder of compressed chakra (often assisted by a shadow clone holding the original in place while you expand it).</p>\n<p>Make a melee spell attack roll. On a hit, the target takes 9d10 force damage and is pushed 20 feet directly away from you (knocked prone if it strikes a wall or another creature). The target's space, and the squares between you and the target's new position, become difficult terrain for 1 round.</p>\n<p>You may target a 5-foot square instead of a single creature to attempt to crater terrain; on a successful spell attack against the surface's hardness, you create a difficult-terrain crater 10 feet wide.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d10.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "both hands free, OR at least one Kage Bunshin active",
+    "rules": [],
+    "target": { "value": "1 creature or 5-foot area" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "force", "manipulate", "ninjutsu", "uzumaki"]
+    }
+  },
+  "type": "spell"
+}

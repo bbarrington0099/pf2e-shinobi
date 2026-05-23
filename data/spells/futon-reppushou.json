@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFuReppushou0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/air/wind-vortex-blue.webp",
+  "name": "Fūton: Reppushou",
+  "system": {
+    "area": { "type": "cone", "value": 15 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "fortitude" } },
+    "description": {
+      "value": "<p><strong>Gale Palm.</strong> You clap your hands together and unleash a focused gale in a 15-foot cone. Creatures in the area must succeed at a Fortitude save or be pushed back 10 feet and become off-guard until the end of your next turn (critical failure: pushed 20 feet and knocked prone).</p>\n<p>The cone is strong enough to extinguish unprotected flames and to scatter small unattended objects (clouds of dust, kunai mid-flight) in its path.</p>\n<p><strong>Heightened (3rd)</strong> The cone increases to 30 feet and the push distance to 15/25 feet.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "air", "concentrate", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

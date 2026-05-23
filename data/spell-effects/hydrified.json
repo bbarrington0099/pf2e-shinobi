@@ -1,0 +1,26 @@
+{
+  "_id": "EffcHydrified000",
+  "folder": "FldESpecialEffct",
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "name": "Effect: Hydrified",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllSpHydrficten]{Hydrification Technique}.</p>\n<p>Your body has been converted to water. You have resistance 10 to bludgeoning, piercing, slashing, fire, and electricity damage, weakness 5 to cold damage, and a vulnerability to sealing/absorbent effects. You can squeeze through openings as small as 1 inch and gain a swim Speed equal to your land Speed.</p>"
+    },
+    "duration": { "expiry": "turn-start", "sustained": false, "unit": "minutes", "value": 1 },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [
+      { "key": "Resistance", "type": "bludgeoning", "value": 10 },
+      { "key": "Resistance", "type": "piercing", "value": 10 },
+      { "key": "Resistance", "type": "slashing", "value": 10 },
+      { "key": "Resistance", "type": "fire", "value": 10 },
+      { "key": "Resistance", "type": "electricity", "value": 10 },
+      { "key": "Weakness", "type": "cold", "value": 5 }
+    ],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "hozuki", "kekkei-genkai", "water"] }
+  },
+  "type": "effect"
+}

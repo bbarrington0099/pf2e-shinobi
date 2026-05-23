@@ -1,0 +1,38 @@
+{
+  "_id": "SpllMdCreaRebrth",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/magic/life/heart-shadow-purple.webp",
+  "name": "Creation Rebirth Technique",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The forbidden technique Tsunade unleashes in extremis. You release the chakra stored in your @UUID[Compendium.pf2e-shinobi.spells.Item.SpllMdHundredSel]{Strength of a Hundred Seal} all at once, causing your body to constantly regenerate from any wound.</p>\n<p><strong>Requirements</strong> You have an active Strength of a Hundred Seal.</p>\n<p>The seal dissolves. For 1 minute, you have fast healing equal to twice your level, are immune to <em>persistent damage</em>, and any death-effect that would reduce you to 0 HP instead reduces you to 1 HP (once per round). Your unarmed Strikes deal 1d8 additional vitality damage to undead and creatures that are not currently regenerating.</p>\n<p>When the duration ends, you suffer 1d4 negative levels (treat as drained 4) and cannot use this jutsu again for 1 month. If you accumulate enough negative levels to reduce your effective level below 1, you die instantly as the borrowed life force consumes you.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 8 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "see description",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "healing",
+        "manipulate",
+        "medical-nin",
+        "ninjutsu",
+        "vitality"
+      ]
+    }
+  },
+  "type": "spell"
+}

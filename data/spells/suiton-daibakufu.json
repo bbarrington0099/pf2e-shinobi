@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSwDaibakufu0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/water/waterfall-droplets-flowing-blue.webp",
+  "name": "Suiton: Daibakufu",
+  "system": {
+    "area": { "type": "cone", "value": 30 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Great Waterfall.</strong> You raise a vortex of water and unleash it as a hammering wall in a 30-foot cone. Creatures take 8d6 bludgeoning damage with a basic Reflex save; failure also imposes <em>prone</em>. The area becomes difficult terrain (shin-deep water) for 1 minute.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous (terrain 1 minute)" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "ninjutsu", "water"]
+    }
+  },
+  "type": "spell"
+}

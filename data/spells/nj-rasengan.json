@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjRasengan00",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "name": "Rasengan",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Spiraling Sphere.</strong> The legacy jutsu of the Yondaime. You compress raw chakra into a perfectly spherical orb in your palm; on contact it drills, tears, and unloads concentric kinetic shockwaves.</p>\n<p>Make a melee spell attack roll against a creature within your reach. On a hit, the target takes 6d10 force damage. On a hit, the target is also pushed 10 feet directly away from you (no save) and becomes <em>off-guard</em> until the end of their next turn. On a critical hit, double the damage and push distance.</p>\n<p>Rasengan does not require hand seals once mastered, but you must have at least one hand free.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d10.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "one hand free",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "force", "manipulate", "ninjutsu", "uzumaki"]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "SpllAcHengeJtsu0",
+  "folder": "FldSAcademyCntrp",
+  "img": "icons/magic/control/silhouette-aura-green.webp",
+  "name": "Henge no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The Academy's signature Transformation Technique. You assume the appearance of a Small or Medium humanoid, animal, or object you have observed. The illusion fools sight and sound but breaks the instant you take damage or are touched in a way that contradicts the form (e.g., a knock that meets empty air where a shoulder should be).</p>\n<p>You gain a +4 status bonus to Deception checks to pass as the impersonated subject and to Stealth checks to blend into a crowd while transformed. The transformation lasts up to 10 minutes or until you choose to drop it (free action).</p>\n<p><strong>Heightened (+2)</strong> Duration extends to 1 hour; you may also impersonate creatures one size category larger than your own.</p>"
+    },
+    "duration": { "sustained": false, "value": "10 minutes" },
+    "level": { "value": 1 },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "cantrip", "concentrate", "illusion", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

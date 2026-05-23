@@ -1,0 +1,30 @@
+{
+  "_id": "SpllKaHosenka000",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/fire/projectile-fireball-orange.webp",
+  "name": "Katon: Hosenka no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Phoenix Flower Technique.</strong> You exhale a volley of small fireballs in rapid succession at one or more targets you can see within range. Make up to three spell attack rolls against creatures within 30 feet (you can attack the same target multiple times). Each hit deals 1d6 fire damage, plus the splash listed below.</p>\n<p><strong>Heightened (+1)</strong> Damage per hit increases by 1d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "up to 3 creatures" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "fire", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

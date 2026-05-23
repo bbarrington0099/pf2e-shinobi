@@ -1,0 +1,30 @@
+{
+  "_id": "SpllRaChidrSenbn",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/weapons/ammunition/arrow-head-glowing-blue.webp",
+  "name": "Raiton: Chidori Senbon",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Thousand Lightning Needles.</strong> You convert a Chidori into a fan of dozens of charged senbon needles, then fire them in a 30-foot line, 5 feet wide. Creatures in the line take 5d6 electricity damage with a basic Reflex save.</p>\n<p>On a failed save, the target also becomes <em>off-guard</em> until the end of your next turn as a needle pins a nerve cluster.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "electricity", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

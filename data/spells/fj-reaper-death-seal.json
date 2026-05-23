@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFjReaprDeath",
+  "folder": "FldSFuinjutsuJts",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "name": "Reaper Death Seal",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p>You summon the Shinigami (Death) and offer your own soul in exchange for tearing the soul of another being from its body. The Yondaime used this to seal the Kyuubi.</p>\n<p>Choose a creature within 60 feet (you may target a soul still attached to a recently-deceased body within 1 minute of death). The target attempts a Will save.</p>\n<p><strong>Critical Success</strong> The Shinigami is angered and your own soul is consumed instantly: you die, and there is no body to resurrect.</p>\n<p><strong>Success</strong> The Shinigami extracts a small piece of the target's soul: the target loses 1 spell slot of its highest rank for 1 month (or until dispelled at counteract rank 9+).</p>\n<p><strong>Failure</strong> The Shinigami extracts the target's full soul: the target is reduced to 0 HP and dies. The soul is sealed inside the Shinigami's stomach, accessible only to the wielder of certain forbidden countertechniques.</p>\n<p>Regardless of result, you die immediately after the jutsu resolves. Your soul is consumed by the Shinigami; you cannot be raised by normal resurrection means.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 9 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "you accept that casting this jutsu kills you",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "unique",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "death", "fuinjutsu", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

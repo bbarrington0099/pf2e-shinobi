@@ -1,0 +1,30 @@
+{
+  "_id": "SpllKaKaryuuEnd0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/creatures/reptiles/dragon-fire-breath-orange.webp",
+  "name": "Katon: Karyuu Endan",
+  "system": {
+    "area": { "type": "line", "value": 60 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Fire Dragon Bullet.</strong> You exhale a serpentine torrent of flame shaped like a dragon's head along a 60-foot line, 5 feet wide. Creatures in the line take 8d6 fire damage with a basic Reflex save. The dragon-flame leaves the entire line as difficult terrain for 1 round as super-heated dust and ash settle.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 2d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "fire", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

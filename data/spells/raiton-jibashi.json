@@ -1,0 +1,30 @@
+{
+  "_id": "SpllRaJibashi000",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "name": "Raiton: Jibashi",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Electromagnetic Murder.</strong> You channel a brief arc of lightning from your fingertips to a target you can see within 30 feet. Make a spell attack roll; on a hit, the target takes 2d8 electricity damage. On a critical hit, the target is also <em>off-guard</em> until the end of their next turn.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "electricity", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

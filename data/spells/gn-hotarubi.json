@@ -1,0 +1,30 @@
+{
+  "_id": "SpllGnHotarubi00",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/light/orb-shadow-blue.webp",
+  "name": "Magen: Hotarubi",
+  "system": {
+    "area": { "type": "emanation", "value": 20 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p><strong>Demonic Illusion: Fireflies.</strong> A soft cloud of false fireflies surrounds you and the area within 20 feet. Each creature in the area attempts a Will save.</p>\n<p>On a failure, the target becomes <em>dazzled</em> and <em>fascinated</em> by you for 1 round. On a critical failure, the duration extends to 1 minute or until the target takes damage.</p>\n<p><strong>Heightened (+2)</strong> The emanation increases by 10 feet.</p>"
+    },
+    "duration": { "sustained": false, "value": "varies" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "genjutsu", "illusion", "manipulate", "mental", "visual"]
+    }
+  },
+  "type": "spell"
+}

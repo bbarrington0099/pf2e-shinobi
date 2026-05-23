@@ -1,0 +1,30 @@
+{
+  "_id": "SpllGnPhntomSnd0",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/skills/social/note-music-purple.webp",
+  "name": "Demonic Flute: Phantom Sound Chains",
+  "system": {
+    "area": { "type": "emanation", "value": 60 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p>You play a flute (or, with focus alone, hum the same melody) that weaves audible chakra chains around every enemy within 60 feet who can hear you.</p>\n<p>Each enemy in the area attempts a Will save. On a failure, they perceive themselves bound by glowing chains; they are <em>immobilized</em> for 1 round and take 2d6 mental damage. On a critical failure, the duration extends to 1 minute (sustained); they take an additional 2d6 mental damage at the start of each of your turns.</p>\n<p>This jutsu requires uninterrupted sound; a 30-foot wind-cone or louder ambient noise can disrupt it.</p>"
+    },
+    "duration": { "sustained": true, "value": "varies" },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "a flute, OR you are using bardic-style hum performance",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "auditory", "concentrate", "genjutsu", "manipulate", "mental"]
+    }
+  },
+  "type": "spell"
+}

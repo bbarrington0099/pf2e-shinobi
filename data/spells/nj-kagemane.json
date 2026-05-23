@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjKagemaneJt",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/control/silhouette-grow-shadow-blue.webp",
+  "name": "Kagemane no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p><strong>Shadow Possession Technique.</strong> The Nara clan's signature. Your shadow snakes along the ground toward a target creature within 30 feet and binds itself to theirs.</p>\n<p>Choose one creature in range with a shadow. The target attempts a Will save against your spell DC.</p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is <em>off-guard</em> until the start of your next turn.</p>\n<p><strong>Failure</strong> Until the end of your next turn, the target is forced to mirror your physical movements (Stride, prone/stand, hand gestures). The target cannot Strike or cast jutsu while bound; if you spend an action to move, they spend the same action to move the same direction (within their own Speed). You must Sustain to extend this effect each subsequent round.</p>\n<p><strong>Critical Failure</strong> As failure, but the duration is 1 minute and the target's MAP carries over to their next action after the binding ends.</p>\n<p><em>Range and duration both scale with available ambient light.</em> In total darkness the jutsu fails automatically; in bright light range increases to 60 feet.</p>"
+    },
+    "duration": { "sustained": true, "value": "up to 1 minute" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "you can see the target's shadow",
+    "rules": [],
+    "target": { "value": "1 creature with a shadow" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "nara", "ninjutsu", "shadow"]
+    }
+  },
+  "type": "spell"
+}

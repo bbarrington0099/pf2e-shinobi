@@ -1,0 +1,30 @@
+{
+  "_id": "SpllKaGoukakyuu0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/fire/explosion-fireball-medium-orange.webp",
+  "name": "Katon: Goukakyuu no Jutsu",
+  "system": {
+    "area": { "type": "burst", "value": 10 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Great Fireball Technique.</strong> The signature jutsu of the Uchiha clan. You exhale a massive ball of flame that detonates at a point you choose within range, dealing 3d6 fire damage in a 10-foot burst. Each creature in the area attempts a basic Reflex save.</p>\n<p>The fire is wide enough to ignite flammable objects in the area (clothing, oil, dry brush) and to leave a 1-round residual flame in the burst's central square.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "fire", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

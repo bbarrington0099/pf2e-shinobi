@@ -1,0 +1,38 @@
+{
+  "_id": "SpllMdHealthRsus",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/magic/life/heart-cross-area-yellow.webp",
+  "name": "Healing Resuscitation Regeneration",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You channel a large volume of chakra to bring back a creature on the brink. If the target was reduced to 0 HP within the last minute and has not yet permanently died, restore them to half their maximum Hit Points and remove the <em>dying</em> condition entirely.</p>\n<p>If the target is still conscious but injured, instead restore HP equal to 6d8 + your spellcasting modifier and remove one severe condition (any condition with value 2 or 3) by 1 step.</p>\n<p>You become <em>fatigued</em> after casting this jutsu.</p>\n<p><strong>Heightened (8th)</strong> The window for bringing back a fallen ally extends to 10 minutes; the conscious-healing roll becomes 8d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "willing target",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "healing",
+        "manipulate",
+        "medical-nin",
+        "ninjutsu",
+        "vitality"
+      ]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "SpllSpHydrficten",
+  "folder": "FldSSpecialKkgnk",
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "name": "Hydrification Technique",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The Hōzuki clan's kekkei genkai: you convert your entire body into water for a short time. While hydrified, you have <em>resistance 10</em> to bludgeoning, piercing, slashing, fire, and electricity damage, but <em>weakness 5</em> to cold damage and a vulnerability to absorbent or sealing effects (the GM may rule certain seals trap you outright).</p>\n<p>You can squeeze through any opening at least 1 inch wide and you gain a swim Speed equal to your land Speed. You cannot wield non-water-natured weapons effectively (treat as Athletics DC 20 to hold or use any solid object).</p>\n<p>The jutsu lasts for 1 minute or until you Dismiss it. Re-solidifying takes a single action.</p>\n<p><strong>Heightened (+2)</strong> Resistance increases by 5; the cold weakness threshold rises by 2 ranks of cold-trait incoming spell to bypass.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "you have the Hydrification kekkei genkai",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "hozuki",
+        "kekkei-genkai",
+        "manipulate",
+        "morph",
+        "ninjutsu",
+        "water"
+      ]
+    }
+  },
+  "type": "spell"
+}

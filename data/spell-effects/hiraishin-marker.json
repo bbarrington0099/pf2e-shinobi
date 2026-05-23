@@ -1,0 +1,19 @@
+{
+  "_id": "EffcHiraishMarkr",
+  "folder": "FldESpecialEffct",
+  "img": "icons/magic/symbols/runes-orb-blue.webp",
+  "name": "Effect: Hiraishin Marker",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllSpHiraishin0]{Hiraishin no Jutsu}.</p>\n<p>You carry a Hiraishin marker (typically a sealed kunai, a paper tag on your back, or a chakra brand pressed into a surface). The caster of Hiraishin can teleport to your square as a single action from up to 1 mile away.</p>\n<p>You can refuse to be a teleport anchor with a free action (the marker remains, but the caster's next Hiraishin attempt fails harmlessly for 1 round).</p>"
+    },
+    "duration": { "expiry": null, "sustained": false, "unit": "unlimited", "value": -1 },
+    "level": { "value": 9 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "fuinjutsu", "teleportation"] }
+  },
+  "type": "effect"
+}

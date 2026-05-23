@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjHiddenMist",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/air/fog-gas-smoke-swirling-grey.webp",
+  "name": "Kirigakure no Jutsu",
+  "system": {
+    "area": { "type": "emanation", "value": 30 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Hidden Mist Technique.</strong> The signature ambient jutsu of Kirigakure. You exhale a dense mist that fills a 30-foot emanation centered on you. The mist moves with you.</p>\n<p>Creatures within the mist (including you) have the <em>concealed</em> condition. Creatures outside the mist who try to see through it have the <em>concealed</em> condition relative to anything inside.</p>\n<p>The mist lasts 10 minutes or until dispelled by a wind-trait spell of equal or higher rank, or by emerging into open daylight.</p>\n<p><strong>Heightened (4th)</strong> Range extends to 60 feet emanation; creatures inside are <em>hidden</em> instead of concealed if they take any action other than Step.</p>"
+    },
+    "duration": { "sustained": false, "value": "10 minutes" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "ninjutsu", "water"]
+    }
+  },
+  "type": "spell"
+}

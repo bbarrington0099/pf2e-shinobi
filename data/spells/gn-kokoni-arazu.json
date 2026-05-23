@@ -1,0 +1,30 @@
+{
+  "_id": "SpllGnKokoArazu0",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/movement/portal-vortex-blue.webp",
+  "name": "Magen: Kokoni Arazu no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p><strong>Demonic Illusion: You Are Not Here.</strong> A false-location illusion that convinces a single target you are somewhere you are not.</p>\n<p>The target attempts a Will save. On a failure, all of the target's Strikes against you for the next round automatically miss (they hit empty space); the target also takes a -2 status penalty to Perception checks against you for the same duration. On a critical failure, the duration extends to 1 minute (sustained).</p>\n<p>If you take any action that visibly contradicts the false location (Stride toward the target while still in their view, attack the target from your real position, etc.), the target gets an immediate new Will save with a +4 circumstance bonus.</p>"
+    },
+    "duration": { "sustained": true, "value": "varies" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "you can see the target",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "genjutsu", "illusion", "manipulate", "mental", "visual"]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "EffcFalseSurnds0",
+  "folder": "FldEGenjutsuEffc",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Effect: False Surroundings",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllGnFalseSurnd]{Kasumi Juusha no Jutsu}.</p>\n<p>You perceive an altered version of your immediate surroundings. The illusion may show: a closed door where an opening is, a friendly figure where a hostile one stands, a stable floor where a pit yawns, etc. While this effect persists you have a -2 status penalty to Perception checks that would expose the illusion (and likely act on false information).</p>\n<p>You may attempt a new Will save to disbelieve when you interact with the illusion in a contradiction-revealing way (touching a 'wall' that isn't there, attacking 'someone' who is not where they appear, etc.).</p>"
+    },
+    "duration": { "expiry": "turn-end", "sustained": false, "unit": "minutes", "value": 1 },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [{ "key": "FlatModifier", "selector": "perception", "type": "status", "value": -2 }],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "genjutsu", "illusion", "mental"] }
+  },
+  "type": "effect"
+}

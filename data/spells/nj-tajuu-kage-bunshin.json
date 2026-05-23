@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjMultiShdwC",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/control/silhouette-aura-blue.webp",
+  "name": "Tajuu Kage Bunshin no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Multi Shadow Clone Technique.</strong> Naruto's signature. You create a number of @UUID[Compendium.pf2e-shinobi.spells.Item.SpllNjKageBunshn]{Kage Bunshin} equal to your spellcasting modifier, each with one-quarter your maximum HP (rounded down).</p>\n<p>Casting this jutsu is taxing: you become <em>fatigued</em> until your next long rest after the clones dispel. Sage-mode or jinchūriki characters ignore the fatigue.</p>\n<p>The clones share your spell-slot pool. Coordinated tactics are powerful; the GM may rule that two or more clones can Aid each other on the same Strike with the same flat-DC.</p>\n<p><strong>Heightened (8th)</strong> Clones have half your maximum HP each; you are no longer fatigued after dispersal.</p>"
+    },
+    "duration": { "sustained": false, "value": "10 minutes" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "conjuration", "manipulate", "ninjutsu", "uzumaki"]
+    }
+  },
+  "type": "spell"
+}

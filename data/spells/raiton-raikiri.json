@@ -1,0 +1,30 @@
+{
+  "_id": "SpllRaRaikiri000",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/weapons/swords/sword-glowing-blue.webp",
+  "name": "Raiton: Raikiri",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Lightning Cutter.</strong> Kakashi's signature refinement of Chidori. Where the original is a charge, Raikiri is a controlled, two-bladed strike that can curve mid-air.</p>\n<p>Make a melee spell attack against a creature within 10 feet (no Stride required). On a hit, the target takes 7d12 slashing electricity damage. If your Strike result equals or beats the target's AC by 10 or more, the lightning continues through and arcs to a second creature within 10 feet of the first; that creature takes 4d12 slashing electricity damage with a basic Reflex save.</p>\n<p>Raikiri does not commit you to a straight-line motion the way Chidori does.</p>\n<p><strong>Heightened (+1)</strong> Both damages increase by 1d12.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "10 feet" },
+    "requirements": "you have a hand free",
+    "rules": [],
+    "target": { "value": "1 creature, plus possibly a second" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "electricity", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

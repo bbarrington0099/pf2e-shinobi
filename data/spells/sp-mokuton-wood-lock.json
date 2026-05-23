@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSpMoktnLock0",
+  "folder": "FldSSpecialKkgnk",
+  "img": "icons/magic/nature/root-vine-entangled-grey.webp",
+  "name": "Mokuton: Wood Lock",
+  "system": {
+    "area": { "type": "burst", "value": 10 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "reflex" } },
+    "description": {
+      "value": "<p>Hashirama's signature Wood Release. From the earth, walls, or even thin air around a point you choose within 60 feet, thick wooden branches grow in a 10-foot burst and converge on every creature in the area.</p>\n<p>Creatures in the area attempt a Reflex save. On a failure, they become <em>grabbed</em> by the wood (Escape DC = your spell DC) and the wood-mass becomes difficult terrain. On a critical failure, they are also <em>restrained</em>.</p>\n<p>The wood structure has Hardness 10, HP 40 per 5-foot segment, and BT 20. It lasts for 1 minute or until destroyed.</p>\n<p><strong>Heightened (+1)</strong> Damage to anyone breaking free increases by 1d6 splinter damage; structure HP increases by 10 per segment.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "you have the Mokuton kekkei genkai",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "kekkei-genkai", "manipulate", "ninjutsu", "senju", "wood"]
+    }
+  },
+  "type": "spell"
+}

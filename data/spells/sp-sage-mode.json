@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSpSageMode00",
+  "folder": "FldSSpecialKkgnk",
+  "img": "icons/magic/nature/leaf-glow-yellow.webp",
+  "name": "Sage Mode",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You enter senjutsu &mdash; mixing natural ambient chakra with your own. You gain a +2 status bonus to attack rolls, damage rolls, AC, saving throws, and Perception checks for 5 rounds. Your unarmed Strikes deal +1d10 damage from frog-kata sage chakra, and you gain a precise chakra sense out to 60 feet.</p>\n<p><strong>Requirements</strong> 1 minute of uninterrupted meditation immediately before activation (or, if you are a Sage prodigy with a feat, 3 actions). You must remain still during the meditation.</p>\n<p>Sage Mode is exhausting: after the 5 rounds expire, you become <em>fatigued</em> for the rest of the encounter (and cannot use Sage Mode again until your next long rest). If you take damage that reduces you to half HP or less while in Sage Mode, the boost ends 1 round early but the fatigue still applies.</p>\n<p><strong>Heightened (10th)</strong> Duration extends to 10 rounds; the post-Sage fatigue downgrades to a single <em>fatigued 1</em> condition that ends with a 10-minute rest.</p>"
+    },
+    "duration": { "sustained": false, "value": "5 rounds" },
+    "level": { "value": 8 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "see description; you have learned Sage Mode through a Sage clan feat",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1 minute" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "kekkei-genkai", "manipulate", "morph", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

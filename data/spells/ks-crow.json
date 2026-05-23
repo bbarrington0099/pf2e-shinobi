@@ -1,0 +1,39 @@
+{
+  "_id": "SpllKsCrow000000",
+  "folder": "FldSSummoningJts",
+  "img": "icons/creatures/abilities/raven-call-shadow-blue.webp",
+  "name": "Kuchiyose: Crow",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You summon a crow loyal to Itachi's lineage. The crow arrives in an unoccupied square within 30 feet and acts as a Tiny flying minion under your control for 1 minute.</p>\n<p>The crow has 2 actions per turn, AC 19, 15 HP, fly Speed 40 feet, and a beak Strike at +11 dealing 1d4 piercing. Its signature trick is the <em>Sharingan-eye</em>: once during the duration, the crow can release a fragment of memory or a casting of @UUID[Compendium.pf2e-shinobi.spells.Item.SpllGnNarakumiJt]{Magen: Narakumi no Jutsu} against any creature adjacent to it (using your spell DC). It vanishes immediately after the Sharingan trick.</p>\n<p><strong>Heightened (+2)</strong> The crow can release one additional genjutsu use; HP increases by 5.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "you have signed the Crow summoning contract",
+    "rules": [],
+    "target": { "value": "1 unoccupied square" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "conjuration",
+        "kuchiyose",
+        "manipulate",
+        "ninjutsu",
+        "summoning",
+        "uchiha"
+      ]
+    }
+  },
+  "type": "spell"
+}

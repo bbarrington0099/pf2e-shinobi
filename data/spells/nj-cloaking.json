@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjCloakingT0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Meisaigakure no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Cloaking Technique.</strong> You bend chakra around yourself to refract light and dampen sound, becoming difficult to perceive. You gain the <em>invisible</em> condition until you make a Strike, cast a damaging jutsu, or Sustain a different concentration effect.</p>\n<p>If you take any Stride action, you also benefit from a +2 status bonus to Stealth checks made during the same turn. After breaking invisibility, you cannot recast this jutsu until the start of your next turn.</p>\n<p>Cloaking does not fool true-sight, chakra-sense, or other precise non-visual senses.</p>\n<p><strong>Heightened (5th)</strong> The first Strike or damaging jutsu you make does not end the invisibility.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "illusion", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "SpllDoTsuchiKuna",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/weapons/daggers/dagger-jeweled-grey.webp",
+  "name": "Doton: Tsuchi Kunai",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Earth Kunai.</strong> You compress nearby loose stone (or your own chakra-clay) into a kunai-shaped projectile. Make a spell attack roll against a creature within 60 feet. On a hit, the target takes 2d8 piercing damage. On a critical hit, the earth-kunai shatters in the wound, adding 1d4 persistent bleed damage.</p>\n<p>Requires loose stone, sand, or earth within 5 feet of you (a paved floor counts). On a hard tile floor or in the air, you cannot cast.</p>\n<p><strong>Heightened (+2)</strong> Damage increases by 1d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "loose earth or stone within 5 feet",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "earth", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

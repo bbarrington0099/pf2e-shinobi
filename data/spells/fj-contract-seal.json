@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFjContrcSeal",
+  "folder": "FldSFuinjutsuJts",
+  "img": "icons/sundries/scrolls/scroll-bound-tan-brown.webp",
+  "name": "Contract Seal",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": true,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You sever a creature's binding to one of its existing contracts (a Kuchiyose contract, a curse-mark dependency, a Reaper Death Seal-style soul-bond, or similar magical obligation).</p>\n<p>The target attempts a Will save. On a failure, attempt a counteract check against the contract's source rank using your spell rank and modifier. On a successful counteract, the contract is permanently broken; on failure, the seal flares uselessly.</p>\n<p>This is the canonical jutsu Jiraiya used to break Orochimaru's snake contract on Anko.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "willing target, OR unwilling restrained target",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "fuinjutsu", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

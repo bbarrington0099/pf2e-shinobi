@@ -1,0 +1,34 @@
+{
+  "_id": "SpllAcKawarmCnt0",
+  "folder": "FldSAcademyCntrp",
+  "img": "icons/sundries/misc/wood-log-tied-brown.webp",
+  "name": "Kawarimi no Jutsu (Cantrip)",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The Academy's basic Substitution Technique &mdash; less polished than the @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcSubstition00]{full version} but always available.</p>\n<p><strong>Trigger</strong> a creature within 30 feet of you targets you with a Strike, and the result has not been revealed.</p>\n<p>You swap places with an unattended Small or Medium object within 5 feet of you. The triggering Strike resolves against the substitute (treat it as your AC with 1 HP). You may move up to 5 feet to an unoccupied square as part of the substitution. You can use this cantrip only once per encounter; refreshing it requires a 10-minute rest.</p>\n<p><strong>Heightened (3rd)</strong> The range you can move increases to 10 feet, and you can use it twice per encounter.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 1 },
+    "publication": {
+      "license": "MIT",
+      "remaster": true,
+      "title": "PF2e Shinobi"
+    },
+    "range": { "value": "30 feet" },
+    "requirements": "you can see the triggering creature",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "reaction" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "cantrip", "concentrate", "move", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

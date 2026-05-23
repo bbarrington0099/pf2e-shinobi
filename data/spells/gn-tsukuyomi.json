@@ -1,0 +1,40 @@
+{
+  "_id": "SpllGnTsukuyomi0",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Tsukuyomi",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p>An S-rank Mangekyō Sharingan illusion. Through a single moment of eye contact, the target perceives 72 hours of agony in less than a second of real time.</p>\n<p>The target attempts a Will save with a -4 status penalty.</p>\n<p><strong>Critical Success</strong> The target is <em>off-guard</em> until the end of their next turn (the attempt still rattles them).</p>\n<p><strong>Success</strong> The target is <em>stunned 2</em> as their mind reels.</p>\n<p><strong>Failure</strong> The target is <em>unconscious</em> for 1 minute and takes 8d6 mental damage. They can be roused early by an ally Treating Wounds with a successful DC 25 Medicine check.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is also reduced to 1 Hit Point if their current HP is above that, and the duration is 24 hours instead of 1 minute. Recovery requires medical-nin attention or @UUID[Compendium.pf2e-shinobi.class-actions.Item.ClAcGenjutsuRels]{Genjutsu Release} cast at a counteract rank of 9 or higher.</p>\n<p>Casting Tsukuyomi blinds you in the eye that cast it for 1 day and deals you 4d6 mental damage from the strain.</p>"
+    },
+    "duration": { "sustained": false, "value": "varies (1 minute to 24 hours)" },
+    "level": { "value": 9 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "Mangekyō Sharingan active; target can see your eyes",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "dojutsu",
+        "genjutsu",
+        "incapacitation",
+        "manipulate",
+        "mental",
+        "uchiha",
+        "visual"
+      ]
+    }
+  },
+  "type": "spell"
+}

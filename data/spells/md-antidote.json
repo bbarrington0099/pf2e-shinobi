@@ -1,0 +1,30 @@
+{
+  "_id": "SpllMdAntidote00",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/consumables/potions/bottle-round-corked-glowing-blue.webp",
+  "name": "Antidote Synthesis",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": true,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You touch a creature suffering a poison or disease and synthesize a chakra-based countermeasure from their own blood chemistry. Attempt a counteract check against the affliction; counteract rank equals your spell rank, and the modifier is your spellcasting attribute modifier + your Medicine proficiency bonus.</p>\n<p>If the affliction has stages, success reduces it by 1 stage and the target rolls a fresh save against the next-stage interval immediately at +2 status bonus.</p>\n<p><strong>Heightened (+1)</strong> Counteract rank increases by 1.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "willing target",
+    "rules": [],
+    "target": { "value": "1 willing creature suffering a poison or disease" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "healing", "manipulate", "medical-nin", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

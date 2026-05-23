@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSwSuiryuudan",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/creatures/reptiles/dragon-serpentine-blue.webp",
+  "name": "Suiton: Suiryuudan",
+  "system": {
+    "area": { "type": "line", "value": 60 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Water Dragon Bullet.</strong> You shape a nearby body of water (or your own ambient chakra-water) into a serpentine dragon that crashes along a 60-foot line, 5 feet wide. Creatures in the line take 7d8 bludgeoning damage with a basic Reflex save and are pushed 10 feet away from you on a failure (knocked prone on critical failure).</p>\n<p>If you have no source water within 30 feet (the dragon needs at least a barrel's worth), the damage drops by 2d8.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "ninjutsu", "water"]
+    }
+  },
+  "type": "spell"
+}

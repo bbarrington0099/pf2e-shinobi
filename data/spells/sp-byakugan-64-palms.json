@@ -1,0 +1,40 @@
+{
+  "_id": "SpllSpEight64Plm",
+  "folder": "FldSSpecialKkgnk",
+  "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+  "name": "Eight Trigrams Sixty-Four Palms",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The Hyūga clan's signature combat jutsu. With Byakugan active, you target a creature in your reach with a flurry of palm strikes targeting their chakra pathways.</p>\n<p>You make 8 unarmed Strikes against a single creature; the first 4 take no multiple attack penalty, the 5th-6th take a -5 penalty, and the 7th-8th take a -10 penalty. Each Strike deals normal unarmed damage plus an additional 1d4 force damage (chakra-pathway disruption).</p>\n<p>If at least 4 of the Strikes hit, the target loses 1 spell slot of their highest available rank (or, if no slots are available, becomes <em>enfeebled 1</em> for 1 minute). If all 8 hit, they lose 2 slots and are <em>enfeebled 1</em>.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "reach" },
+    "requirements": "active Byakugan; one hand free",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "attack",
+        "concentrate",
+        "dojutsu",
+        "flourish",
+        "hyuga",
+        "manipulate",
+        "ninjutsu",
+        "taijutsu"
+      ]
+    }
+  },
+  "type": "spell"
+}

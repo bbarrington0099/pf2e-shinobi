@@ -1,0 +1,19 @@
+{
+  "_id": "EffcBlackFire000",
+  "folder": "FldESpecialEffct",
+  "img": "icons/magic/fire/flame-burning-skull-orange.webp",
+  "name": "Effect: Black Flames (Amaterasu)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllKaAmaterasu0]{Amaterasu}.</p>\n<p>You are wreathed in inextinguishable black fire. You take 2d6 (failure) or 4d6 (critical failure) persistent fire damage at the end of each of your turns. This persistent fire <em>ignores fire resistance up to the originating Amaterasu's spell rank</em>.</p>\n<p>Normal recovery methods (DC 15 flat check) do not work; instead, the flames end only when: (a) you submerge fully in water, (b) the caster dismisses them as a free action, (c) you are sealed away, or (d) the caster falls unconscious for more than 1 minute.</p>"
+    },
+    "duration": { "expiry": "turn-end", "sustained": false, "unit": "unlimited", "value": -1 },
+    "level": { "value": 9 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "dojutsu", "fire", "uchiha"] }
+  },
+  "type": "effect"
+}

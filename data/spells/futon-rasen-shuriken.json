@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFuRasenShrkn",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/air/wind-vortex-swirl-blue.webp",
+  "name": "Fūton: Rasenshuriken",
+  "system": {
+    "area": { "type": "burst", "value": 10 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Wind Style: Rasen Shuriken.</strong> You compress your chakra into a Rasengan studded with cellular-level wind blades, then hurl it. On detonation, every cell in the impact area is shredded.</p>\n<p>Make a spell attack roll against a creature within 60 feet. On a hit, the Rasenshuriken detonates in a 10-foot burst centered on the target. Creatures in the area take 12d10 slashing damage with a basic Reflex save; the original target counts as critically failing the save (no save at all).</p>\n<p>Any creature that fails or critically fails the save is also <em>enfeebled 1</em> for 1 minute as their chakra pathways are perforated.</p>\n<p>If you throw Rasenshuriken yourself (rather than have a clone deliver it), you take 1d6 + your spellcasting modifier slashing damage from the recoil. Naruto's later sage-mode variant ignores this cost.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 7 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "air", "attack", "concentrate", "manipulate", "ninjutsu", "uzumaki"]
+    }
+  },
+  "type": "spell"
+}

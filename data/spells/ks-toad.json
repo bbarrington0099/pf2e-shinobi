@@ -1,0 +1,38 @@
+{
+  "_id": "SpllKsToad000000",
+  "folder": "FldSSummoningJts",
+  "img": "icons/creatures/amphibians/frog-purple-orange.webp",
+  "name": "Kuchiyose: Toad",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You spill a drop of blood across a hand seal and call a small toad from Mount Myōboku to your side. The summon arrives in an unoccupied 5-foot square within 30 feet and acts as a Small minion under your control for 1 minute (or until reduced to 0 HP).</p>\n<p>The toad has 2 actions per turn, AC 17, 25 HP, and a Strike (tongue) at +9 dealing 1d6+2 bludgeoning. It also benefits from a swim Speed of 25 feet and a 10-foot tongue-grab reach Strike (athletics-style trip on success).</p>\n<p><strong>Heightened (+2)</strong> Each rank of heightening summons a more powerful toad (use a higher-level minion stat block; see Milestone 6 bestiary). Damage and HP scale with rank.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "you have signed the Toad summoning contract",
+    "rules": [],
+    "target": { "value": "1 unoccupied square" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "conjuration",
+        "kuchiyose",
+        "manipulate",
+        "ninjutsu",
+        "summoning"
+      ]
+    }
+  },
+  "type": "spell"
+}

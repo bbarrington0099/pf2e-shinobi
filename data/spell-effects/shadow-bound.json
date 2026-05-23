@@ -1,0 +1,19 @@
+{
+  "_id": "EffcShadowBound0",
+  "folder": "FldENinjutsuEffc",
+  "img": "icons/magic/control/silhouette-grow-shadow-blue.webp",
+  "name": "Effect: Shadow Bound",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllNjKagemaneJt]{Kagemane no Jutsu}.</p>\n<p>Your shadow is locked to the caster's. You must mirror their physical movements; you cannot Strike, cast jutsu, or take actions that don't have a physical-mimicry equivalent in the caster's available actions. When the caster Strides, you Stride the same direction (within your own Speed).</p>\n<p>This effect ends if the caster stops sustaining the jutsu, falls unconscious, moves beyond range, or you escape into total darkness.</p>"
+    },
+    "duration": { "expiry": "turn-end", "sustained": false, "unit": "minutes", "value": 1 },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "genjutsu", "incapacitation", "manipulate", "nara"] }
+  },
+  "type": "effect"
+}

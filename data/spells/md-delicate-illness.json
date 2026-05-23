@@ -1,0 +1,30 @@
+{
+  "_id": "SpllMdDelicateIl",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+  "name": "Delicate Illness Extraction Technique",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": true,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You draw a magical disease, curse, or persistent magical effect out of a willing creature's body and into a contained orb of liquid chakra in your hand, holding it for safe disposal.</p>\n<p>Attempt a counteract check against one effect of the listed types on the target. On success, the effect ends on the target and you hold the orb for up to 1 minute. While you hold it, you suffer a -1 status penalty to your spellcasting attribute (the orb's chakra is hostile to yours). If you fail to dispose of the orb (drop it into water, vial, or seal it) before the minute expires, the affliction transfers to you.</p>\n<p>This is the canonical jutsu Tsunade uses to extract poisons that resist normal antidotes.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "willing target; one hand free to hold the orb",
+    "rules": [],
+    "target": { "value": "1 willing creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "healing", "manipulate", "medical-nin", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

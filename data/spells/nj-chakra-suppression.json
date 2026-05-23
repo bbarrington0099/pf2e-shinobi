@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjChkrSuppr0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/symbols/runes-carved-tan.webp",
+  "name": "Chakra Suppression Technique",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You damp your chakra signature down to the level of a civilian. Sensors lose precise lock on you, and detection jutsu of equal or lower rank treat you as if you had no chakra signature at all.</p>\n<p>You gain a +3 status bonus to Stealth checks against creatures using non-visual chakra senses, and any sensor jutsu of rank lower than this spell's rank that targets you must attempt a counteract check against your spell DC to perceive you at all.</p>\n<p>Casting a jutsu of rank 1 or higher ends this jutsu immediately.</p>\n<p><strong>Heightened (+2)</strong> Increase the suppression effect's threshold rank by 1.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 hour" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "illusion", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

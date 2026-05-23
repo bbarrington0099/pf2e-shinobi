@@ -1,0 +1,30 @@
+{
+  "_id": "SpllMdChkrScalpl",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/weapons/daggers/dagger-curved-blue.webp",
+  "name": "Chakra Scalpel",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You sheathe one hand in a thin, edged chakra blade. For the next minute (or until you cast another jutsu of rank 2 or higher), your unarmed Strike with that hand deals 1d6 slashing damage with the agile and finesse traits, and your Strikes deal an additional 1d4 precision damage from severed chakra threads.</p>\n<p>If you make a Strike against a target you are also Treating (with the Medicine skill), you can swap the precision damage for healing &mdash; restore 1d6 + your spellcasting modifier HP to the target instead (this is the surgical use of the technique).</p>\n<p><strong>Heightened (4th)</strong> Precision damage / healing increases to 2d4 / 2d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "one hand free",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "medical-nin", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

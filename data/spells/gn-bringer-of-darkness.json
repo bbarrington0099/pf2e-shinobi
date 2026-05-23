@@ -1,0 +1,30 @@
+{
+  "_id": "SpllGnDarkBringr",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Bringer-of-Darkness Technique",
+  "system": {
+    "area": { "type": "emanation", "value": 30 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p>Mei Terumi's signature ambient genjutsu. Each creature within 30 feet of you perceives the world plunged into total blackness &mdash; their own allies, their own hands, the sky all vanish.</p>\n<p>Each affected creature attempts a Will save. On a failure, they treat all sight-based perception as if in <em>total darkness</em> for as long as they remain within the emanation and you continue to Sustain.</p>\n<p>You and any creatures you designate at the time of casting are unaffected (your team can act normally; theirs cannot).</p>\n<p>The illusion ends if the target takes damage from a source they cannot perceive (the very next Strike will often dispel it), or after 1 minute.</p>"
+    },
+    "duration": { "sustained": true, "value": "up to 1 minute" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "genjutsu", "illusion", "manipulate", "mental", "visual"]
+    }
+  },
+  "type": "spell"
+}

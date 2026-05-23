@@ -1,0 +1,38 @@
+{
+  "_id": "SpllKsBossSummon",
+  "folder": "FldSSummoningJts",
+  "img": "icons/creatures/amphibians/frog-purple-orange.webp",
+  "name": "Kuchiyose: Boss Summon",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You call the boss summon of your contract clan &mdash; Gamabunta of the Toads, Manda of the Snakes, Katsuyu of the Slugs. The boss arrives in an unoccupied area of at least 3-by-3 squares within 60 feet and acts under your direction for 1 minute.</p>\n<p>The boss is a Huge minion with stats appropriate to a level-(spell rank + 6) creature; full stat blocks are deferred to Milestone 6 bestiary. As a baseline: AC 24, 250 HP, 3 actions per turn, a Huge melee Strike at +18 dealing 4d10+10 bludgeoning, and a signature once-per-summon ability (Toad &rarr; oil-and-fire combo with allied fire-caster; Snake &rarr; massive constrict; Slug &rarr; mass split + party-wide fast healing 5).</p>\n<p>You take 1d6 chakra strain (treat as nonlethal damage equal to your level) from sustaining the boss; you cannot summon another boss for 24 hours.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 8 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "you have signed a contract; you have not used Boss Summon in the last 24 hours",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "conjuration",
+        "kuchiyose",
+        "manipulate",
+        "ninjutsu",
+        "summoning"
+      ]
+    }
+  },
+  "type": "spell"
+}

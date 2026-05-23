@@ -1,0 +1,30 @@
+{
+  "_id": "SpllRaChidori000",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/lightning/bolt-strike-forked-blue.webp",
+  "name": "Raiton: Chidori",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Thousand Birds.</strong> You channel a screaming, lightning-laced thrust into your dominant hand. As part of casting this jutsu, Stride up to your Speed in a straight line toward a creature you can see, then make a melee spell attack at the end of your Stride.</p>\n<p>On a hit, the target takes 5d12 piercing damage plus 2d6 persistent electricity damage. On a critical hit, the target also becomes <em>off-guard</em> until the end of their next turn from the thunderclap.</p>\n<p>Chidori commits you to a straight-line charge: if you would change direction during the Stride, you must succeed at a DC 20 Reflex save or lose the attack and become <em>off-guard</em> for 1 round (the canonical 'beak of the chicken' tunnel vision).</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d12 and persistent electricity by 1d6.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch (after Stride)" },
+    "requirements": "you have a hand free",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "electricity", "manipulate", "move", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "EffcHellViewing0",
+  "folder": "FldEGenjutsuEffc",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Effect: Hell Viewing",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllGnNarakumiJt]{Magen: Narakumi no Jutsu}.</p>\n<p>You see your worst fear made real. You take 2d6 persistent mental damage and are <em>frightened 2</em>. On every turn while you have <em>persistent mental damage</em> from this effect, you must succeed a flat DC 15 Will save or be <em>fleeing</em> for that turn.</p>"
+    },
+    "duration": { "expiry": "turn-end", "sustained": false, "unit": "rounds", "value": 4 },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "emotion", "fear", "genjutsu", "mental"] }
+  },
+  "type": "effect"
+}

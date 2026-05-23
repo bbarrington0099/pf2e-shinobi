@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSpShrnganCpy",
+  "folder": "FldSSpecialKkgnk",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Sharingan: Copy Technique",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The Sharingan's signature: with active dōjutsu eyes, you observe and instantly internalize a jutsu cast within line of sight.</p>\n<p><strong>Trigger</strong> A creature within 60 feet of you completes the casting of a jutsu of rank equal to or less than your spell rank.</p>\n<p>You attempt to learn the triggering jutsu. Make a Perception check against the triggering creature's spell DC. On a success, you can attempt to cast that jutsu once before the end of your next long rest (treat it as a known spell of your highest rank slot or lower). On a failure, you gain a +2 status bonus to your next Perception check against the same caster's jutsu in this encounter.</p>\n<p>Some jutsu (those with the <em>kekkei genkai</em> trait, those with the <em>uchiha</em> trait, true dōjutsu) cannot be copied this way.</p>"
+    },
+    "duration": { "sustained": false, "value": "until next long rest (copied jutsu)" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "active Sharingan; can see the casting clearly",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "reaction" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "dojutsu", "manipulate", "ninjutsu", "uchiha"]
+    }
+  },
+  "type": "spell"
+}

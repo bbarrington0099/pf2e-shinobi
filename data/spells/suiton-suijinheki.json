@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSwSuijinheki",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/water/barrier-ice-glow-cyan.webp",
+  "name": "Suiton: Suijinheki",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Water Encampment Wall.</strong> You raise a rotating wall of water in a 30-foot line in front of you, 10 feet tall, that lasts 1 minute or until you Dismiss it.</p>\n<p>The wall provides standard cover (+2 circumstance bonus to AC and Reflex) to anyone behind it relative to attackers on the far side, and it automatically extinguishes any fire-trait spell of rank 2 or lower that would cross it. Higher-rank fire spells force the wall to attempt a counteract check (counteract rank = your spell rank, modifier = your spellcasting attribute modifier).</p>\n<p><strong>Heightened (4th)</strong> The wall also extinguishes lightning-trait spells of equal or lower rank.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "ninjutsu", "water"]
+    }
+  },
+  "type": "spell"
+}

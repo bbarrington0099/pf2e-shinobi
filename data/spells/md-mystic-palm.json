@@ -1,0 +1,38 @@
+{
+  "_id": "SpllMdMystcPalm0",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/magic/life/cross-area-circle-green-white.webp",
+  "name": "Shōsen Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Mystical Palm Technique.</strong> The foundational healing jutsu of every medical-nin. You channel chakra through a palm laid on a willing creature, restoring 2d8 + your spellcasting modifier Hit Points and reducing one minor condition (clumsy 1, enfeebled 1, sickened 1) by 1 step.</p>\n<p><strong>Heightened (+1)</strong> Healing increases by 2d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "one hand free; willing target",
+    "rules": [],
+    "target": { "value": "1 willing creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "healing",
+        "manipulate",
+        "medical-nin",
+        "ninjutsu",
+        "vitality"
+      ]
+    }
+  },
+  "type": "spell"
+}

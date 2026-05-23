@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSpTBeastBomb",
+  "folder": "FldSSpecialKkgnk",
+  "img": "icons/magic/symbols/runes-orb-purple.webp",
+  "name": "Bijudama (Tailed Beast Bomb)",
+  "system": {
+    "area": { "type": "burst", "value": 30 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p>You compress chakra in an 8:2 ratio of negative to positive (or vice versa for some tailed beasts) into a black-and-purple sphere the size of a melon, then fire it at a point you can see within 300 feet.</p>\n<p>The bomb detonates in a 30-foot burst. Creatures in the area take 20d10 force damage with a basic Reflex save. The terrain in the area is flattened into difficult-terrain rubble; structures of less than Hardness 20 are leveled.</p>\n<p>Casting Bijudama leaves you <em>fatigued</em> until your next long rest unless you are in full Tailed Beast Mode (a far-future feat) or a fully-formed jinchūriki. Non-jinchūriki characters cannot cast this jutsu at all.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 10 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "300 feet" },
+    "requirements": "you are a jinchūriki of a tailed beast",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "unique",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "force", "kekkei-genkai", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

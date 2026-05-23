@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjFaceCopy00",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/control/silhouette-aura-blue.webp",
+  "name": "Vanishing Facial Copy Technique",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You sketch a target's face into a small ink scroll, then absorb the ink. Until you Dismiss this jutsu (or 1 hour passes), you can use a single action to take on the target's face for up to 10 minutes; you gain a +4 status bonus to Deception checks to impersonate them, but you do not gain their memories, voice tics, or skills.</p>\n<p>If the target sees their own face on you, they automatically succeed at any Perception check to detect the impersonation.</p>\n<p>This is Sai's signature stealth-ops tool from Root.</p>\n<p><strong>Heightened (6th)</strong> The disguise also captures voice (impersonation +4 to Deception extends to spoken interaction); a Will save vs your DC is required for someone who knows the target to notice subtle wrong cadence.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 hour" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "ink, a small brush, and a clear view of the target's face for at least 1 minute",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1 minute (during initial sketch)" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "illusion", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

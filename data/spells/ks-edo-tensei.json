@@ -1,0 +1,40 @@
+{
+  "_id": "SpllKsEdoTensei0",
+  "folder": "FldSSummoningJts",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "name": "Kuchiyose: Edo Tensei",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Impure World Reincarnation.</strong> A forbidden kinjutsu. You bind the soul of a deceased creature into a living vessel (a willing or unwilling humanoid), resurrecting them in a body that mimics their living self.</p>\n<p><strong>Requirements</strong> DNA or a personal effect of the deceased; one willing or unwilling humanoid as the vessel (vessel is consumed); 1 hour of uninterrupted ritual.</p>\n<p>The resurrected creature uses the deceased's full original stat block (treat as an NPC of their original level) and is bound to obey you absolutely as long as a control tag (paper seal) remains in their forehead. Removing the tag, sustained injury beyond their original death threshold, or you yourself losing consciousness for more than 1 minute breaks the bond &mdash; freed Edo creatures retain their full chakra and can break out of your control entirely.</p>\n<p>You can sustain up to (your spellcasting modifier) Edo summons at once. Each one provides a permanent -1 status penalty to your Will saves while sustained.</p>\n<p>This is the kinjutsu Orochimaru and later Kabuto used to drag every major dead shinobi back into the Fourth Great War. Use with maximum table caution.</p>"
+    },
+    "duration": { "sustained": true, "value": "unlimited (while sustained)" },
+    "level": { "value": 10 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch (during ritual)" },
+    "requirements": "see description",
+    "rules": [],
+    "target": { "value": "1 vessel + 1 deceased" },
+    "time": { "value": "1 hour" },
+    "traits": {
+      "rarity": "unique",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "conjuration",
+        "evil",
+        "fuinjutsu",
+        "kuchiyose",
+        "manipulate",
+        "ninjutsu",
+        "summoning"
+      ]
+    }
+  },
+  "type": "spell"
+}

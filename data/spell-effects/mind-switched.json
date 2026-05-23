@@ -1,0 +1,19 @@
+{
+  "_id": "EffcMindSwitched",
+  "folder": "FldENinjutsuEffc",
+  "img": "icons/magic/control/silhouette-aura-green.webp",
+  "name": "Effect: Mind-Switched (Vessel)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllNjShintenshn]{Shintenshin no Jutsu}.</p>\n<p>A Yamanaka has projected their consciousness into your body. You remain fully aware of your surroundings and what 'you' are doing, but you cannot control any of it. Allies who know the technique can see the empty-eyed cast and act to break it (Athletics to disorient, mind-protective effects, etc.).</p>\n<p>If your body takes damage that would normally drop you below 0 HP, you collapse and the Yamanaka snaps back to their own body, ending this effect.</p>"
+    },
+    "duration": { "expiry": "turn-end", "sustained": false, "unit": "minutes", "value": 1 },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "incapacitation", "mental", "yamanaka"] }
+  },
+  "type": "effect"
+}

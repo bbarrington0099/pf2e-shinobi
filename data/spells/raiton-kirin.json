@@ -1,0 +1,30 @@
+{
+  "_id": "SpllRaKirin00000",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/lightning/bolts-forked-large-blue.webp",
+  "name": "Raiton: Kirin",
+  "system": {
+    "area": { "type": "burst", "value": 20 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Storm Dragon.</strong> The ultimate Raiton: you call existing lightning from a real storm and shape it into a celestial dragon.</p>\n<p><strong>Requirements</strong> A natural storm is active overhead (GM's discretion; an Uchiha-style Goukakyuu can also create the necessary updraft if cast in the preceding minute).</p>\n<p>You designate a point you can see within 300 feet. Lightning travels from the sky to that point at the speed of light. Every creature in a 20-foot burst takes 12d12 electricity damage with a basic Reflex save; the strike also flattens unfortified terrain in the area into a smoking crater of difficult terrain that lasts the encounter.</p>\n<p>Casting Kirin without a real storm overhead reduces the damage by half and treats the trigger sky as a 'simulated' source.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 8 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "300 feet" },
+    "requirements": "see description",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "free" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "electricity", "manipulate", "ninjutsu", "uchiha"]
+    }
+  },
+  "type": "spell"
+}

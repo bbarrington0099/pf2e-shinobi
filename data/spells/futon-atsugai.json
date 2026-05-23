@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFuAtsugai000",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/air/wind-tornado-direction-blue.webp",
+  "name": "Fūton: Atsugai",
+  "system": {
+    "area": { "type": "burst", "value": 15 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Pressure Damage.</strong> You compress wind to a single point at a 15-foot radius origin within range, then release it as an outward shockwave. Creatures in the area take 6d8 bludgeoning damage with a basic Reflex save.</p>\n<p>The shockwave can shatter glass, splinter unattended doors of Light Bulk or less, and disperse any cloud effect of rank 4 or lower in the area.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 4 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "air", "concentrate", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

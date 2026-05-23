@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFjStoragSeal",
+  "folder": "FldSFuinjutsuJts",
+  "img": "icons/sundries/scrolls/scroll-bound-tan-brown.webp",
+  "name": "Storage Seal",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You inscribe a small fūinjutsu pattern on a scroll, parchment, or your own forearm. The seal can store one unattended object of up to Light Bulk, returning it instantly when you 'release' the seal with a free action (within reach).</p>\n<p>The seal lasts indefinitely. You can have at most (your spellcasting modifier) Storage Seals active at one time. Drawing items takes a free action; storing takes 1 action.</p>\n<p><strong>Heightened (3rd)</strong> Each seal can store up to 1 Bulk; you may have an additional seal active.</p>\n<p><strong>Heightened (5th)</strong> Each seal can store up to 5 Bulk; items in storage are protected from environmental damage.</p>"
+    },
+    "duration": { "sustained": false, "value": "unlimited" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "ink and scroll/parchment (or your forearm)",
+    "rules": [],
+    "target": { "value": "1 unattended object" },
+    "time": { "value": "10 minutes" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "fuinjutsu", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "SpllSwBakuiShoha",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "name": "Suiton: Bakusui Shouha",
+  "system": {
+    "area": { "type": "emanation", "value": 30 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Exploding Water Shockwave.</strong> Kisame's signature jutsu. You expel a tidal volume of water from your mouth that quickly floods the area in a 30-foot emanation, then surges outward as a single crushing shockwave.</p>\n<p>Creatures in the area take 10d6 bludgeoning damage with a basic Reflex save; the area floods to 5 feet deep for 10 minutes (or 1 minute if there is no natural drainage), counting as difficult terrain that grants concealment to creatures fully submerged.</p>\n<p>You can ride the wave: you may Stride up to twice your Speed in the affected area as part of casting.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 round (terrain 10 minutes)" },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "move", "ninjutsu", "water"]
+    }
+  },
+  "type": "spell"
+}

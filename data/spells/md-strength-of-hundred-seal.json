@@ -1,0 +1,39 @@
+{
+  "_id": "SpllMdHundredSel",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/magic/symbols/runes-carved-tan.webp",
+  "name": "Strength of a Hundred Seal",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You inscribe a diamond-shaped seal of stored chakra and healing energy on your forehead over a downtime activity (1 hour of meditation, requires uninterrupted rest). The seal remains inactive but visible on your forehead until you activate it as a free action.</p>\n<p>While active, you gain fast healing equal to half your level (minimum 3), regain expended spell slots of rank 2 or lower at the start of each of your turns (one slot per turn), and treat all critical hits against you as normal hits. The seal deactivates after 10 minutes; you cannot re-form it until you complete a full long rest.</p>\n<p>This is Tsunade's signature, used in her final battle with Madara.</p>\n<p><strong>Heightened (8th)</strong> Fast healing increases to your level; the regained-slot rank threshold rises to 4.</p>"
+    },
+    "duration": { "sustained": false, "value": "10 minutes (when activated)" },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "you have 1 hour of uninterrupted downtime to inscribe the seal",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1 hour (inscription) + free action (activation)" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "fuinjutsu",
+        "healing",
+        "manipulate",
+        "medical-nin",
+        "ninjutsu",
+        "vitality"
+      ]
+    }
+  },
+  "type": "spell"
+}

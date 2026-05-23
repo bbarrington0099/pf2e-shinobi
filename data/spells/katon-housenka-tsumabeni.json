@@ -1,0 +1,30 @@
+{
+  "_id": "SpllKaHosenkaTsm",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/skills/ranged/projectile-arrow-flame.webp",
+  "name": "Katon: Housenka Tsumabeni",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "reflex" } },
+    "description": {
+      "value": "<p><strong>Crimson-Nail Phoenix Flower.</strong> A refined version of Hosenka in which the user has slipped a thin shuriken inside each fireball. You make up to three spell attack rolls against creatures within 60 feet. On a hit, the target takes 2d6 fire damage and 1d4 persistent bleed damage (the shuriken lodges in the wound and continues to burn).</p>\n<p><strong>Heightened (+2)</strong> Damage per hit increases by 2d6 and persistent bleed by 1d4.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "you have at least 3 shuriken in your possession",
+    "rules": [],
+    "target": { "value": "up to 3 creatures" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "attack", "concentrate", "fire", "manipulate", "ninjutsu", "uchiha"]
+    }
+  },
+  "type": "spell"
+}

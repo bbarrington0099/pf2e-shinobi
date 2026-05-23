@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFjFourSymbls",
+  "folder": "FldSFuinjutsuJts",
+  "img": "icons/magic/symbols/runes-orb-blue.webp",
+  "name": "Four Symbols Seal",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The base sealing pattern for binding a being of overwhelming chakra (a tailed beast, an Outer Path summon) into a living vessel.</p>\n<p><strong>Requirements</strong> 1 hour of uninterrupted ritual; a willing or unconscious vessel; the target being to be sealed.</p>\n<p>The seal binds the target's chakra into the vessel. The vessel gains a special <em>jinchūriki</em> trait and the bound being's chakra reservoir; over time and with appropriate clan-feat investment, the vessel can draw on that chakra (the jinchūriki feature chain belongs to a future milestone).</p>\n<p>The seal can be later strengthened (with a follow-up Eight Trigrams Sealing Style ritual, planned for a later milestone) or broken with @UUID[Compendium.pf2e-shinobi.spells.Item.SpllFjContrcSeal]{Contract Seal} at a counteract rank of 7 or higher.</p>\n<p>This is the canonical seal used by the Yondaime to bind half of Kurama into Naruto.</p>"
+    },
+    "duration": { "sustained": false, "value": "unlimited" },
+    "level": { "value": 7 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "see description",
+    "rules": [],
+    "target": { "value": "1 vessel + 1 chakra entity" },
+    "time": { "value": "1 hour" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "fuinjutsu", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "SpllDoDorokuGesh",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/environment/wilderness/cliffside-rocks-grey.webp",
+  "name": "Doton: Doroku Gaeshi",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Mud Wall.</strong> A reactive defensive jutsu.</p>\n<p><strong>Trigger</strong> You or an ally within 30 feet of you would be hit by a ranged Strike or a spell with the <em>fire</em>, <em>water</em>, <em>electricity</em>, or <em>air</em> trait that targets a single creature or area you can shield.</p>\n<p>A spire of compressed mud bursts from the ground between the attacker and the target. The defender treats the triggering attack/spell as if they had greater cover (+4 circumstance bonus to AC or saving throw). After resolving, the mud spire collapses, leaving the central square as difficult terrain for 1 round.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "exposed earth or stone within range",
+    "rules": [],
+    "target": { "value": "1 creature or 5-foot area" },
+    "time": { "value": "reaction" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "earth", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

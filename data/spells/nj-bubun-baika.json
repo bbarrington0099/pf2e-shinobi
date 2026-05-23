@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjBubunBaika",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/skills/melee/strike-fist-glowing-yellow.webp",
+  "name": "Bubun Baika no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Partial Multi-Size Technique.</strong> The Akimichi clan converts calorie reserves directly into mass, enlarging one body part dramatically for a single attack.</p>\n<p>Choose one limb. For the next Strike you make with that limb before the end of your next turn, the limb grows to Large size for the swing: the Strike increases its reach by 5 feet and its damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12). On a hit, the target is also pushed back 5 feet.</p>\n<p>The technique consumes a hearty meal worth of calories; you cannot recast it until you eat (a downtime activity, or by spending an action to consume rations).</p>\n<p><strong>Heightened (5th)</strong> The limb's effective size grows to Huge: reach increases by 10 feet and the damage die by two steps.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 round" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "you have eaten in the last hour",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": ["chakra", "akimichi", "concentrate", "manipulate", "morph", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

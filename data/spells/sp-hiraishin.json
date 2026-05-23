@@ -1,0 +1,38 @@
+{
+  "_id": "SpllSpHiraishin0",
+  "folder": "FldSSpecialKkgnk",
+  "img": "icons/magic/lightning/bolts-forked-large-blue.webp",
+  "name": "Hiraishin no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The Yondaime's Flying Thunder God technique. You instantly teleport from your current square to any square containing a Hiraishin marker you have previously placed (a special seal-tag you can throw, embed in a kunai, or imprint on a willing ally).</p>\n<p>Placing a marker is a 1-action activity (Interact with the kunai/scroll containing the seal). Markers persist indefinitely until you Dismiss them or someone Detects Magic and counters at counteract rank 9+.</p>\n<p>When you cast Hiraishin, choose one marker within 1 mile. You appear in an adjacent unoccupied square. You may bring up to (your spellcasting modifier) willing creatures adjacent to you along for the jump.</p>\n<p>You may cast Hiraishin as a free action (instead of 1 action) if the triggering moment is a reaction window such as an opponent's Strike against you.</p>\n<p>This jutsu is the foundation of Minato's reputation as the Yellow Flash. It is uniquely complex chakra-physics; the seal-imprinting requirement is non-negotiable.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 9 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "1 mile" },
+    "requirements": "an active Hiraishin marker within range",
+    "rules": [],
+    "target": { "value": "self plus up to spellcasting mod allies" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "unique",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "fuinjutsu",
+        "manipulate",
+        "move",
+        "ninjutsu",
+        "teleportation"
+      ]
+    }
+  },
+  "type": "spell"
+}

@@ -4,6 +4,7 @@ import { documentSchema, folderSchema } from "./document.ts";
 import { actionSchema } from "./by-type/action.ts";
 import { ancestrySchema } from "./by-type/ancestry.ts";
 import { classSchema } from "./by-type/class.ts";
+import { effectSchema } from "./by-type/effect.ts";
 import { featSchema } from "./by-type/feat.ts";
 import { heritageSchema } from "./by-type/heritage.ts";
 import { spellSchema } from "./by-type/spell.ts";
@@ -20,6 +21,7 @@ export const schemasByType: Record<string, Schema> = {
   action: actionSchema,
   ancestry: ancestrySchema,
   class: classSchema,
+  effect: effectSchema,
   feat: featSchema,
   heritage: heritageSchema,
   spell: spellSchema,

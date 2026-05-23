@@ -1,0 +1,19 @@
+{
+  "_id": "EffcHundredSeal0",
+  "folder": "FldEMedicalEffct",
+  "img": "icons/magic/symbols/runes-carved-tan.webp",
+  "name": "Effect: Strength of a Hundred Seal",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllMdHundredSel]{Strength of a Hundred Seal}.</p>\n<p>You have fast healing equal to half your level (or your full level if Heightened to 8th). At the start of each of your turns, you regain one expended spell slot of rank 2 or lower (3 or lower if Heightened). All critical hits against you are converted to normal hits while this effect persists.</p>\n<p>This effect lasts 10 minutes from activation; once dispelled the seal on your forehead also fades and cannot be re-formed until your next long rest.</p>"
+    },
+    "duration": { "expiry": "turn-start", "sustained": false, "unit": "minutes", "value": 10 },
+    "level": { "value": 6 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "fuinjutsu", "healing", "medical-nin", "vitality"] }
+  },
+  "type": "effect"
+}

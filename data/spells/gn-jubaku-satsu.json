@@ -1,0 +1,30 @@
+{
+  "_id": "SpllGnJubakuStsu",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/nature/root-vine-entangled-purple.webp",
+  "name": "Magen: Jubaku Satsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p><strong>Demonic Illusion: Tree-Binding Death.</strong> The target perceives that chakra-branches have erupted from the nearest large tree (or, in an indoor scene, the nearest wall or pillar) and lashed itself to their wrists, ankles, and throat.</p>\n<p>The target attempts a Will save.</p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is <em>off-guard</em> until the end of their next turn.</p>\n<p><strong>Failure</strong> The target is <em>immobilized</em> for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is <em>paralyzed</em> for 1 round.</p>\n<p>The illusion ends instantly if the target takes damage from a source other than the illusion itself (real damage breaks the spell), but you can spend an action to inflict 2d6 mental damage at the start of your next turn as the illusory bark 'tightens'; this does not break the illusion.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 round" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "genjutsu", "illusion", "manipulate", "mental"]
+    }
+  },
+  "type": "spell"
+}

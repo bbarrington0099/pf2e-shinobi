@@ -1,0 +1,39 @@
+{
+  "_id": "SpllGnSharngnHyp",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Sharingan Hypnosis",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p>An Uchiha-only genjutsu cast through direct eye contact.</p>\n<p>The target attempts a Will save with a -2 status penalty (the Sharingan's hypnotic effect).</p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is <em>off-guard</em> against your next Strike before the end of your next turn.</p>\n<p><strong>Failure</strong> The target is <em>controlled</em> until the start of your next turn: you may dictate a single action on their next turn (Stride, Strike at a target of your choice, drop a held item, etc.). The dictated action cannot directly harm an obvious ally or the target themselves.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is also <em>stunned 1</em> when the controlled action resolves (their disorientation lingers).</p>"
+    },
+    "duration": { "sustained": false, "value": "1 round" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "your Sharingan is active and the target can see your eyes",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "dojutsu",
+        "genjutsu",
+        "manipulate",
+        "mental",
+        "uchiha",
+        "visual"
+      ]
+    }
+  },
+  "type": "spell"
+}

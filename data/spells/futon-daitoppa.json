@@ -1,0 +1,30 @@
+{
+  "_id": "SpllFuDaitoppa00",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/air/wind-tornado-cyclone-blue.webp",
+  "name": "Fūton: Daitoppa",
+  "system": {
+    "area": { "type": "cone", "value": 30 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": true, "statistic": "fortitude" } },
+    "description": {
+      "value": "<p><strong>Great Breakthrough.</strong> You exhale a torrent of wind that flattens everything before it in a 30-foot cone. Creatures take 3d8 bludgeoning damage with a basic Fortitude save. Failure also pushes the creature 10 feet away from you, and critical failure additionally knocks them prone.</p>\n<p>The cone is powerful enough to clear smoke, mist, or fog effects of equal or lower rank, and to topple any unattended object of Light Bulk or less.</p>\n<p><strong>Heightened (+1)</strong> Damage increases by 1d8.</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "air", "concentrate", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "EffcSharinganAct",
+  "folder": "FldESpecialEffct",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "name": "Effect: Sharingan Active",
+  "system": {
+    "description": {
+      "value": "<p>Your Sharingan is active. While this effect persists, you gain a +1 status bonus to Perception checks, AC against melee Strikes (movement-prediction), and saves against visual illusions. You can attempt @UUID[Compendium.pf2e-shinobi.spells.Item.SpllSpShrnganCpy]{Sharingan: Copy Technique} as a reaction.</p>\n<p>Each round the Sharingan is active, take note for chakra-strain bookkeeping: every 10 rounds of continuous activity (1 minute) imposes <em>fatigued</em> for 10 minutes once deactivated.</p>"
+    },
+    "duration": { "expiry": "turn-start", "sustained": false, "unit": "minutes", "value": 10 },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [
+      { "key": "FlatModifier", "selector": "perception", "type": "status", "value": 1 },
+      {
+        "key": "FlatModifier",
+        "predicate": ["item:trait:illusion", "item:trait:visual"],
+        "selector": "saving-throw",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "dojutsu", "uchiha"] }
+  },
+  "type": "effect"
+}

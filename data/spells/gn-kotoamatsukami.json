@@ -1,0 +1,42 @@
+{
+  "_id": "SpllGnKotoamtskm",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-orange.webp",
+  "name": "Kotoamatsukami",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>The ultimate genjutsu of Shisui Uchiha's Mangekyō Sharingan: a one-sided rewrite of the target's intent that they perceive as their own free will.</p>\n<p>You designate a creature within 60 feet that can see you. There is <em>no save</em>. For the next 24 hours, the target genuinely believes one suggested course of action you implant during the casting is their own idea. The suggestion can include 'spare the prisoner,' 'reveal the conspiracy,' 'leave this village forever,' or 'do not attack me today.' The target acts on the suggestion at their next reasonable opportunity and continues to rationalize it even when confronted with evidence.</p>\n<p>The suggestion cannot directly cause the target to take an action they would consider obviously suicidal or that would massively betray a deeply held value. The GM is the final arbiter.</p>\n<p>Casting Kotoamatsukami leaves you with the <em>blinded</em> condition in both eyes for 1 day, exhausts you (drained 2), and cannot be recast for at least 10 years &mdash; the chakra cost is generational.</p>"
+    },
+    "duration": { "sustained": false, "value": "24 hours" },
+    "level": { "value": 10 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "Mangekyō Sharingan (Shisui's lineage); cannot have been cast in the last 10 years",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "unique",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "dojutsu",
+        "emotion",
+        "genjutsu",
+        "incapacitation",
+        "linguistic",
+        "manipulate",
+        "mental",
+        "uchiha",
+        "visual"
+      ]
+    }
+  },
+  "type": "spell"
+}

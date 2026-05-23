@@ -19,13 +19,40 @@ All `_id` values are exactly 16 alphanumeric characters and use a stable
 | `ClFt` | Class feature (`type: feat`)    |
 | `ClAc` | Class action (`type: action`)   |
 | `Spll` | Spell                           |
+| `Effc` | Spell-effect / effect           |
 | `Fldr` | Folder in `heritages/`          |
 | `FldA` | Folder in `ancestry-features/`  |
 | `FldC` | Folder in `class-features/`     |
 | `FldX` | Folder in `class-actions/`      |
+| `FldS` | Folder in `spells/`             |
+| `FldE` | Folder in `spell-effects/`      |
+
+### Spell `_id` sub-scheme
+
+Spell IDs use a 2-character school/element prefix inside the 16-char ID to
+keep them grouped at a glance:
+
+| Sub-prefix | School / Element        |
+| ---------- | ----------------------- |
+| `Ac`       | Academy cantrips        |
+| `Ka`       | Katon (Fire)            |
+| `Fu`       | Fūton (Wind)            |
+| `Ra`       | Raiton (Lightning)      |
+| `Sw`       | Suiton (Water)          |
+| `Do`       | Doton (Earth)           |
+| `Nj`       | Ninjutsu (non-element)  |
+| `Gn`       | Genjutsu                |
+| `Md`       | Medical                 |
+| `Ks`       | Kuchiyose (Summoning)   |
+| `Fj`       | Fūinjutsu               |
+| `Sp`       | Special / Kekkei Genkai |
+
+The three Charge Chakra variants (`SpllChargChakra0`, `SpllChrgChak2nd0`,
+`SpllChrgChak3rd0`) predate the sub-scheme and live in the
+`Focus / Chakra Management` folder.
 
 Future milestones will add `Back` (background), `Feat` (general feat),
-`Equp` (equipment), `Effc` (effect), `Deit` (deity), and similar prefixes.
+`Equp` (equipment), `Deit` (deity), and similar prefixes.
 
 ## Milestone 2: Clans, Heritages, Ancestry Features
 
@@ -272,3 +299,74 @@ the right tradition and key ability so jutsu auto-route there.
 
 Anbu's `keyAbility.value` is `["dex", "cha"]`, which causes the PF2e
 character builder to prompt the player to choose at creation time.
+
+## Milestone 4: Jutsu (spells) and spell-effects
+
+### Spells pack folder layout
+
+| Folder                    | `_id`              | Count | Contents                                                                         |
+| ------------------------- | ------------------ | ----- | -------------------------------------------------------------------------------- |
+| Academy Cantrips          | `FldSAcademyCntrp` | 5     | Henge, Bunshin, Kawarimi (cantrip variant), Throwing, Tree-Walking               |
+| Ninjutsu                  | `FldSNinjutsuJtsu` | 37    | 25 elemental (5 each Fire/Wind/Lightning/Water/Earth) + 12 general               |
+| Genjutsu                  | `FldSGenjutsuJtsu` | 10    | Hotarubi → Tsukuyomi → Kotoamatsukami (rank 1 → 10)                              |
+| Medical Jutsu             | `FldSMedicalJtsu0` | 8     | Mystic Palm → Creation Rebirth (rank 1 → 8)                                      |
+| Summoning Jutsu           | `FldSSummoningJts` | 6     | Toad, Snake, Slug, Crow, Boss Summon, Edo Tensei                                 |
+| Fūinjutsu                 | `FldSFuinjutsuJts` | 6     | Storage, Bunsetsu Bunshin, Contract, 5 Elements, 4 Symbols, Reaper               |
+| Special / Kekkei Genkai   | `FldSSpecialKkgnk` | 7     | Sharingan Copy, 64 Palms, Mokuton Lock, Hydrification, Sage, Hiraishin, Bijudama |
+| Focus / Chakra Management | `FldSFocusChakra0` | 3     | Charge Chakra (ranks 1, 2, 3 — Lesser / Greater / Master)                        |
+
+Total: **82 spells** (79 new in M4 + 3 Charge Chakra variants moved into the
+Focus folder). Spell ranks span 1 through 10.
+
+### Iconic / restricted jutsu register
+
+These are the milestone-4 spells gated by `rare` or `unique` rarity. The
+rare/unique tag plus a `requirements` clause is the primary access-control
+mechanism; GMs are expected to gate them further with feat chains in
+later milestones.
+
+| Spell                        | Rank | Rarity | Gate                                                               |
+| ---------------------------- | ---- | ------ | ------------------------------------------------------------------ |
+| Amaterasu                    | 9    | rare   | Mangekyō Sharingan (Uchiha clan-feat chain, future milestone)      |
+| Tsukuyomi                    | 9    | rare   | Mangekyō Sharingan; target can see your eyes                       |
+| Kotoamatsukami               | 10   | unique | Shisui's lineage Mangekyō; cannot have been cast in the last 10 yr |
+| Bijudama (Tailed Beast Bomb) | 10   | unique | Jinchūriki of a tailed beast                                       |
+| Hiraishin no Jutsu           | 9    | unique | Active Hiraishin marker; mastery of the Yondaime's seal            |
+| Reaper Death Seal            | 9    | unique | The caster dies after resolution. Always.                          |
+| Kuchiyose: Edo Tensei        | 10   | unique | DNA of the deceased + a vessel humanoid (consumed)                 |
+| Kirin                        | 8    | rare   | A natural storm overhead (or a freshly-cast fire jutsu as proxy)   |
+| Bringer-of-Darkness          | 5    | rare   | None mechanical; flagged rare for tonal weight                     |
+| Tajuu Kage Bunshin           | 5    | rare   | Author the appropriate chakra reserves; fatigue after dispersion   |
+
+### Spell-effects pack folder layout
+
+| Folder               | `_id`              | Count | Contents                                                                         |
+| -------------------- | ------------------ | ----- | -------------------------------------------------------------------------------- |
+| Ninjutsu Effects     | `FldENinjutsuEffc` | 2     | Shadow Bound (Kagemane), Mind-Switched (Shintenshin vessel)                      |
+| Genjutsu Effects     | `FldEGenjutsuEffc` | 3     | Genjutsu Bound, Hell Viewing, False Surroundings                                 |
+| Medical Effects      | `FldEMedicalEffct` | 2     | Cell Activation, Hundred Seal                                                    |
+| Special / KG Effects | `FldESpecialEffct` | 5     | Hydrified, Sharingan Active, Sage Mode, Amaterasu Black Flames, Hiraishin Marker |
+
+Each effect's description includes a `@UUID[...]` link back to its
+originating spell so the chat card or sheet rollup remains discoverable.
+
+### Notes on chakra tradition coverage
+
+- Every spell in the pack carries the `chakra` tradition. Players
+  configuring their actor's Spellcasting Entry (auto-provisioned by
+  `src/auto-spellcasting.ts` for our classes) must set the entry's
+  tradition to `chakra` for jutsu to auto-route there.
+- Elemental jutsu use PF2e's stock element traits (`fire`, `air`,
+  `electricity`, `water`, `earth`) so PF2e's resistances, weaknesses,
+  and rule elements work without modification.
+- Clan-locked jutsu carry the corresponding clan trait (`uchiha`,
+  `hyuga`, `senju`, `hozuki`, `uzumaki`, `nara`, `yamanaka`,
+  `akimichi`) in addition to school traits so the trait selector keeps
+  them filterable.
+
+### Schema additions
+
+`scripts/schemas/by-type/effect.ts` mirrors the upstream PF2e effect
+shape and is wired into `schemasByType`. Notable difference from other
+typed schemas: `system.traits.rarity` is **optional** for effects to
+match upstream behavior (most upstream effects ship without a rarity).

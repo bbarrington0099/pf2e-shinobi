@@ -1,0 +1,30 @@
+{
+  "_id": "SpllKaAmaterasu0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/fire/flame-burning-skull-orange.webp",
+  "name": "Amaterasu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "fortitude" } },
+    "description": {
+      "value": "<p><strong>Heavenly Illumination &mdash; the black flames of the Mangekyō Sharingan.</strong> You stare at a single creature within 60 feet. The target must succeed at a Fortitude save or be wreathed in inextinguishable black fire.</p>\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes 4d6 fire damage and 2d6 persistent fire damage. The persistent fire ignores fire resistance up to your spell rank.</p>\n<p><strong>Failure</strong> The target takes 12d6 fire damage and 4d6 persistent fire damage that ignores fire resistance up to your spell rank. The flames spread to any creature that ends its turn within 5 feet of the target (basic Reflex save; 1d6 fire damage per spell rank).</p>\n<p><strong>Critical Failure</strong> As failure, but the persistent fire continues until the target is fully submerged in water, sealed away, or you yourself dismiss it as a free action.</p>\n<p>You are <em>dazzled</em> in the eye that cast Amaterasu for the next minute, and you take 1d4 chakra strain (treat as nonlethal damage equal to half your level).</p>"
+    },
+    "duration": { "sustained": false, "value": "instantaneous (persistent fire varies)" },
+    "level": { "value": 9 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "you have an awakened Mangekyō Sharingan (see clan-feat chain in a future milestone)",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "3" },
+    "traits": {
+      "rarity": "rare",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "dojutsu", "fire", "manipulate", "ninjutsu", "uchiha"]
+    }
+  },
+  "type": "spell"
+}

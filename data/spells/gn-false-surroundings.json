@@ -1,0 +1,30 @@
+{
+  "_id": "SpllGnFalseSurnd",
+  "folder": "FldSGenjutsuJtsu",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "name": "Kasumi Juusha no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": { "save": { "basic": false, "statistic": "will" } },
+    "description": {
+      "value": "<p><strong>Mist-Servant Technique &mdash; the False Surroundings Trick.</strong> You overlay an illusion of altered surroundings on a single target you can see within 60 feet: a wall where there is none, a hidden door that isn't real, or a person standing in the wrong place.</p>\n<p>The target attempts a Will save. On a failure, they perceive your illusion as real and act accordingly for up to 1 minute (you must Sustain). They get a new save when they interact with the illusion in a way that would expose it (touching, attacking through it, etc.).</p>\n<p>This jutsu only convinces a single mind; observers around the target see things as they really are.</p>\n<p><strong>Heightened (4th)</strong> You may target up to 3 creatures with a single casting.</p>"
+    },
+    "duration": { "sustained": true, "value": "up to 1 minute" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "60 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "1 creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "genjutsu", "illusion", "manipulate", "mental"]
+    }
+  },
+  "type": "spell"
+}

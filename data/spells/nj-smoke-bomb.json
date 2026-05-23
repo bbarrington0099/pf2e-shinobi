@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjSmokeBomb0",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/air/fog-gas-smoke-orange.webp",
+  "name": "Smoke Bomb Technique",
+  "system": {
+    "area": { "type": "burst", "value": 10 },
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You ignite a chakra-enhanced smoke pellet at a point within range. The detonation creates a 10-foot-radius cloud of dense smoke for 1 minute.</p>\n<p>Creatures in the smoke are <em>concealed</em>; creatures outside the smoke who try to perceive anything inside have the same. A strong wind (Reppushou or similar) can dispel the cloud one round early.</p>\n<p>This jutsu is a quick stand-in for the consumable smoke pellets every shinobi carries; players using actual smoke-pellet equipment in M5+ may prefer those.</p>\n<p><strong>Heightened (3rd)</strong> Burst increases to 15 feet; the cloud lasts up to 10 minutes if undisturbed.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 1 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "" },
+    "time": { "value": "1" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}

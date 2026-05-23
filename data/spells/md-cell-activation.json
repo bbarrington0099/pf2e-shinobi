@@ -1,0 +1,38 @@
+{
+  "_id": "SpllMdCellActivt",
+  "folder": "FldSMedicalJtsu0",
+  "img": "icons/magic/life/heart-glowing-yellow.webp",
+  "name": "Cell Activation Technique",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You charge a willing creature's cells with extra chakra, accelerating their healing factor for a short window.</p>\n<p>The target gains fast healing 5 for 1 minute (or until you Dismiss the jutsu). The target also recovers from <em>drained</em>, <em>enfeebled</em>, and <em>clumsy</em> conditions at twice the normal rate. The target is <em>fatigued</em> for 1 hour after this jutsu ends (the cellular debt comes due).</p>\n<p><strong>Heightened (7th)</strong> Fast healing increases to 10; the post-effect fatigue duration drops to 10 minutes.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 5 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "touch" },
+    "requirements": "willing target",
+    "rules": [],
+    "target": { "value": "1 willing creature" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "healing",
+        "manipulate",
+        "medical-nin",
+        "ninjutsu",
+        "vitality"
+      ]
+    }
+  },
+  "type": "spell"
+}

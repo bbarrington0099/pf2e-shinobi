@@ -1,0 +1,39 @@
+{
+  "_id": "SpllKsSnake00000",
+  "folder": "FldSSummoningJts",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "name": "Kuchiyose: Snake",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p>You summon a viper from Ryūchi Cave. The summon arrives in an unoccupied 5-foot square within 30 feet and acts as a Small minion under your control for 1 minute.</p>\n<p>The snake has 2 actions per turn, AC 18, 20 HP, and a fanged Strike at +10 dealing 1d4+2 piercing plus 1d4 persistent poison damage (basic Fort DC 17). It can Climb at full Speed and gains a +2 status bonus to Stealth checks made in undergrowth.</p>\n<p><strong>Heightened (+2)</strong> Each rank summons a more dangerous serpent; damage and poison rider scale.</p>"
+    },
+    "duration": { "sustained": false, "value": "1 minute" },
+    "level": { "value": 3 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "30 feet" },
+    "requirements": "you have signed the Snake summoning contract",
+    "rules": [],
+    "target": { "value": "1 unoccupied square" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "uncommon",
+      "traditions": ["chakra"],
+      "value": [
+        "chakra",
+        "concentrate",
+        "conjuration",
+        "kuchiyose",
+        "manipulate",
+        "ninjutsu",
+        "poison",
+        "summoning"
+      ]
+    }
+  },
+  "type": "spell"
+}

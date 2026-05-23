@@ -1,0 +1,25 @@
+{
+  "_id": "EffcSageModeActv",
+  "folder": "FldESpecialEffct",
+  "img": "icons/magic/nature/leaf-glow-yellow.webp",
+  "name": "Effect: Sage Mode",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-shinobi.spells.Item.SpllSpSageMode00]{Sage Mode}.</p>\n<p>You gain a +2 status bonus to attack rolls, damage rolls, AC, saves, and Perception checks. Your unarmed Strikes deal +1d10 damage. You have precise chakra-sense out to 60 feet.</p>\n<p>When this effect ends, you become <em>fatigued</em> for the rest of the encounter (or until your next long rest if the encounter has already ended).</p>"
+    },
+    "duration": { "expiry": "turn-start", "sustained": false, "unit": "rounds", "value": 5 },
+    "level": { "value": 8 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "rules": [
+      { "key": "FlatModifier", "selector": "attack", "type": "status", "value": 2 },
+      { "key": "FlatModifier", "selector": "damage", "type": "status", "value": 2 },
+      { "key": "FlatModifier", "selector": "ac", "type": "status", "value": 2 },
+      { "key": "FlatModifier", "selector": "saving-throw", "type": "status", "value": 2 },
+      { "key": "FlatModifier", "selector": "perception", "type": "status", "value": 2 }
+    ],
+    "start": { "initiative": null, "value": 0 },
+    "tokenIcon": { "show": true },
+    "traits": { "value": ["chakra", "kekkei-genkai"] }
+  },
+  "type": "effect"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "SpllNjKageBunshn",
+  "folder": "FldSNinjutsuJtsu",
+  "img": "icons/magic/control/silhouette-grow-shadow-blue.webp",
+  "name": "Kage Bunshin no Jutsu",
+  "system": {
+    "area": null,
+    "cost": { "value": "" },
+    "counteraction": false,
+    "damage": {},
+    "defense": null,
+    "description": {
+      "value": "<p><strong>Shadow Clone Technique.</strong> Unlike a basic Bunshin illusion, a Kage Bunshin is a full chakra-substantial duplicate that can attack, take damage, and use jutsu of its own.</p>\n<p>You create one shadow clone in your space or an adjacent square. The clone has half your maximum Hit Points (rounded down), your AC, all your trained proficiencies, and acts on your initiative count. It can use any 1-action, 2-action, or reaction you can, including casting jutsu (sharing your spell-slot pool). When the clone dispels (by taking damage equal to its HP, by you dismissing it as a free action, or after 10 minutes), you regain a fraction of any chakra it expended &mdash; recover 1 expended spell slot of rank 2 or lower if the clone is dismissed voluntarily and used at least one spell slot.</p>\n<p>When the clone dispels naturally (popped, dismissed, or duration), you also gain its sensory memories of the last 10 minutes. Multiple clones consume your daily chakra disproportionately; see <em>Tajuu Kage Bunshin</em> for the mass-cast variant.</p>\n<p><strong>Heightened (4th)</strong> The clone has 75% of your maximum HP and lasts 1 hour.</p>"
+    },
+    "duration": { "sustained": false, "value": "10 minutes" },
+    "level": { "value": 2 },
+    "publication": { "license": "MIT", "remaster": true, "title": "PF2e Shinobi" },
+    "range": { "value": "0 feet" },
+    "requirements": "",
+    "rules": [],
+    "target": { "value": "self" },
+    "time": { "value": "2" },
+    "traits": {
+      "rarity": "common",
+      "traditions": ["chakra"],
+      "value": ["chakra", "concentrate", "conjuration", "manipulate", "ninjutsu"]
+    }
+  },
+  "type": "spell"
+}
